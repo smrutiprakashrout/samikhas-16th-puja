@@ -1,0 +1,118 @@
+<title>Family and Date</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500&display=swap">
+<style>
+/* Prototype: family thread on ivory, then the saffron "evening sun" date chapter rising like a sunrise. Warm honey palette, single look. */
+:root{--ink:#232B25;--ink-deep:#181E1A;--ivory:#FBF3E4;--sand:#EBCEAE;--sand-lt:#F4E4CC;--wood:#A8793F;--wood-dk:#6E4C28;--gold:#E0AF70;--marigold:#F5B74E;--saffron:#E48C35;--saffron-deep:#B25D17;
+ --display:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--u:1;color-scheme:light}
+*{box-sizing:border-box;margin:0}html,body{height:100%}
+body{background:var(--ink-deep);color:var(--ink);font-family:var(--sans);overflow:hidden;-webkit-font-smoothing:antialiased}
+.phone{position:relative;width:min(100%,430px);height:100%;margin:0 auto;background:var(--ivory);overflow:hidden}
+.scroller{position:absolute;inset:0;overflow-y:auto;overflow-x:hidden;scrollbar-width:none}.scroller::-webkit-scrollbar{display:none}
+.label{font:500 11px/1.4 var(--sans);letter-spacing:.24em;text-transform:uppercase}
+.stage{position:sticky;top:0;overflow:hidden}
+.grain{position:absolute;inset:0;pointer-events:none;background:url("../../assets/img/grain.svg");opacity:.06;mix-blend-mode:multiply;z-index:30}
+.stub{height:60svh;background:var(--ivory)}
+/* FAMILY */
+.fam{position:relative;background:var(--ivory)}.fam .stage{background:var(--ivory)}
+.vig{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 45%,transparent 60%,rgba(244,228,204,.9) 100%);pointer-events:none;z-index:2}
+.thread{position:absolute;left:0;top:0;width:100%;height:100%;z-index:3;overflow:visible}
+.thread path.l{stroke-dasharray:1;stroke-dashoffset:1}
+.node{position:absolute;left:calc(max(24px,env(safe-area-inset-left,0px)) - 4px);width:9px;height:9px;rotate:45deg;background:var(--saffron-deep);box-shadow:0 0 0 5px var(--ivory);transform:scale(0);z-index:4}
+.bl{position:absolute;left:calc(max(24px,env(safe-area-inset-left,0px)) - 15px);width:31px;height:31px;z-index:4;transform:scale(0) rotate(-40deg)}
+.ft{position:absolute;left:calc(max(24px,env(safe-area-inset-left,0px)) + 20px);right:max(24px,env(safe-area-inset-right,0px));z-index:5}
+.fl{color:rgba(35,43,37,.74);opacity:0;max-width:30ch}
+.fn{font:500 clamp(26px,7.8vw,31px)/1.2 var(--display);overflow:hidden}
+.fn span{display:block;transform:translateY(110%)}
+.fn em{font-style:italic;color:var(--saffron-deep);margin-right:.18em}
+/* DATE */
+.date{position:relative;z-index:60}
+.date .stage{background:var(--saffron);clip-path:circle(0px at 50% 100%);color:var(--ink)}
+.dl{left:max(24px,env(safe-area-inset-left,0px));right:max(24px,env(safe-area-inset-right,0px));position:absolute;z-index:5}
+.dlab{top:calc(var(--u)*104px);opacity:0}
+.num{position:absolute;left:-.04em;top:calc(var(--u)*118px);font:500 min(49vw,calc(var(--u)*196px))/.8 var(--display);letter-spacing:-.045em;color:var(--ivory);margin-left:max(14px,env(safe-area-inset-left,0px));z-index:4;opacity:0;font-variant-numeric:lining-nums;text-shadow:0 2px 0 rgba(178,93,23,.35)}
+.mon{top:calc(var(--u)*304px);font:500 clamp(32px,9.4vw,38px)/1.1 var(--display);opacity:0}
+.day{top:calc(var(--u)*352px);font:italic 400 clamp(22px,6.4vw,25px)/1.2 var(--display);opacity:0}
+.arc{position:absolute;left:50%;top:calc(var(--u)*430px);width:min(calc(100% - 48px),342px);margin-left:calc(min(calc(100% - 48px),342px)/-2);aspect-ratio:342/200;z-index:5;overflow:visible}
+.arc path.a{stroke-dasharray:1;stroke-dashoffset:1}
+.sun{position:absolute;left:0;top:0;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50%;z-index:6;opacity:0;
+ background:radial-gradient(circle at 38% 34%,#fff 0,#FFF3D0 35%,var(--marigold) 100%);box-shadow:0 0 0 6px rgba(255,243,208,.35),0 0 26px 10px rgba(255,243,208,.65),0 0 60px 24px rgba(255,226,166,.35)}
+.al{position:absolute;bottom:-4px;color:rgba(35,43,37,.7)}
+.tm{top:calc(var(--u)*648px);font:500 clamp(36px,10.5vw,42px)/1 var(--display);opacity:0}
+.tm small{font:500 11px var(--sans);letter-spacing:.24em;text-transform:uppercase;margin-left:10px;vertical-align:middle}
+.btn{top:calc(var(--u)*726px);width:max-content;min-height:48px;padding:0 24px;display:inline-flex;align-items:center;border:1px solid var(--ink);border-radius:99px;color:var(--ink);text-decoration:none;opacity:0;font:500 12px var(--sans);letter-spacing:.16em;text-transform:uppercase}
+.tail{height:50svh;background:var(--sand)}
+</style>
+<div class="phone"><div class="scroller" id="sc">
+<div class="stub"></div>
+<section class="fam" id="fam"><div class="stage" id="fs">
+ <div class="vig"></div>
+ <svg class="thread" id="thread" aria-hidden="true"></svg>
+ <div class="node" id="n1"></div><div class="node" id="n2"></div>
+ <svg class="bl" id="bl" viewBox="-16 -16 32 32" aria-hidden="true"></svg>
+ <div class="ft" id="b1" style="top:calc(var(--u)*196px)"><p class="label fl">Daughter of</p>
+   <p class="fn" style="margin-top:12px"><span><em>&amp;</em>X</span></p></div>
+ <div class="grain"></div>
+</div></section>
+<section class="date" id="date"><div class="stage" id="ds">
+ <p class="dl label dlab" id="dlab">Save the date</p>
+ <div class="num" id="num">29</div>
+ <p class="dl mon" id="mon">November 2026</p>
+ <p class="dl day" id="day">Sunday</p>
+ <div class="arc" id="arc"><svg viewBox="0 0 342 200" width="100%" height="100%" fill="none" aria-hidden="true" style="overflow:visible">
+   <path class="a" id="apath" pathLength="1" d="M11 180A160 160 0 0 1 331 180" stroke="#232B25" stroke-opacity=".55" stroke-width="1.2"/><g id="ticks"></g></svg>
+   <span class="al label" style="left:0">3 PM</span><span class="al label" style="right:0">9 PM</span><div class="sun" id="sun"></div></div>
+ <p class="dl tm" id="tm">7:00 PM<small>onwards</small></p>
+ <a class="dl btn" id="btn" href="#">Add to calendar</a>
+ <div class="grain"></div>
+</div></section>
+<div class="tail"></div>
+</div></div>
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)};var sc=$('#sc'),fam=$('#fam'),fs=$('#fs'),dt=$('#date'),ds=$('#ds');
+function clamp(v,a,b){return Math.min(b,Math.max(a,v))}function seg(p,a,b){var t=clamp((p-a)/(b-a),0,1);return t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2}
+var U=1,H=844;
+var fl=[].slice.call(document.querySelectorAll('.fl'));
+// build family blocks
+var parents=['Manorama Nanda','Sarada Prasanna Panda'],grand=['Malati Panda','Nikunja Bihari Panda'];
+function block(label,names,top,id){return '<div class="ft" id="'+id+'" style="top:calc(var(--u)*'+top+'px)"><p class="label fl">'+label+'</p><p class="fn" style="margin-top:12px"><span>'+names[0]+'</span></p><p class="fn"><span><em>&amp;</em>'+names[1]+'</span></p></div>'}
+$('#b1').outerHTML=block('Daughter of',parents,226,'b1');
+fs.insertAdjacentHTML('beforeend',block('With love and blessings from her grandparents',grand,426,'b2'));
+var n1=$('#n1'),n2=$('#n2'),bl=$('#bl');n1.style.top='calc(var(--u)*231px)';n2.style.top='calc(var(--u)*431px)';bl.style.top='calc(var(--u)*626px)';
+function size(){H=sc.clientHeight;U=H/844;fs.style.height=ds.style.height=H+'px';fam.style.height=Math.round(H*2.4)+'px';dt.style.height=Math.round(H*2.6)+'px';dt.style.marginTop=(-1.35*H)+'px';
+ document.querySelectorAll('.stage').forEach(function(s){s.style.setProperty('--u',U)});
+ var x=Math.max(24,0)+0.5,th=$('#thread');th.setAttribute('viewBox','0 0 '+fs.clientWidth+' '+H);th.innerHTML='<path class="l" id="tl" pathLength="1" d="M'+(24+.5)+' '+(231*U)+'V'+(626*U)+'" stroke="#A8793F" stroke-width="1.2" fill="none"/>'}
+// blossom for thread end
+(function(){var g='',cols=['#F5B74E','#E48C35'];for(var i=0;i<10;i++)g+='<ellipse cx="0" cy="-8" rx="4.4" ry="7.6" fill="'+cols[i%2?0:0]+'" stroke="#B25D17" stroke-opacity=".45" stroke-width=".5" transform="rotate('+(i*36)+')"/>';g+='<circle r="6.2" fill="#FFD58A"/><circle r="2.4" fill="#B25D17" fill-opacity=".75"/>';bl.innerHTML=g})();
+// ticks on arc: center (171,180) r160, 13 ticks
+var tk='';for(var i=0;i<=12;i++){var a=Math.PI*i/12,x1=171-160*Math.cos(a),y1=180-160*Math.sin(a),x2=171-150*Math.cos(a),y2=180-150*Math.sin(a);tk+='<path d="M'+x1.toFixed(1)+' '+y1.toFixed(1)+'L'+x2.toFixed(1)+' '+y2.toFixed(1)+'" stroke="#232B25" stroke-opacity="'+(i%3===0?.6:.3)+'" stroke-width="1"/>'}
+$('#ticks').innerHTML=tk;
+size();addEventListener('resize',function(){size();frame()});
+var tl=null,els={};
+function applyFam(p){
+ tl=tl||$('#tl');tl.style.strokeDashoffset=1-seg(p,.05,.66);
+ n1.style.transform='scale('+seg(p,.05,.12)+')';n2.style.transform='scale('+seg(p,.30,.37)+')';
+ bl.style.transform='scale('+seg(p,.58,.72)+') rotate('+(-40+40*seg(p,.58,.72))+'deg)';
+ [['#b1',.06],['#b2',.30]].forEach(function(b){var el=$(b[0]),s=b[1];el.querySelector('.fl').style.opacity=seg(p,s,s+.08);var sp=el.querySelectorAll('.fn span');sp.forEach(function(x,i){var t=seg(p,s+.04+i*.07,s+.14+i*.07);x.style.transform='translateY('+((1-t)*110)+'%)'})});
+}
+var sun=$('#sun'),arc=$('#arc'),ap=$('#apath'),ticks=$('#ticks');
+function applyDate(p){
+ var rv=seg(p,0,.2);ds.style.clipPath='circle('+(rv*Math.hypot(ds.clientWidth,H)*1.05)+'px at 50% 100%)';
+ $('#dlab').style.opacity=seg(p,.18,.26);
+ var n=seg(p,.2,.34);$('#num').style.opacity=n;$('#num').style.transform='translateY('+((1-n)*60*U)+'px)';
+ var m=seg(p,.30,.38);$('#mon').style.opacity=m;$('#mon').style.transform='translateY('+((1-m)*16)+'px)';
+ var d=seg(p,.34,.42);$('#day').style.opacity=d;$('#day').style.transform='translateY('+((1-d)*16)+'px)';
+ ap.style.strokeDashoffset=1-seg(p,.36,.52);ticks.style.opacity=seg(p,.42,.52);
+ var s=seg(p,.50,.72),frac=.667*s,th=Math.PI*frac,w=arc.clientWidth,k=w/342;
+ var x=(171-160*Math.cos(th))*k,y=(180-160*Math.sin(th))*k;sun.style.left=x+'px';sun.style.top=y+'px';sun.style.opacity=seg(p,.48,.54);
+ sun.style.transform='scale('+(1+.25*seg(p,.68,.74))+')';
+ var t=seg(p,.70,.78);$('#tm').style.opacity=t;$('#tm').style.transform='translateY('+((1-t)*14)+'px)';
+ var b=seg(p,.78,.86);$('#btn').style.opacity=b;$('#btn').style.transform='translateY('+((1-b)*14)+'px)';
+}
+function frame(){var s=sc.scrollTop;
+ applyFam(clamp((s-fam.offsetTop)/(fam.offsetHeight-H),0,1));
+ applyDate(clamp((s-dt.offsetTop)/(dt.offsetHeight-H),0,1))}
+var kk=false;sc.addEventListener('scroll',function(){if(!kk){kk=true;requestAnimationFrame(function(){kk=false;frame()})}},{passive:true});frame();
+})();
+</script>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 640">
+  <g id="path-alpana-root">
+  <g id="route">
+    <path id="route-line" class="route" d="M 195,30 C 330,120 330,240 195,310 C 60,380 60,500 195,580" fill="none" stroke="#D98F78" stroke-width="3" stroke-dasharray="4,8" stroke-linecap="round"/>
+  </g>
+    <circle cx="195" cy="30" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="190" cy="30" r="1.2" fill="#F3B9A6"/>
+    <circle cx="200" cy="30" r="1.2" fill="#F3B9A6"/>
+    <circle cx="250" cy="100" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="245" cy="100" r="1.2" fill="#F3B9A6"/>
+    <circle cx="255" cy="100" r="1.2" fill="#F3B9A6"/>
+    <circle cx="300" cy="180" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="295" cy="180" r="1.2" fill="#F3B9A6"/>
+    <circle cx="305" cy="180" r="1.2" fill="#F3B9A6"/>
+    <circle cx="270" cy="260" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="265" cy="260" r="1.2" fill="#F3B9A6"/>
+    <circle cx="275" cy="260" r="1.2" fill="#F3B9A6"/>
+    <circle cx="195" cy="310" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="190" cy="310" r="1.2" fill="#F3B9A6"/>
+    <circle cx="200" cy="310" r="1.2" fill="#F3B9A6"/>
+    <circle cx="120" cy="360" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="115" cy="360" r="1.2" fill="#F3B9A6"/>
+    <circle cx="125" cy="360" r="1.2" fill="#F3B9A6"/>
+    <circle cx="90" cy="440" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="85" cy="440" r="1.2" fill="#F3B9A6"/>
+    <circle cx="95" cy="440" r="1.2" fill="#F3B9A6"/>
+    <circle cx="130" cy="520" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="125" cy="520" r="1.2" fill="#F3B9A6"/>
+    <circle cx="135" cy="520" r="1.2" fill="#F3B9A6"/>
+    <circle cx="195" cy="580" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="190" cy="580" r="1.2" fill="#F3B9A6"/>
+    <circle cx="200" cy="580" r="1.2" fill="#F3B9A6"/>
+  </g>
+</svg>

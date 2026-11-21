@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T03 — Shared Motifs Contact Sheet (A1–A11)</title>
+  <link rel="stylesheet" href="../../src/styles/tokens.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--navy-deep);
+      background-image: url('tile-wave.svg');
+      background-repeat: repeat;
+      color: var(--ivory);
+      font-family: var(--font-text, 'Cormorant Garamond', Georgia, serif);
+      padding: 32px 16px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+      max-width: 600px;
+    }
+    h1 {
+      font-family: var(--font-script, 'Great Vibes', cursive);
+      font-size: 2.8rem;
+      color: var(--copper);
+      font-weight: normal;
+      margin-bottom: 6px;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+    .subtitle {
+      font-family: var(--font-caps, 'Cinzel', serif);
+      font-size: 0.85rem;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .header-divider {
+      width: 240px;
+      height: 24px;
+      margin: 0 auto;
+      display: block;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 1100px;
+    }
+    .card {
+      background: rgba(18, 48, 143, 0.25);
+      border: 1px solid var(--copper);
+      border-radius: 8px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      backdrop-filter: blur(4px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .card-header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px dashed rgba(217, 143, 120, 0.4);
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+    }
+    .card-title {
+      font-family: var(--font-caps, 'Cinzel', serif);
+      font-size: 0.95rem;
+      color: var(--peach);
+      letter-spacing: 0.05em;
+    }
+    .card-meta {
+      font-size: 0.75rem;
+      color: var(--gold-light);
+      font-family: monospace;
+    }
+    .preview-box {
+      width: 100%;
+      min-height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px;
+      background: rgba(10, 27, 92, 0.7);
+      border-radius: 6px;
+      border: 1px solid rgba(52, 69, 155, 0.4);
+      overflow: hidden;
+    }
+    .preview-box img, .preview-box object, .preview-box svg {
+      max-width: 100%;
+      max-height: 220px;
+      object-fit: contain;
+    }
+    .card-desc {
+      margin-top: 12px;
+      font-size: 0.85rem;
+      color: var(--ivory);
+      opacity: 0.85;
+      text-align: center;
+      line-height: 1.4;
+    }
+    .tiled-demo {
+      width: 100%;
+      height: 120px;
+      border-radius: 4px;
+      border: 1px solid var(--copper);
+      margin-top: 8px;
+    }
+    .tile-wave-demo {
+      background-image: url('tile-wave.svg');
+      background-repeat: repeat;
+      background-size: 64px 64px;
+    }
+    .tile-jaali-demo {
+      background-color: var(--navy-deep);
+      background-image: url('tile-jaali.svg');
+      background-repeat: repeat;
+      background-size: 56px 56px;
+    }
+    .multi-preview {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="subtitle">16th Birthday Puja Invitation — Assets QA</div>
+    <h1>Shared Motifs Contact Sheet</h1>
+    <img src="divider-lotus.svg" alt="divider" class="header-divider">
+  </header>
+
+  <main class="grid">
+
+    <!-- A1: mandala.svg -->
+    <div class="card" style="grid-column: span 1;">
+      <div class="card-header">
+        <span class="card-title">A1 · mandala.svg</span>
+        <span class="card-meta">300×300 (16.5 KB)</span>
+      </div>
+      <div class="preview-box">
+        <div class="multi-preview">
+          <div style="text-align:center;">
+            <img src="mandala.svg" width="160" height="160" alt="mandala 300px">
+            <div style="font-size:11px; color:var(--copper); margin-top:4px;">Full (scale)</div>
+          </div>
+          <div style="text-align:center;">
+            <img src="mandala.svg" width="90" height="90" alt="mandala 150px">
+            <div style="font-size:11px; color:var(--copper); margin-top:4px;">150px test</div>
+          </div>
+        </div>
+      </div>
+      <p class="card-desc">Layered 12-petal copper & navy mandala. Crisp & readable at 150px.</p>
+    </div>
+
+    <!-- A2: lotus.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A2 · lotus.svg</span>
+        <span class="card-meta">120×90 (1.8 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="lotus.svg" width="160" alt="lotus">
+      </div>
+      <p class="card-desc">Closed-to-open puja lotus in peach tones with copper outline and calyx base.</p>
+    </div>
+
+    <!-- A3: lotus-petal.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A3 · lotus-petal.svg</span>
+        <span class="card-meta">60×120 (1.2 KB)</span>
+      </div>
+      <div class="preview-box">
+        <div class="multi-preview">
+          <div style="text-align:center;">
+            <img src="lotus-petal.svg" height="140" alt="lotus petal">
+            <div style="font-size:11px; color:var(--copper); margin-top:4px;">Single petal (pivot base)</div>
+          </div>
+          <!-- Radial 16-petal simulation -->
+          <div style="position:relative; width:140px; height:140px; display:grid; place-items:center;">
+            <div style="position:relative; width:30px; height:60px;">
+              <script>
+                // Will render 16 rotated petals
+                document.write(Array.from({length: 16}).map((_, i) =>
+                  `<img src="lotus-petal.svg" style="position:absolute; bottom:0; left:50%; width:20px; height:40px; transform-origin:bottom center; transform:translateX(-50%) rotate(${i * 22.5}deg); opacity:0.85;">`
+                ).join(''));
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="card-desc">Single petal, pivot bottom-center, pointing up (shown single + 16× bloom).</p>
+    </div>
+
+    <!-- A4: diya.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A4 · diya.svg</span>
+        <span class="card-meta">100×80 (2.5 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="diya.svg" width="140" alt="diya">
+      </div>
+      <p class="card-desc">Brass diya with gold gradient bowl, #diya-glow aura, #diya-flame, #diya-bowl.</p>
+    </div>
+
+    <!-- A5: peacock.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A5 · peacock.svg</span>
+        <span class="card-meta">220×240 (7.3 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="peacock.svg" height="180" alt="peacock">
+      </div>
+      <p class="card-desc">Peacock facing right, navy/teal/green body, gold eye feathers & crest kalangi.</p>
+    </div>
+
+    <!-- A6: peacock-feather.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A6 · peacock-feather.svg</span>
+        <span class="card-meta">40×200 (4.9 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="peacock-feather.svg" height="190" alt="peacock feather">
+      </div>
+      <p class="card-desc">Single feather pointing up, pivot bottom-center, gold/teal/navy ocellus eye at top.</p>
+    </div>
+
+    <!-- A7: marigold-petal.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A7 · marigold-petal.svg</span>
+        <span class="card-meta">24×24 (0.6 KB)</span>
+      </div>
+      <div class="preview-box">
+        <div class="multi-preview">
+          <img src="marigold-petal.svg" width="36" height="36" alt="marigold petal 1x">
+          <img src="marigold-petal.svg" width="64" height="64" alt="marigold petal 2x">
+          <img src="marigold-petal.svg" width="96" height="96" alt="marigold petal 3x">
+        </div>
+      </div>
+      <p class="card-desc">Single flame-orange marigold petal with ruffled 3-lobe top edge for falling particle fx.</p>
+    </div>
+
+    <!-- A8: tile-wave.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A8 · tile-wave.svg</span>
+        <span class="card-meta">64×64 (2.3 KB)</span>
+      </div>
+      <div class="preview-box" style="flex-direction:column; gap:8px;">
+        <img src="tile-wave.svg" width="64" height="64" style="border:1px solid var(--copper);" alt="1x tile">
+        <div class="tiled-demo tile-wave-demo" title="3x3 repeat"></div>
+      </div>
+      <p class="card-desc">Seamless navy wave pattern tile (single tile + live seamless CSS repeat).</p>
+    </div>
+
+    <!-- A9: tile-jaali.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A9 · tile-jaali.svg</span>
+        <span class="card-meta">56×56 (2.2 KB)</span>
+      </div>
+      <div class="preview-box" style="flex-direction:column; gap:8px;">
+        <img src="tile-jaali.svg" width="56" height="56" style="border:1px solid var(--copper); background:var(--navy-deep);" alt="1x tile">
+        <div class="tiled-demo tile-jaali-demo" title="3x3 repeat"></div>
+      </div>
+      <p class="card-desc">Seamless gold-light lattice jali tile (single tile + live seamless CSS repeat).</p>
+    </div>
+
+    <!-- A10: divider-lotus.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A10 · divider-lotus.svg</span>
+        <span class="card-meta">240×24 (1.6 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="divider-lotus.svg" width="240" alt="divider lotus">
+      </div>
+      <p class="card-desc">Line–lotus–line copper divider with center bloom & gold accent diamonds.</p>
+    </div>
+
+    <!-- A11: divider-diamond.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">A11 · divider-diamond.svg</span>
+        <span class="card-meta">240×12 (1.1 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="divider-diamond.svg" width="240" alt="divider diamond">
+      </div>
+      <p class="card-desc">Line–diamond–line copper divider with gold center diamond and terminals.</p>
+    </div>
+
+  </main>
+
+  <footer style="margin-top: 40px; text-align: center;">
+    <img src="divider-diamond.svg" alt="divider" style="width:200px; display:block; margin:0 auto 12px;">
+    <div style="font-family:var(--font-caps, 'Cinzel'); font-size:0.75rem; letter-spacing:0.1em; color:var(--peach);">
+      All 11 assets conform strictly to DESIGN-TOKENS.md & REQUIREMENTS.md A1–A11
+    </div>
+  </footer>
+
+</body>
+</html>

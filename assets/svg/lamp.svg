@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+  <defs>
+    <radialGradient id="lamp-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB62E" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#F29A1F" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#F29A1F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="lamp-root">
+    <circle id="lamp-glow-aura" cx="14" cy="11" r="10" fill="url(#lamp-glow)"/>
+    <path id="lamp-flame" d="M 14,17 C 11,15 9,12 10,8.5 C 11,5.5 13,3 14,2 C 15,3 17,5.5 18,8.5 C 19,12 17,15 14,17 Z" fill="#FFB62E"/>
+    <path id="lamp-flame-core" d="M 14,16 C 12.5,14 11.5,12 12,9.5 C 12.5,7.5 13.5,5 14,4 C 14.5,5 15.5,7.5 16,9.5 C 16.5,12 15.5,14 14,16 Z" fill="#FBF6EC"/>
+    <path id="lamp-base" d="M 6,18 C 6,24 22,24 22,18 Z" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <line id="lamp-pedestal" x1="10" y1="24" x2="18" y2="24" stroke="#D98F78" stroke-width="1.2"/>
+  </g>
+</svg>

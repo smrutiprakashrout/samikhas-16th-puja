@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 560">
+  <g id="palm-leaf-root">
+    <rect id="palm-leaf-body" x="8" y="10" width="324" height="540" rx="8" fill="#F8D2C4" stroke="#D98F78" stroke-width="2"/>
+    <rect id="palm-leaf-inner-border" x="18" y="20" width="304" height="520" rx="4" fill="none" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="4,3"/>
+    <path d="M 20,45 Q 28,51 20,57 Q 28,63 20,69" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,45 Q 312,51 320,57 Q 312,63 320,69" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,69 Q 28,75 20,81 Q 28,87 20,93" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,69 Q 312,75 320,81 Q 312,87 320,93" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,93 Q 28,99 20,105 Q 28,111 20,117" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,93 Q 312,99 320,105 Q 312,111 320,117" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,117 Q 28,123 20,129 Q 28,135 20,141" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,117 Q 312,123 320,129 Q 312,135 320,141" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,141 Q 28,147 20,153 Q 28,159 20,165" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,141 Q 312,147 320,153 Q 312,159 320,165" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,165 Q 28,171 20,177 Q 28,183 20,189" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,165 Q 312,171 320,177 Q 312,183 320,189" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,189 Q 28,195 20,201 Q 28,207 20,213" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,189 Q 312,195 320,201 Q 312,207 320,213" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,213 Q 28,219 20,225 Q 28,231 20,237" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,213 Q 312,219 320,225 Q 312,231 320,237" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,237 Q 28,243 20,249 Q 28,255 20,261" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,237 Q 312,243 320,249 Q 312,255 320,261" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,261 Q 28,267 20,273 Q 28,279 20,285" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,261 Q 312,267 320,273 Q 312,279 320,285" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,285 Q 28,291 20,297 Q 28,303 20,309" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,285 Q 312,291 320,297 Q 312,303 320,309" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,309 Q 28,315 20,321 Q 28,327 20,333" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,309 Q 312,315 320,321 Q 312,327 320,333" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,333 Q 28,339 20,345 Q 28,351 20,357" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,333 Q 312,339 320,345 Q 312,351 320,357" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,357 Q 28,363 20,369 Q 28,375 20,381" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,357 Q 312,363 320,369 Q 312,375 320,381" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,381 Q 28,387 20,393 Q 28,399 20,405" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,381 Q 312,387 320,393 Q 312,399 320,405" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,405 Q 28,411 20,417 Q 28,423 20,429" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,405 Q 312,411 320,417 Q 312,423 320,429" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,429 Q 28,435 20,441 Q 28,447 20,453" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,429 Q 312,435 320,441 Q 312,447 320,453" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,453 Q 28,459 20,465 Q 28,471 20,477" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,453 Q 312,459 320,465 Q 312,471 320,477" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,477 Q 28,483 20,489 Q 28,495 20,501" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,477 Q 312,483 320,489 Q 312,495 320,501" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 20,501 Q 28,507 20,513 Q 28,519 20,525" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <path d="M 320,501 Q 312,507 320,513 Q 312,519 320,525" fill="none" stroke="#D98F78" stroke-width="0.8"/>
+    <circle cx="65" cy="36" r="9" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="65" cy="36" r="12" fill="none" stroke="#D98F78" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="275" cy="36" r="9" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="275" cy="36" r="12" fill="none" stroke="#D98F78" stroke-width="1" stroke-dasharray="2,2"/>
+    <path id="palm-leaf-cord" d="M 65,60 L 65,36 C 65,14 170,16 170,10 C 170,16 275,14 275,36 L 275,60" fill="none" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round"/>
+    <circle id="palm-leaf-cord-knot" cx="170" cy="10" r="3.5" fill="#F0D58A" stroke="#D98F78" stroke-width="1"/>
+    <path id="palm-leaf-tassel-1" d="M 170,12 Q 165,22 163,28" stroke="#C9A24B" stroke-width="1.5" fill="none"/>
+    <path id="palm-leaf-tassel-2" d="M 170,12 Q 175,22 177,28" stroke="#C9A24B" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>

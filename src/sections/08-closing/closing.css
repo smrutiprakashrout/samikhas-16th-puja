@@ -1,0 +1,41 @@
+/* ===== CHAPTER 8 — Closing: the toran returns ===== */
+.clo{position:relative;height:180svh;background:linear-gradient(180deg,var(--ivory) 0,var(--sand-lt) 45%,var(--sand) 100%)}
+.clo .stage{position:sticky;top:0;height:100svh;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 var(--gutter)}
+
+.clo .tor{position:absolute;left:0;top:0;width:100%;overflow:visible;pointer-events:none;z-index:5}
+.clo .tor g.drop{transform:translateY(-130%);transition:transform 1.8s var(--ease-out)}
+.clo.in .tor g.drop{transform:none}
+.clo .tor .sw{transform-origin:195px -4px;animation:s08-sw 7.5s ease-in-out infinite}
+@keyframes s08-sw{0%,100%{transform:rotate(-.35deg)}50%{transform:rotate(.35deg)}}
+
+.clo .petals{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.clo .pt{position:absolute;top:0;left:var(--x);width:var(--s);aspect-ratio:1/1.25;border-radius:80% 0 80% 0;background:var(--c);opacity:.9;filter:blur(var(--b));z-index:var(--z);animation:s08-fall var(--t) linear var(--dl) infinite;animation-play-state:paused;will-change:transform}
+.clo.in .pt{animation-play-state:running}
+@keyframes s08-fall{
+  0%{transform:translate3d(0,-8vh,0) rotate(0)}
+  25%{transform:translate3d(14px,26vh,0) rotate(130deg)}
+  50%{transform:translate3d(-12px,52vh,0) rotate(260deg)}
+  75%{transform:translate3d(12px,80vh,0) rotate(390deg)}
+  100%{transform:translate3d(0,110vh,0) rotate(520deg)}
+}
+
+.clo .cl1,.clo .cl2,.clo .cl3,.clo .cl4{position:relative;z-index:6;opacity:0;transform:translateY(14px)}
+.clo .cl1{font:italic 400 clamp(19px,5.4vw,22px)/1.3 var(--display);color:color-mix(in srgb,var(--ink) 85%,transparent);transition:opacity 1.2s var(--ease-out),transform 1.2s var(--ease-out)}
+.clo .cl2{font:500 clamp(40px,12vw,50px)/1.05 var(--display);margin-top:10px;transition:opacity 1.3s var(--ease-out) .2s,transform 1.3s var(--ease-out) .2s}
+.clo .cl2 em{font-style:italic;color:var(--saffron-deep)}
+.clo .cl3{margin-top:22px;color:color-mix(in srgb,var(--ink) 80%,transparent);line-height:1.9;transition:opacity 1.2s var(--ease-out) .45s,transform 1.2s var(--ease-out) .45s}
+.clo .cl4{margin-top:30px;transition:opacity 1.2s var(--ease-out) .7s,transform 1.2s var(--ease-out) .7s}
+.clo .cl4>.ven{display:contents}
+.clo .cl4>.ven::before{content:none}
+.clo .cl5{position:relative;z-index:6;margin-top:44px;color:color-mix(in srgb,var(--ink) 62%,transparent);opacity:0;transition:opacity 1.4s ease 1s}
+.clo.in .cl1,.clo.in .cl2,.clo.in .cl3,.clo.in .cl4{opacity:1;transform:none}
+.clo.in .cl5{opacity:1}
+
+.clo .grain{position:absolute;inset:0;pointer-events:none;background:url("/img/grain.svg");opacity:.06;mix-blend-mode:multiply;z-index:30}
+
+@media (prefers-reduced-motion:reduce){
+  .clo .tor g.drop{transform:none;transition:none}
+  .clo .tor .sw{animation:none;transform:none}
+  .clo .petals{display:none}
+  .clo .cl1,.clo .cl2,.clo .cl3,.clo .cl4,.clo .cl5{opacity:1;transform:none;transition:none}
+}

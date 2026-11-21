@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195 844">
+  <defs>
+    <pattern id="door-right-jaali" width="28" height="28" patternUnits="userSpaceOnUse">
+      <polygon points="14,2 18,10 26,14 18,18 14,26 10,18 2,14 10,10" fill="none" stroke="#F0D58A" stroke-width="0.8"/>
+      <circle cx="14" cy="14" r="2.5" fill="none" stroke="#F0D58A" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <g id="door-right-root">
+    <rect id="door-right-base" width="195" height="844" fill="#0A1B5C"/>
+    <rect id="door-right-frame" x="3" y="0" width="192" height="844" fill="none" stroke="#D98F78" stroke-width="3"/>
+    <rect id="door-right-inner-keyline" x="11" y="8" width="176" height="828" fill="none" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="3,3"/>
+    <rect id="door-right-panel-upper" x="24" y="24" width="155" height="260" rx="4" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <path id="door-right-arch-fill" d="M 34,260 L 34,120 Q 34,70 101.5,40 Q 169,70 169,120 L 169,260 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5"/>
+    <path id="door-right-arch-jaali" d="M 34,260 L 34,120 Q 34,70 101.5,40 Q 169,70 169,120 L 169,260 Z" fill="url(#door-right-jaali)"/>
+    <path id="door-right-arch-cusps" d="M 36,130 Q 48,105 64,95 Q 84,75 101.5,52 Q 119,75 139,95 Q 155,105 167,130" fill="none" stroke="#D98F78" stroke-width="1.8"/>
+    <rect id="door-right-panel-mid" x="24" y="304" width="155" height="226" rx="4" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle id="door-right-medallion-bg" cx="101.5" cy="417" r="54" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5"/>
+    <circle id="door-right-medallion-dash" cx="101.5" cy="417" r="48" fill="none" stroke="#D98F78" stroke-width="1" stroke-dasharray="2,2"/>
+    <path d="M 101.5,417 Q 136.4,408.1 143.5,417.0 Q 136.4,425.9 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <path d="M 101.5,417 Q 132.5,435.4 131.2,446.7 Q 119.9,448.0 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <path d="M 101.5,417 Q 110.4,451.9 101.5,459.0 Q 92.6,451.9 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <path d="M 101.5,417 Q 83.1,448.0 71.8,446.7 Q 70.5,435.4 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <path d="M 101.5,417 Q 66.6,425.9 59.5,417.0 Q 66.6,408.1 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <path d="M 101.5,417 Q 70.5,398.6 71.8,387.3 Q 83.1,386.0 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <path d="M 101.5,417 Q 92.6,382.1 101.5,375.0 Q 110.4,382.1 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <path d="M 101.5,417 Q 119.9,386.0 131.2,387.3 Q 132.5,398.6 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <circle id="door-right-medallion-core" cx="101.5" cy="417" r="12" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+    <circle id="door-right-medallion-dot" cx="101.5" cy="417" r="4" fill="#FBF6EC"/>
+    <rect id="door-right-panel-lower" x="24" y="550" width="155" height="270" rx="4" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <rect id="door-right-panel-lower-inner" x="32" y="558" width="139" height="254" fill="#0A1B5C" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="48" cy="582" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="47" cy="581" r="2.5" fill="#F0D58A"/>
+    <circle cx="101" cy="582" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="100" cy="581" r="2.5" fill="#F0D58A"/>
+    <circle cx="154" cy="582" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="153" cy="581" r="2.5" fill="#F0D58A"/>
+    <circle cx="48" cy="634" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="47" cy="633" r="2.5" fill="#F0D58A"/>
+    <circle cx="101" cy="634" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="100" cy="633" r="2.5" fill="#F0D58A"/>
+    <circle cx="154" cy="634" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="153" cy="633" r="2.5" fill="#F0D58A"/>
+    <circle cx="48" cy="686" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="47" cy="685" r="2.5" fill="#F0D58A"/>
+    <circle cx="101" cy="686" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="100" cy="685" r="2.5" fill="#F0D58A"/>
+    <circle cx="154" cy="686" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="153" cy="685" r="2.5" fill="#F0D58A"/>
+    <circle cx="48" cy="738" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="47" cy="737" r="2.5" fill="#F0D58A"/>
+    <circle cx="101" cy="738" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="100" cy="737" r="2.5" fill="#F0D58A"/>
+    <circle cx="154" cy="738" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="153" cy="737" r="2.5" fill="#F0D58A"/>
+    <circle cx="48" cy="790" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="47" cy="789" r="2.5" fill="#F0D58A"/>
+    <circle cx="101" cy="790" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="100" cy="789" r="2.5" fill="#F0D58A"/>
+    <circle cx="154" cy="790" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="153" cy="789" r="2.5" fill="#F0D58A"/>
+    <rect id="door-right-seam-bead" x="0" y="0" width="5" height="844" fill="#D98F78"/>
+    <circle id="door-right-knocker-plate" cx="10" cy="422" r="14" fill="#C9A24B" stroke="#D98F78" stroke-width="1.5"/>
+    <circle id="door-right-knocker-ring" cx="10" cy="432" r="10" fill="none" stroke="#AD5E46" stroke-width="2.5"/>
+  </g>
+</svg>

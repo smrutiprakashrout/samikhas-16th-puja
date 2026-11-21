@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 390 844" width="390" height="844"><defs><pattern id="qa-wave-pat-t05" width="64" height="64" patternUnits="userSpaceOnUse"><g id="tile-wave-root">
+    <rect id="tile-wave-bg" width="64" height="64" fill="#0A1B5C" />
+    <defs>
+      <clipPath id="tile-wave-clip">
+        <rect width="64" height="64" />
+      </clipPath>
+    </defs>
+    <g clip-path="url(#tile-wave-clip)">
+      <circle cx="0" cy="0" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="0" cy="0" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="0" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="0" cy="0" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="0" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="64" cy="0" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="64" cy="0" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="0" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="64" cy="0" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="0" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="0" cy="64" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="0" cy="64" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="64" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="0" cy="64" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="64" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="64" cy="64" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="64" cy="64" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="64" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="64" cy="64" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="64" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="32" cy="32" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="32" cy="32" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="32" cy="32" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="32" cy="32" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="32" cy="32" r="2" fill="#D98F78" opacity="0.6" />
+    </g>
+  </g>
+</pattern><style>
+      .title { font-family: 'Cinzel', serif, sans-serif; font-weight: bold; font-size: 15px; fill: #D98F78; letter-spacing: 2px; text-anchor: middle; }
+      .sub { font-family: 'Cinzel', serif, sans-serif; font-size: 9px; fill: #C9A24B; letter-spacing: 1.5px; text-anchor: middle; }
+      .lbl { font-family: monospace; font-size: 8px; fill: #F3B9A6; text-anchor: middle; }
+      .meta { font-family: monospace; font-size: 7.5px; fill: #F0D58A; text-anchor: middle; }
+      .card-bg { fill: #0d1e63; fill-opacity: 0.85; stroke: #D98F78; stroke-width: 1; rx: 6; }
+    </style></defs><rect width="390" height="844" fill="#0A1B5C" /><rect width="390" height="844" fill="url(#qa-wave-pat-t05)" opacity="0.6" /><g id="qa-header"><text x="195" y="26" class="sub">SAMIKSHYA’S 16TH BIRTHDAY PUJA</text><text x="195" y="46" class="title">T05 · RASTER EXTRAS &amp; FAVICON</text><g transform="translate(75, 52)"><g id="divider-lotus-root">
+    <line id="divider-lotus-line-left" x1="12" y1="12" x2="105" y2="12" stroke="#D98F78" stroke-width="1" />
+    <line id="divider-lotus-line-right" x1="135" y1="12" x2="228" y2="12" stroke="#D98F78" stroke-width="1" />
+    <circle cx="12" cy="12" r="1.5" fill="#D98F78" />
+    <circle cx="228" cy="12" r="1.5" fill="#D98F78" />
+    <polygon points="35,9.5 37.5,12 35,14.5 32.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <polygon points="70,9.5 72.5,12 70,14.5 67.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <polygon points="170,9.5 172.5,12 170,14.5 167.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <polygon points="205,9.5 207.5,12 205,14.5 202.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <path id="divider-lotus-calyx-left" d="M 120,18 C 114,19 108,18 105,15 C 109,14 116,16 120,18 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" />
+    <path id="divider-lotus-calyx-right" d="M 120,18 C 126,19 132,18 135,15 C 131,14 124,16 120,18 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" />
+    <path id="divider-lotus-petal-l" d="M 120,17 C 114,15 109,10 111,6 C 116,8 118,12 120,17 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="0.9" />
+    <path id="divider-lotus-petal-r" d="M 120,17 C 126,15 131,10 129,6 C 124,8 122,12 120,17 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="0.9" />
+    <path id="divider-lotus-petal-c" d="M 120,17 C 117,12 116,7 120,3 C 124,7 123,12 120,17 Z" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="120" cy="8" r="1" fill="#C9A24B" />
+  </g>
+</g></g><g><rect x="14" y="78" width="362" height="225" class="card-bg" /><text x="195" y="94" class="lbl">assets/img/og.jpg · 1200×630 (139.5 KB &lt; 150 KB)</text><image x="25" y="104" width="340" height="178" href="scratch/og_1200.png" /><rect x="25" y="104" width="340" height="178" fill="none" stroke="#D98F78" stroke-width="0.8" /><text x="195" y="295" class="meta">Open Graph Share Card · Navy Gradient + Wave + Mandala + Titles</text></g><g><rect x="14" y="315" width="362" height="340" class="card-bg" /><text x="195" y="332" class="lbl">assets/img/ganesha.webp · 520×600 (27.2 KB &lt; 200 KB)</text><rect x="55" y="342" width="280" height="280" rx="6" fill="#0A1B5C" stroke="#D98F78" stroke-width="1" /><image x="75" y="347" width="240" height="270" href="scratch/ganesha_520.png" /><text x="195" y="642" class="meta">Lord Ganesha upon Lotus Throne with Mushakraj · Transparent BG</text></g><g><rect x="14" y="668" width="362" height="135" class="card-bg" /><text x="195" y="685" class="lbl">assets/favicon.svg · 64×64 (1.5 KB)</text><g transform="translate(50, 700)"><g id="favicon-root">
+    <rect width="64" height="64" rx="14" fill="#0A1B5C" />
+    <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="32" cy="22" r="16" fill="url(#fav-glow)" />
+    <path id="favicon-flame" d="M 32,34 C 26,31 22,24 24,18 C 25,12 30,7 32,4 C 34,7 39,12 40,18 C 42,24 38,31 32,34 Z" fill="#FFB62E" />
+    <path id="favicon-flame-core" d="M 32,33 C 28,30 26,25 27,20 C 28,15 31,11 32,8 C 33,11 36,15 37,20 C 38,25 36,30 32,33 Z" fill="#FBF6EC" />
+    <path id="favicon-bowl" d="M 12,36 C 12,48 24,52 28,52 L 27,57 L 22,58 L 22,60 L 42,60 L 42,58 L 37,57 L 36,52 C 40,52 52,48 52,36 Z" fill="url(#fav-gold)" stroke="#D98F78" stroke-width="1.2" stroke-linejoin="round" />
+    <ellipse cx="32" cy="36" rx="20" ry="4" fill="#F0D58A" stroke="#D98F78" stroke-width="1" />
+    <circle cx="32" cy="58.5" r="1" fill="#D81B72" />
+  </g>
+</g><text x="82" y="780" class="meta">64×64 (1x)</text><g transform="translate(150, 708) scale(0.75)"><g id="favicon-root">
+    <rect width="64" height="64" rx="14" fill="#0A1B5C" />
+    <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="32" cy="22" r="16" fill="url(#fav-glow)" />
+    <path id="favicon-flame" d="M 32,34 C 26,31 22,24 24,18 C 25,12 30,7 32,4 C 34,7 39,12 40,18 C 42,24 38,31 32,34 Z" fill="#FFB62E" />
+    <path id="favicon-flame-core" d="M 32,33 C 28,30 26,25 27,20 C 28,15 31,11 32,8 C 33,11 36,15 37,20 C 38,25 36,30 32,33 Z" fill="#FBF6EC" />
+    <path id="favicon-bowl" d="M 12,36 C 12,48 24,52 28,52 L 27,57 L 22,58 L 22,60 L 42,60 L 42,58 L 37,57 L 36,52 C 40,52 52,48 52,36 Z" fill="url(#fav-gold)" stroke="#D98F78" stroke-width="1.2" stroke-linejoin="round" />
+    <ellipse cx="32" cy="36" rx="20" ry="4" fill="#F0D58A" stroke="#D98F78" stroke-width="1" />
+    <circle cx="32" cy="58.5" r="1" fill="#D81B72" />
+  </g>
+</g><text x="174" y="780" class="meta">48×48</text><g transform="translate(230, 716) scale(0.5)"><g id="favicon-root">
+    <rect width="64" height="64" rx="14" fill="#0A1B5C" />
+    <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="32" cy="22" r="16" fill="url(#fav-glow)" />
+    <path id="favicon-flame" d="M 32,34 C 26,31 22,24 24,18 C 25,12 30,7 32,4 C 34,7 39,12 40,18 C 42,24 38,31 32,34 Z" fill="#FFB62E" />
+    <path id="favicon-flame-core" d="M 32,33 C 28,30 26,25 27,20 C 28,15 31,11 32,8 C 33,11 36,15 37,20 C 38,25 36,30 32,33 Z" fill="#FBF6EC" />
+    <path id="favicon-bowl" d="M 12,36 C 12,48 24,52 28,52 L 27,57 L 22,58 L 22,60 L 42,60 L 42,58 L 37,57 L 36,52 C 40,52 52,48 52,36 Z" fill="url(#fav-gold)" stroke="#D98F78" stroke-width="1.2" stroke-linejoin="round" />
+    <ellipse cx="32" cy="36" rx="20" ry="4" fill="#F0D58A" stroke="#D98F78" stroke-width="1" />
+    <circle cx="32" cy="58.5" r="1" fill="#D81B72" />
+  </g>
+</g><text x="246" y="780" class="meta">32×32</text><g transform="translate(295, 724) scale(0.25)"><g id="favicon-root">
+    <rect width="64" height="64" rx="14" fill="#0A1B5C" />
+    <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="32" cy="22" r="16" fill="url(#fav-glow)" />
+    <path id="favicon-flame" d="M 32,34 C 26,31 22,24 24,18 C 25,12 30,7 32,4 C 34,7 39,12 40,18 C 42,24 38,31 32,34 Z" fill="#FFB62E" />
+    <path id="favicon-flame-core" d="M 32,33 C 28,30 26,25 27,20 C 28,15 31,11 32,8 C 33,11 36,15 37,20 C 38,25 36,30 32,33 Z" fill="#FBF6EC" />
+    <path id="favicon-bowl" d="M 12,36 C 12,48 24,52 28,52 L 27,57 L 22,58 L 22,60 L 42,60 L 42,58 L 37,57 L 36,52 C 40,52 52,48 52,36 Z" fill="url(#fav-gold)" stroke="#D98F78" stroke-width="1.2" stroke-linejoin="round" />
+    <ellipse cx="32" cy="36" rx="20" ry="4" fill="#F0D58A" stroke="#D98F78" stroke-width="1" />
+    <circle cx="32" cy="58.5" r="1" fill="#D81B72" />
+  </g>
+</g><text x="303" y="780" class="meta">16×16</text></g><text x="195" y="828" style="font-family:sans-serif; font-size:7.5px; fill:#C9A24B; letter-spacing:1px; text-anchor:middle;">ALL T05 ASSETS PASS ACCEPTANCE · FILE SIZE BUDGETS VERIFIED</text></svg>

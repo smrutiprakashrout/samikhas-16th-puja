@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 60">
+  <g id="stylus-root">
+    <circle id="stylus-knob-top" cx="12" cy="4" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <path id="stylus-finial" d="M 8,14 C 6,9 18,9 16,14 Z" fill="#D98F78" stroke="#AD5E46" stroke-width="0.8"/>
+    <rect id="stylus-shaft" x="9.5" y="14" width="5" height="31" fill="#D98F78" stroke="#AD5E46" stroke-width="0.8"/>
+    <line x1="8.5" y1="18" x2="15.5" y2="18" stroke="#C9A24B" stroke-width="1.5"/>
+    <line x1="8.5" y1="24" x2="15.5" y2="24" stroke="#C9A24B" stroke-width="1.5"/>
+    <line x1="8.5" y1="32" x2="15.5" y2="32" stroke="#C9A24B" stroke-width="1.5"/>
+    <line x1="8.5" y1="40" x2="15.5" y2="40" stroke="#C9A24B" stroke-width="1.5"/>
+    <path id="stylus-nib" d="M 9.5,45 L 11.5,58 L 12.5,58 L 14.5,45 Z" fill="#9A7425" stroke="#AD5E46" stroke-width="0.8" stroke-linejoin="round"/>
+    <line id="stylus-tip-line" x1="12" y1="48" x2="12" y2="58" stroke="#FBF6EC" stroke-width="0.6"/>
+  </g>
+</svg>

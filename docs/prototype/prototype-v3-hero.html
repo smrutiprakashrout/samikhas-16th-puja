@@ -1,0 +1,114 @@
+<title>Hero Portrait Arch</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500&display=swap">
+<style>
+/* Prototype: hero chapter — her cut-out stepping out of an arch, 16th digits tucked behind her. Warm sand, single look. */
+:root{--ink:#232B25;--ink-deep:#181E1A;--ivory:#FBF3E4;--sand:#EBCEAE;--sand-lt:#F4E4CC;--sand-dp:#D8B684;--wood:#A8793F;--wood-dk:#6E4C28;--gold:#E0AF70;--marigold:#F5B74E;--saffron:#E48C35;--saffron-deep:#B25D17;
+ --display:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--ease-out:cubic-bezier(.16,1,.3,1);--u:1;color-scheme:light}
+*{box-sizing:border-box;margin:0}html,body{height:100%}
+body{background:var(--ink-deep);color:var(--ink);font-family:var(--sans);overflow:hidden;-webkit-font-smoothing:antialiased}
+.phone{position:relative;width:min(100%,430px);height:100%;margin:0 auto;background:var(--sand);overflow:hidden}
+.scroller{position:absolute;inset:0;overflow-y:auto;overflow-x:hidden;scrollbar-width:none}.scroller::-webkit-scrollbar{display:none}
+.label{font:500 11px/1.4 var(--sans);letter-spacing:.24em;text-transform:uppercase}
+.ch2{position:relative}
+.stage{position:sticky;top:0;overflow:hidden;background:var(--sand)}
+.grain,.vig{position:absolute;inset:0;pointer-events:none}
+.grain{background:url("../../assets/img/grain.svg");opacity:.06;mix-blend-mode:multiply;z-index:30}
+.vig{background:radial-gradient(120% 90% at 50% 42%,transparent 55%,rgba(216,182,132,.55) 100%);z-index:29}
+.glow{position:absolute;left:50%;top:calc(var(--u)*330px);width:140%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;opacity:0;
+ background:radial-gradient(circle,rgba(255,249,236,.95) 0,rgba(255,226,166,.55) 24%,rgba(245,183,78,.2) 46%,transparent 66%)}
+#motes{position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none}
+#petals{position:absolute;inset:0;pointer-events:none}
+.pt{position:absolute;top:0;left:var(--x);width:var(--s);height:calc(var(--s)*1.25);border-radius:80% 0 80% 0;background:var(--c);opacity:.9;filter:blur(var(--b));z-index:var(--z);animation:fall var(--t) linear var(--dl) infinite}
+@keyframes fall{0%{transform:translate3d(0,-8vh,0) rotate(0)}25%{transform:translate3d(14px,26vh,0) rotate(120deg)}50%{transform:translate3d(-12px,52vh,0) rotate(250deg)}75%{transform:translate3d(12px,80vh,0) rotate(380deg)}100%{transform:translate3d(0,110vh,0) rotate(520deg)}}
+/* arch */
+.arch{position:absolute;left:50%;top:calc(var(--u)*118px);width:calc(var(--u)*288px);height:calc(var(--u)*414px);margin-left:calc(var(--u)*-144px);z-index:6}
+.arch svg{position:absolute;overflow:visible}
+.arch .fillsvg{inset:0;width:100%;height:100%;opacity:0}
+.arch .line{inset:0;width:100%;height:100%}
+.arch .dots{left:-12px;top:-12px;width:calc(100% + 24px);height:calc(100% + 24px)}
+.arch path.draw{stroke-dasharray:1;stroke-dashoffset:1}
+.base{position:absolute;left:50%;top:calc(var(--u)*532px);width:calc(var(--u)*330px);margin-left:calc(var(--u)*-165px);height:1px;background:var(--wood);z-index:6;transform:scaleX(0)}
+/* digits */
+.dg{position:absolute;z-index:8;font:500 calc(var(--u)*196px)/1 var(--display);font-variant-numeric:lining-nums;letter-spacing:-.03em;opacity:0;will-change:transform;
+ background:linear-gradient(180deg,#E48C35,#B25D17);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 1.5px 0 rgba(255,249,236,.85)) drop-shadow(0 8px 10px rgba(110,76,40,.25))}
+.d1{left:calc(50% + var(--u)*-151px);top:calc(var(--u)*100px)}
+.d6{left:calc(50% + var(--u)*27px);top:calc(var(--u)*100px)}
+.th{position:absolute;z-index:8;left:calc(50% + var(--u)*131px);top:calc(var(--u)*116px);font:italic 500 calc(var(--u)*50px)/1 var(--display);color:var(--saffron-deep);opacity:0;transform-origin:0 100%}
+/* swag */
+.swag{position:absolute;left:0;top:calc(var(--u)*100px);width:100%;z-index:7;overflow:visible;opacity:0}
+/* her */
+.her{position:absolute;left:calc(50% - var(--u)*180px);top:calc(var(--u)*78px);width:calc(var(--u)*340px);height:calc(var(--u)*490px);z-index:10;overflow:hidden;opacity:0;will-change:transform;
+ -webkit-mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - var(--u)*48px),transparent 100%);mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - var(--u)*48px),transparent 100%)}
+.her img{display:block;width:100%;height:auto;filter:drop-shadow(0 0 1px rgba(255,249,236,.95)) drop-shadow(0 0 6px rgba(255,249,236,.35))}
+/* text */
+.tx{position:absolute;left:0;right:0;text-align:center;z-index:12}
+.t1{top:calc(var(--u)*590px);font:500 clamp(32px,calc(var(--u)*38px),42px)/1 var(--display)}
+.t1 em{color:var(--saffron-deep)}
+.t2{top:calc(var(--u)*640px);font:500 clamp(48px,calc(var(--u)*64px),68px)/1.02 var(--display);letter-spacing:-.01em}
+.t3{top:calc(var(--u)*728px);display:flex;align-items:center;justify-content:center;gap:12px;color:rgba(35,43,37,.78)}
+.t3 i{display:block;height:1px;width:28px;background:var(--wood);transform:scaleX(0)}
+.w{display:inline-block;opacity:0;transform:translateY(12px)}
+.ch{display:inline-block;opacity:0;transform:translateY(24px)}
+.next{position:relative;z-index:40;margin-top:-50svh;background:var(--ivory);padding:calc(14svh) 24px;box-shadow:0 -24px 40px -10px rgba(110,76,40,.28);min-height:100svh}
+.next p{font:500 32px/1.2 var(--display);max-width:16ch}
+</style>
+<div class="phone"><div class="scroller" id="sc">
+<section class="ch2" id="ch2"><div class="stage" id="stage">
+ <div class="glow" id="glow"></div><div class="vig"></div><div class="grain"></div>
+ <canvas id="motes" aria-hidden="true"></canvas><div id="petals" aria-hidden="true"></div>
+ <div class="arch" id="arch">
+  <svg class="fillsvg" id="fillsvg" viewBox="0 0 288 414" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="nf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4E4CC"/><stop offset=".6" stop-color="#EFD7B3"/><stop offset="1" stop-color="#EBCEAE"/></linearGradient><radialGradient id="nr" cx=".5" cy=".28" r=".6"><stop offset="0" stop-color="#FFF9EC" stop-opacity=".95"/><stop offset="1" stop-color="#FFF9EC" stop-opacity="0"/></radialGradient></defs>
+   <path d="M0 414V145A144 144 0 0 1 288 145V414Z" fill="url(#nf)"/><path d="M0 414V145A144 144 0 0 1 288 145V414Z" fill="url(#nr)"/></svg>
+  <svg class="line" viewBox="0 0 288 414" preserveAspectRatio="none" aria-hidden="true" fill="none"><path class="draw" id="ln" pathLength="1" d="M1 414V145A143 143 0 0 1 287 145V414" stroke="#A8793F" stroke-width="1.3"/></svg>
+  <svg class="dots" viewBox="-12 -12 312 438" preserveAspectRatio="none" aria-hidden="true" fill="none"><path class="draw" id="ln2" pathLength="1" d="M-11 414V145A155 155 0 0 1 299 145V414" stroke="#E0AF70" stroke-width="1.6" stroke-dasharray="0.002 0.0125" stroke-linecap="round" style="stroke-dashoffset:0;opacity:0"/></svg>
+ </div>
+ <div class="base" id="base"></div>
+ <div class="dg d1" id="d1">1</div><div class="dg d6" id="d6">6</div><div class="th" id="th">th</div>
+ <div class="her" id="her"><img src="../../assets/img/samikshya.webp" alt="Samikshya"></div>
+ <p class="tx t1" id="t1"><span class="w">Birthday</span> <span class="w"><em>Puja</em></span></p>
+ <p class="tx t2" id="t2" aria-label="Samikshya"></p>
+ <p class="tx t3 label" id="t3"><i></i><span id="t3s" style="opacity:0">Pragyan Panda</span><i></i></p>
+</div></section>
+<section class="next"><p>The invitation chapter follows, on ivory.</p></section>
+</div></div>
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)};var sc=$('#sc'),ch2=$('#ch2'),stage=$('#stage');
+function clamp(v,a,b){return Math.min(b,Math.max(a,v))}function seg(p,a,b){var t=clamp((p-a)/(b-a),0,1);return t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2}
+var U=1;function size(){var H=sc.clientHeight;U=H/844;stage.style.height=H+'px';ch2.style.height=Math.round(H*3.2)+'px';stage.style.setProperty('--u',U)}size();
+addEventListener('resize',function(){size();frame()});
+var seed=7;function rnd(){seed=(seed*16807)%2147483647;return seed/2147483647}
+function blossom(x,y,r,c1,c2,rot){var g='<g transform="translate('+x.toFixed(1)+' '+y.toFixed(1)+') rotate('+rot+')">';for(var i=0;i<10;i++){g+='<ellipse cx="0" cy="'+(-r*.52)+'" rx="'+(r*.3)+'" ry="'+(r*.5)+'" fill="'+c1+'" stroke="#B25D17" stroke-opacity=".45" stroke-width=".5" transform="rotate('+(i*36)+')"/>'}return g+'<circle r="'+(r*.42)+'" fill="'+c2+'"/><circle r="'+(r*.16)+'" fill="#B25D17" fill-opacity=".75"/></g>'}
+function leaf(x,y,r,rot){return '<path d="M0 0C'+r*.5+' '+-r*.3+' '+r*.9+' '+-r*.1+' '+r+' 0C'+r*.9+' '+r*.3+' '+r*.4+' '+r*.4+' 0 0Z" transform="translate('+x.toFixed(1)+' '+y.toFixed(1)+') rotate('+rot+')" fill="#AAA06D" stroke="#5D695D" stroke-opacity=".5" stroke-width=".5"/>'}
+function pick(){var r=rnd();return r<.5?['#F5B74E','#FFD58A']:r<.85?['#E48C35','#F5B74E']:['#FBF3E4','#F5B74E']}
+// swag across arch top, anchored on the arch outline (x≈70 and 320), dipping behind her head
+var sw='<path d="M70 62Q195 150 320 62" fill="none" stroke="#A8793F" stroke-width="1.2"/>';
+for(var i=0;i<=14;i++){var t=i/14,x=(1-t)*(1-t)*70+2*t*(1-t)*195+t*t*320,y=(1-t)*(1-t)*62+2*t*(1-t)*150+t*t*62;if(i%2===0)sw+=leaf(x,y+3,12,(i%4?70:-110));var cc=pick();sw+=blossom(x,y+(i%2?3:0),8.5+[1,-1,2,0][i%4],cc[0],cc[1],Math.round(rnd()*36))}
+
+// name letters
+var nm='Samikshya',nh='';for(var i=0;i<nm.length;i++)nh+='<span class="ch">'+nm[i]+'</span>';$('#t2').innerHTML=nh;
+// petals
+var pc=['#F5B74E','#E48C35','#FBF3E4','#F5B74E','#E48C35'],ph='';for(var i=0;i<12;i++){var f=i<3,s=f?16+Math.round(rnd()*4):9+Math.round(rnd()*7);ph+='<div class="pt" style="--x:'+(4+rnd()*92).toFixed(0)+'%;--s:'+s+'px;--t:'+(f?19+rnd()*5:26+rnd()*10).toFixed(1)+'s;--dl:-'+(rnd()*30).toFixed(1)+'s;--c:'+pc[i%5]+';--b:'+(f?'1.6px':'0px')+';--z:'+(f?25:5)+'"></div>'}$('#petals').innerHTML=ph;
+var mc=$('#motes'),mx=mc.getContext('2d'),motes=[],MW=0,MH=0;function mSize(){var d=Math.min(2,devicePixelRatio||1);MW=stage.clientWidth;MH=stage.clientHeight;mc.width=MW*d;mc.height=MH*d;mx.setTransform(d,0,0,d,0,0);motes=[];for(var i=0;i<38;i++)motes.push({x:Math.random()*MW,y:Math.random()*MH,r:Math.random()*1.5+.5,v:Math.random()*.3+.1,s:Math.random()*6,c:i%3?'#F5B74E':'#FFFFFF'})}mSize();addEventListener('resize',mSize);
+(function md(t){mx.clearRect(0,0,MW,MH);for(var i=0;i<motes.length;i++){var m=motes[i];m.y-=m.v;if(m.y<-4){m.y=MH+4;m.x=Math.random()*MW}mx.globalAlpha=.2+.5*Math.abs(Math.sin(t/1000+m.s));mx.fillStyle=m.c;mx.beginPath();mx.arc(m.x+Math.sin(t/1700+m.s)*7,m.y,m.r,0,6.283);mx.fill()}requestAnimationFrame(md)})(0);
+var glow=$('#glow'),ln=$('#ln'),ln2=$('#ln2'),fill=$('#fillsvg'),base=$('#base'),her=$('#her'),d1=$('#d1'),d6=$('#d6'),th=$('#th'),t1=$('#t1'),t2=$('#t2'),t3=$('#t3'),t3s=$('#t3s');
+var w1=[].slice.call(t1.querySelectorAll('.w')),chs=[].slice.call(t2.querySelectorAll('.ch')),lines=[].slice.call(t3.querySelectorAll('i'));
+function apply(p){
+ glow.style.opacity=seg(p,0,.12);glow.style.transform='translateY('+(-6*seg(p,.46,1))+'px)';
+ var a=seg(p,.04,.26);ln.style.strokeDashoffset=1-a;ln2.style.opacity=a>0?1:0;ln2.style.strokeDashoffset=0;ln2.style.strokeDasharray=(a*1)+' 1';
+ fill.style.opacity=seg(p,.12,.3);base.style.transform='scaleX('+seg(p,.04,.2)+')';
+ var r=seg(p,.20,.46),dr=seg(p,.46,1);
+ her.style.opacity=clamp(r*1.6,0,1);her.style.transform='translateY('+((1-r)*160*U-24*U*dr)+'px) scale('+(1.06-.06*r)+')';
+ var e1=seg(p,.34,.46),e6=seg(p,.40,.52),et=seg(p,.50,.58);
+ d1.style.opacity=e1;d1.style.transform='translateY('+((1-e1)*40*U-10*U*dr)+'px)';
+ d6.style.opacity=e6;d6.style.transform='translateY('+((1-e6)*40*U-10*U*dr)+'px)';
+ th.style.opacity=et;th.style.transform='translateY('+(-10*U*dr)+'px) scale('+(.6+.4*et)+')';
+ w1.forEach(function(el,i){var t=seg(p,.50+i*.05,.58+i*.05);el.style.opacity=t;el.style.transform='translateY('+((1-t)*12)+'px)'});
+ chs.forEach(function(el,i){var t=seg(p,.60+i*.012,.66+i*.012);el.style.opacity=t;el.style.transform='translateY('+((1-t)*24)+'px)'});
+ var s3=seg(p,.70,.80);t3s.style.opacity=s3;lines.forEach(function(l){l.style.transform='scaleX('+s3+')'});
+}
+function frame(){var m=ch2.offsetHeight-sc.clientHeight;apply(clamp(sc.scrollTop/m,0,1))}
+var tk=false;sc.addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;frame()})}},{passive:true});frame();
+})();
+</script>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 700">
+  <g id="vine-root">
+    <path id="vine-stem" class="stem" d="M 195,690 C 185,640 160,580 175,520 C 190,460 225,400 205,320 C 185,240 180,180 195,120" fill="none" stroke="#2FA07F" stroke-width="3.5" stroke-linecap="round"/>
+    <path id="vine-b1" class="b1" d="M 175,530 C 150,540 110,535 90,520 M 175,530 C 195,540 235,535 255,520" fill="none" stroke="#2FA07F" stroke-width="2.5" stroke-linecap="round"/>
+    <path id="vine-b2" class="b2" d="M 205,335 C 175,340 130,330 105,315 M 205,335 C 235,340 275,330 295,315" fill="none" stroke="#2FA07F" stroke-width="2.5" stroke-linecap="round"/>
+    <path id="vine-b3" class="b3" d="M 193,150 C 170,150 145,135 135,115 M 197,150 C 220,150 245,135 255,115" fill="none" stroke="#2FA07F" stroke-width="2.2" stroke-linecap="round"/>
+    <g transform="translate(190,660) rotate(-45) scale(1.1)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(200,630) rotate(40) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(175,595) rotate(-50) scale(1.1)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(185,565) rotate(35) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(120,528) rotate(-80) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(145,538) rotate(-30) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(225,538) rotate(30) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(245,526) rotate(75) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(182,480) rotate(-35) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(198,440) rotate(45) scale(1.1)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(215,400) rotate(50) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(195,365) rotate(-40) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(140,328) rotate(-75) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(165,338) rotate(-25) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(240,338) rotate(25) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(270,325) rotate(80) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(192,280) rotate(-45) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(188,235) rotate(35) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(186,195) rotate(-30) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(198,165) rotate(40) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(150,130) rotate(-60) scale(0.8)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+    <g transform="translate(240,130) rotate(60) scale(0.8)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8"/><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7"/></g>
+  <g id="bloom-gp">
+  <g id="vine-bloom-gp" class="bloom-gp">
+    <circle cx="175" cy="520" r="14" fill="#C9A24B" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="193.0" cy="520.0" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="184.0" cy="535.6" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="166.0" cy="535.6" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="157.0" cy="520.0" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="166.0" cy="504.4" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="184.0" cy="504.4" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="175" cy="520" r="6" fill="#FBF6EC"/>
+  </g>
+  </g>
+  <g id="bloom-parents">
+  <g id="vine-bloom-parents" class="bloom-parents">
+    <circle cx="205" cy="320" r="16" fill="#F3B9A6" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="226.0" cy="320.0" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="219.8" cy="334.8" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="205.0" cy="341.0" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="190.2" cy="334.8" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="184.0" cy="320.0" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="190.2" cy="305.2" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="205.0" cy="299.0" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="219.8" cy="305.2" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="205" cy="320" r="8" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="205" cy="320" r="3" fill="#FBF6EC"/>
+  </g>
+  </g>
+  <g id="bloom-top">
+  <g id="vine-bloom-top" class="bloom-top">
+    <path d="M 195,125 C 182,125 168,118 156,104 C 166,100 182,106 195,116 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1.2"/>
+    <path d="M 195,125 C 208,125 222,118 234,104 C 224,100 208,106 195,116 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1.2"/>
+    <path d="M 195,125 C 184,115 174,96 172,78 C 184,82 192,96 195,112 Z" fill="#F8D2C4" stroke="#D98F78" stroke-width="1.2"/>
+    <path d="M 195,125 C 206,115 216,96 218,78 C 206,82 198,96 195,112 Z" fill="#F8D2C4" stroke="#D98F78" stroke-width="1.2"/>
+    <path d="M 195,125 C 186,108 185,88 195,68 C 205,88 204,108 195,125 Z" fill="#F8D2C4" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="195" cy="76" r="2.5" fill="#C9A24B"/>
+  </g>
+  </g>
+  </g>
+</svg>

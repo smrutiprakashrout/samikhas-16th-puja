@@ -1,0 +1,13 @@
+/* Shared chapter-1 ambience: paper grain, vignette, gold dust and falling petals. */
+.grain,.vig{position:absolute;inset:0;pointer-events:none}
+.grain{background:url("/img/grain.svg");opacity:.06;mix-blend-mode:multiply;z-index:30}
+.vig{background:radial-gradient(120% 90% at 50% 42%,transparent 55%,color-mix(in srgb,var(--sand-dp) 55%,transparent) 100%);z-index:29}
+#motes{position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none}
+#petals{position:absolute;inset:0;pointer-events:none}
+.pt{position:absolute;top:0;left:var(--x);width:var(--s);height:calc(var(--s)*1.25);border-radius:80% 0 80% 0;background:var(--c);opacity:.9;filter:blur(var(--b));z-index:var(--z);
+  animation:fall var(--t) linear var(--dl) infinite;animation-play-state:paused}
+@keyframes fall{0%{transform:translate3d(0,-8vh,0) rotate(0)}25%{transform:translate3d(14px,26vh,0) rotate(120deg)}50%{transform:translate3d(-12px,52vh,0) rotate(250deg)}75%{transform:translate3d(12px,80vh,0) rotate(380deg)}100%{transform:translate3d(0,110vh,0) rotate(520deg)}}
+@media (prefers-reduced-motion:reduce){
+  .pt{display:none!important}
+  .reduced #motes{display:none}
+}

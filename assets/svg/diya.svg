@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80">
+  <defs>
+    <radialGradient id="diya-glow-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB62E" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#F29A1F" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F29A1F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="diya-brass-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0D58A"/>
+      <stop offset="45%" stop-color="#C9A24B"/>
+      <stop offset="100%" stop-color="#9A7425"/>
+    </linearGradient>
+    <linearGradient id="diya-rim-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0D58A"/>
+      <stop offset="100%" stop-color="#C9A24B"/>
+    </linearGradient>
+  </defs>
+  <g id="diya-glow" class="glow">
+    <circle cx="50" cy="24" r="22" fill="url(#diya-glow-grad)"/>
+  </g>
+  <g id="diya-flame" class="flame">
+    <path id="diya-flame-outer" d="M 50,42 C 41,39 36,30 38,22 C 40,14 47,8 50,4 C 53,8 60,14 62,22 C 64,30 59,39 50,42 Z" fill="#FFB62E"/>
+    <path id="diya-flame-inner" d="M 50,41 C 45,38 42,32 43,25 C 44,19 48,14 50,10 C 52,14 56,19 57,25 C 58,32 55,38 50,41 Z" fill="#FBF6EC"/>
+  </g>
+  <g id="diya-bowl" class="bowl">
+    <path id="diya-wick" d="M 50,44 Q 50,39 51,37" stroke="#AD5E46" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+    <path id="diya-bowl-body" d="M 14,46 C 14,60 36,65 44,65 L 42,72 L 32,74 L 32,77 L 68,77 L 68,74 L 58,72 L 56,65 C 64,65 86,60 86,46 Z" fill="url(#diya-brass-grad)" stroke="#D98F78" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse id="diya-bowl-rim" cx="50" cy="46" rx="36" ry="6" fill="url(#diya-rim-grad)" stroke="#D98F78" stroke-width="1.5"/>
+    <ellipse id="diya-bowl-inner-pool" cx="50" cy="46" rx="30" ry="4" fill="#9A7425" opacity="0.6"/>
+    <path id="diya-engraving-mid" d="M 50,49 Q 50,60 50,63" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <path id="diya-engraving-left" d="M 34,49 Q 38,58 44,63" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <path id="diya-engraving-right" d="M 66,49 Q 62,58 56,63" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <line id="diya-base-line" x1="33" y1="74" x2="67" y2="74" stroke="#D98F78" stroke-width="1.2"/>
+    <circle id="diya-jewel-1" cx="44" cy="75.5" r="1" fill="#D81B72"/>
+    <circle id="diya-jewel-2" cx="50" cy="75.5" r="1" fill="#D81B72"/>
+    <circle id="diya-jewel-3" cx="56" cy="75.5" r="1" fill="#D81B72"/>
+  </g>
+</svg>

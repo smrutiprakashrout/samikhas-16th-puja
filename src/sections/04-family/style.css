@@ -1,0 +1,23 @@
+/* ===== CHAPTER 4 — Family: a thread of names ===== */
+.fam{position:relative;background:var(--ivory)}
+.fam .stage{position:sticky;top:0;overflow:hidden;background:var(--ivory)}
+.fam .vig{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 45%,transparent 60%,color-mix(in srgb,var(--sand-lt) 90%,transparent) 100%);pointer-events:none;z-index:2}
+.fam .thread{position:absolute;left:0;top:0;width:100%;height:100%;z-index:3;overflow:visible}
+.fam .thread path.l{stroke-dasharray:1;stroke-dashoffset:1}
+.fam .node{position:absolute;left:calc(var(--gutter) - 4px);width:9px;height:9px;rotate:45deg;background:var(--saffron-deep);box-shadow:0 0 0 5px var(--ivory);transform:scale(0);z-index:4}
+.fam #n1{top:calc(var(--u)*231px)}
+.fam #n2{top:calc(var(--u)*431px)}
+.fam .bl{position:absolute;left:calc(var(--gutter) - 15px);top:calc(var(--u)*626px);width:31px;height:31px;z-index:4;transform:scale(0) rotate(-40deg)}
+.fam .ft{position:absolute;left:calc(var(--gutter) + 20px);right:var(--gutter-r);z-index:5}
+.fam #b1{top:calc(var(--u)*226px)}
+.fam #b2{top:calc(var(--u)*426px)}
+.fam .fl{color:color-mix(in srgb,var(--ink) 74%,transparent);opacity:0;max-width:30ch}
+.fam .fn{font:500 clamp(26px,7.8vw,31px)/1.2 var(--display);overflow:hidden}
+.fam .fn.first{margin-top:12px}
+.fam .fn span{display:block;transform:translateY(110%)}
+.fam .fn em{font-style:italic;color:var(--saffron-deep);margin-right:.18em}
+.fam .grain{position:absolute;inset:0;pointer-events:none;background:url("/img/grain.svg");opacity:.06;mix-blend-mode:multiply;z-index:30}
+
+@media (prefers-reduced-motion:reduce){
+  .fam .node,.fam .bl,.fam .fn span,.fam .fl,.fam .thread path.l{transition:opacity .3s ease,transform .3s ease,stroke-dashoffset .3s ease}
+}

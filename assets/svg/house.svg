@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180">
+  <g id="house-root">
+    <rect id="house-walls" x="22" y="75" width="156" height="100" rx="3" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.8"/>
+    <rect id="house-plinth" x="18" y="170" width="164" height="6" fill="#12308F" stroke="#D98F78" stroke-width="1"/>
+    <path id="house-roof" d="M 10,75 L 100,16 L 190,75 C 190,75 160,78 100,78 C 40,78 10,75 10,75 Z" fill="#12308F" stroke="#D98F78" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="100" y1="16" x2="100" y2="78" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="100" y1="16" x2="55" y2="76" stroke="#D98F78" stroke-width="1.2"/>
+    <line x1="100" y1="16" x2="145" y2="76" stroke="#D98F78" stroke-width="1.2"/>
+    <circle id="house-roof-finial" cx="100" cy="14" r="3.5" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+  <g id="win1">
+    <rect id="house-win1" class="win1" x="38" y="94" width="28" height="32" rx="3" fill="#12308F" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="52" y1="94" x2="52" y2="126" stroke="#D98F78" stroke-width="1"/>
+    <line x1="38" y1="110" x2="66" y2="110" stroke="#D98F78" stroke-width="1"/>
+  </g>
+  <g id="win2">
+    <rect id="house-win2" class="win2" x="134" y="94" width="28" height="32" rx="3" fill="#12308F" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="148" y1="94" x2="148" y2="126" stroke="#D98F78" stroke-width="1"/>
+    <line x1="134" y1="110" x2="162" y2="110" stroke="#D98F78" stroke-width="1"/>
+  </g>
+  <g id="door">
+    <path id="house-door" class="door" d="M 84,170 L 84,106 C 84,94 116,94 116,106 L 116,170 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.6"/>
+    <circle id="house-door-knob" cx="110" cy="138" r="2" fill="#C9A24B"/>
+  </g>
+    <path d="M 16,77 Q 30,83 45,77 Q 60,83 75,77 Q 90,83 100,77 Q 110,83 125,77 Q 140,83 155,77 Q 170,83 184,77" fill="none" stroke="#D98F78" stroke-width="1"/>
+  </g>
+</svg>

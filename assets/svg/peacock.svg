@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240">
+  <defs>
+    <linearGradient id="peacock-body-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2C70"/>
+      <stop offset="40%" stop-color="#0E8C86"/>
+      <stop offset="100%" stop-color="#2FA07F"/>
+    </linearGradient>
+    <linearGradient id="peacock-tail-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E8C86"/>
+      <stop offset="100%" stop-color="#0A1B5C"/>
+    </linearGradient>
+  </defs>
+  <g id="peacock-root">
+    <path id="peacock-train-bg" d="M 125,120 C 100,120 50,140 24,185 C 10,210 20,230 45,232 C 85,235 125,195 138,150 Z" fill="url(#peacock-tail-grad)" stroke="#D98F78" stroke-width="1.5"/>
+    <g id="peacock-eye-0" transform="rotate(-20 35 215)">
+      <line x1="35" y1="230" x2="35" y2="200" stroke="#2FA07F" stroke-width="1"/>
+      <ellipse cx="35" cy="215" rx="12" ry="16" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+      <ellipse cx="35" cy="216" rx="8.6" ry="11.5" fill="#0E8C86"/>
+      <ellipse cx="35" cy="217" rx="5.4" ry="7.2" fill="#0A1B5C"/>
+      <circle cx="33.5" cy="215" r="1.5" fill="#FBF6EC"/>
+    </g>
+    <g id="peacock-eye-1" transform="rotate(-10 58 222)">
+      <line x1="58" y1="237" x2="58" y2="207" stroke="#2FA07F" stroke-width="1"/>
+      <ellipse cx="58" cy="222" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+      <ellipse cx="58" cy="223" rx="9.4" ry="12.2" fill="#0E8C86"/>
+      <ellipse cx="58" cy="224" rx="5.9" ry="7.7" fill="#0A1B5C"/>
+      <circle cx="56.5" cy="222" r="1.5" fill="#FBF6EC"/>
+    </g>
+    <g id="peacock-eye-2" transform="rotate(5 85 218)">
+      <line x1="85" y1="233" x2="85" y2="203" stroke="#2FA07F" stroke-width="1"/>
+      <ellipse cx="85" cy="218" rx="14" ry="18" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+      <ellipse cx="85" cy="219" rx="10.1" ry="13.0" fill="#0E8C86"/>
+      <ellipse cx="85" cy="220" rx="6.3" ry="8.1" fill="#0A1B5C"/>
+      <circle cx="83.5" cy="218" r="1.5" fill="#FBF6EC"/>
+    </g>
+    <g id="peacock-eye-3" transform="rotate(-25 46 188)">
+      <line x1="46" y1="203" x2="46" y2="173" stroke="#2FA07F" stroke-width="1"/>
+      <ellipse cx="46" cy="188" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+      <ellipse cx="46" cy="189" rx="9.4" ry="12.2" fill="#0E8C86"/>
+      <ellipse cx="46" cy="190" rx="5.9" ry="7.7" fill="#0A1B5C"/>
+      <circle cx="44.5" cy="188" r="1.5" fill="#FBF6EC"/>
+    </g>
+    <g id="peacock-eye-4" transform="rotate(-15 72 192)">
+      <line x1="72" y1="207" x2="72" y2="177" stroke="#2FA07F" stroke-width="1"/>
+      <ellipse cx="72" cy="192" rx="14" ry="18" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+      <ellipse cx="72" cy="193" rx="10.1" ry="13.0" fill="#0E8C86"/>
+      <ellipse cx="72" cy="194" rx="6.3" ry="8.1" fill="#0A1B5C"/>
+      <circle cx="70.5" cy="192" r="1.5" fill="#FBF6EC"/>
+    </g>
+    <g id="peacock-eye-5" transform="rotate(10 100 186)">
+      <line x1="100" y1="201" x2="100" y2="171" stroke="#2FA07F" stroke-width="1"/>
+      <ellipse cx="100" cy="186" rx="14" ry="18" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+      <ellipse cx="100" cy="187" rx="10.1" ry="13.0" fill="#0E8C86"/>
+      <ellipse cx="100" cy="188" rx="6.3" ry="8.1" fill="#0A1B5C"/>
+      <circle cx="98.5" cy="186" r="1.5" fill="#FBF6EC"/>
+    </g>
+    <g id="peacock-eye-6" transform="rotate(-20 68 160)">
+      <line x1="68" y1="175" x2="68" y2="145" stroke="#2FA07F" stroke-width="1"/>
+      <ellipse cx="68" cy="160" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+      <ellipse cx="68" cy="161" rx="9.4" ry="12.2" fill="#0E8C86"/>
+      <ellipse cx="68" cy="162" rx="5.9" ry="7.7" fill="#0A1B5C"/>
+      <circle cx="66.5" cy="160" r="1.5" fill="#FBF6EC"/>
+    </g>
+    <g id="peacock-eye-7" transform="rotate(0 96 158)">
+      <line x1="96" y1="173" x2="96" y2="143" stroke="#2FA07F" stroke-width="1"/>
+      <ellipse cx="96" cy="158" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+      <ellipse cx="96" cy="159" rx="9.4" ry="12.2" fill="#0E8C86"/>
+      <ellipse cx="96" cy="160" rx="5.9" ry="7.7" fill="#0A1B5C"/>
+      <circle cx="94.5" cy="158" r="1.5" fill="#FBF6EC"/>
+    </g>
+    <g id="peacock-eye-8" transform="rotate(15 120 155)">
+      <line x1="120" y1="170" x2="120" y2="140" stroke="#2FA07F" stroke-width="1"/>
+      <ellipse cx="120" cy="155" rx="12" ry="16" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+      <ellipse cx="120" cy="156" rx="8.6" ry="11.5" fill="#0E8C86"/>
+      <ellipse cx="120" cy="157" rx="5.4" ry="7.2" fill="#0A1B5C"/>
+      <circle cx="118.5" cy="155" r="1.5" fill="#FBF6EC"/>
+    </g>
+    <path id="peacock-perch" d="M 80,188 Q 125,182 170,184" stroke="#D98F78" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path id="peacock-foot" d="M 124,175 L 122,185 M 128,175 L 129,185 M 134,175 L 137,185" stroke="#AD5E46" stroke-width="1.8" stroke-linecap="round"/>
+    <path id="peacock-body" d="M 150,42 C 142,60 134,80 132,105 C 130,130 134,152 145,168 C 158,166 172,150 174,130 C 176,112 172,96 160,80 C 156,66 158,54 154,42 Z" fill="url(#peacock-body-grad)" stroke="#D98F78" stroke-width="1.5" stroke-linejoin="round"/>
+    <path id="peacock-wing-base" d="M 134,106 C 145,104 165,110 168,124 C 168,142 152,160 138,166 C 132,150 130,128 134,106 Z" fill="#0E8C86" stroke="#D98F78" stroke-width="1.4"/>
+    <path id="peacock-wing-scallop-1" d="M 140,116 Q 150,114 162,120" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <path id="peacock-wing-scallop-2" d="M 136,128 Q 148,126 162,132" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <path id="peacock-wing-scallop-3" d="M 135,140 Q 146,138 158,144" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <path id="peacock-wing-scallop-4" d="M 136,152 Q 144,150 152,155" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <path id="peacock-head" d="M 148,46 C 146,38 154,32 162,36 C 168,40 166,48 160,54 C 154,58 149,54 148,46 Z" fill="#1E2C70" stroke="#D98F78" stroke-width="1.3"/>
+    <polygon id="peacock-beak" points="163,38 176,43 162,47" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+    <path id="peacock-eye-almond" d="M 153,40 Q 158,36 163,40 Q 158,44 153,40 Z" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8"/>
+    <circle id="peacock-eye-pupil" cx="158" cy="40" r="1.8" fill="#0A1B5C"/>
+    <circle id="peacock-eye-glint" cx="157.3" cy="39.3" r="0.6" fill="#FBF6EC"/>
+    <path id="peacock-crest-stem-1" d="M 152,34 Q 152,20 156,12" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <path id="peacock-crest-stem-2" d="M 154,34 Q 158,20 165,14" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <path id="peacock-crest-stem-3" d="M 156,35 Q 164,22 174,18" stroke="#D98F78" stroke-width="1.2" fill="none"/>
+    <circle id="peacock-crest-plume-1" cx="156" cy="11" r="3.2" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle id="peacock-crest-center-1" cx="156" cy="11" r="1.5" fill="#0E8C86"/>
+    <circle id="peacock-crest-plume-2" cx="165" cy="13" r="3.2" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle id="peacock-crest-center-2" cx="165" cy="13" r="1.5" fill="#0E8C86"/>
+    <circle id="peacock-crest-plume-3" cx="174" cy="17" r="3.2" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8"/>
+    <circle id="peacock-crest-center-3" cx="174" cy="17" r="1.5" fill="#0E8C86"/>
+  </g>
+</svg>

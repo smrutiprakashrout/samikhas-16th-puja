@@ -1,0 +1,21 @@
+/* ===== CHAPTER 3 — Invitation: reading light ===== */
+.inv{position:relative;z-index:40;margin-top:-50svh;background:var(--ivory);box-shadow:0 -24px 40px -10px color-mix(in srgb,var(--wood-dk) 28%,transparent)}
+.inv .stage{position:sticky;top:0;overflow:hidden;background:var(--ivory)}
+.inv .vig{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 45%,transparent 60%,color-mix(in srgb,var(--sand-lt) 90%,transparent) 100%);pointer-events:none;z-index:2}
+.mand{position:absolute;right:calc(var(--u)*-190px);top:calc(var(--u)*250px);width:calc(var(--u)*470px);opacity:.09;pointer-events:none;z-index:1;will-change:transform}
+.col{position:absolute;left:max(24px,env(safe-area-inset-left,0px));right:max(24px,env(safe-area-inset-right,0px));z-index:5}
+.lab{top:calc(var(--u)*196px);color:color-mix(in srgb,var(--ink) 74%,transparent);opacity:0}
+.big{top:calc(var(--u)*236px);font:500 clamp(31px,9vw,38px)/1.2 var(--display);text-wrap:pretty;opacity:0}
+.big .w,.small .w{opacity:.16;display:inline-block;position:relative}
+.big .k{font-style:italic;color:var(--saffron-deep)}
+.big .k::after{content:"";position:absolute;left:0;right:.25em;bottom:.06em;height:2px;background:var(--wood);transform:scaleX(var(--k,0));transform-origin:0 50%}
+.div{top:calc(var(--u)*572px);width:84px;height:8px;display:flex;align-items:center}
+.div i{position:absolute;left:0;right:0;top:50%;height:1px;background:var(--wood);transform:scaleX(0);transform-origin:0 50%}
+.div b{position:absolute;left:50%;margin-left:-3px;width:6px;height:6px;rotate:45deg;background:var(--saffron-deep);transform:scale(0);box-shadow:0 0 0 4px var(--ivory)}
+.small{top:calc(var(--u)*608px);font:italic 400 20px/1.42 var(--display);color:var(--ink);max-width:27ch;opacity:0}
+.inv .grain{position:absolute;inset:0;pointer-events:none;background:url("/img/grain.svg");opacity:.06;mix-blend-mode:multiply;z-index:30}
+
+@media (prefers-reduced-motion:reduce){
+  .inv .lab,.inv .big,.inv .small,.inv .big .w,.inv .small .w{transition:opacity .3s ease!important}
+  .inv .div i,.inv .div b{transition:transform .3s ease!important}
+}

@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .m-stroke { stroke: #D98F78; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <g id="mandala-root">
+    <circle id="mandala-bg" cx="150" cy="150" r="146" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle id="mandala-bg-inner" cx="150" cy="150" r="141" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <path id="mandala-outer-petal-0" d="M 252.85,124.36 Q 276.42,129.98 288.00,150.00 Q 276.42,170.02 252.85,175.64 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="260.00" y1="150.00" x2="280.00" y2="150.00" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="270.00" cy="150.00" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-1" d="M 251.89,179.22 Q 269.50,195.87 269.51,219.00 Q 249.47,230.55 226.25,223.63 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="245.26" y1="205.00" x2="262.58" y2="215.00" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="253.92" cy="210.00" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-2" d="M 223.63,226.25 Q 230.55,249.47 219.00,269.51 Q 195.87,269.50 179.22,251.89 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="205.00" y1="245.26" x2="215.00" y2="262.58" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="210.00" cy="253.92" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-3" d="M 175.64,252.85 Q 170.02,276.42 150.00,288.00 Q 129.98,276.42 124.36,252.85 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="150.00" y1="260.00" x2="150.00" y2="280.00" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="150.00" cy="270.00" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-4" d="M 120.78,251.89 Q 104.13,269.50 81.00,269.51 Q 69.45,249.47 76.37,226.25 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="95.00" y1="245.26" x2="85.00" y2="262.58" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="90.00" cy="253.92" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-5" d="M 73.75,223.63 Q 50.53,230.55 30.49,219.00 Q 30.50,195.87 48.11,179.22 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="54.74" y1="205.00" x2="37.42" y2="215.00" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="46.08" cy="210.00" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-6" d="M 47.15,175.64 Q 23.58,170.02 12.00,150.00 Q 23.58,129.98 47.15,124.36 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="40.00" y1="150.00" x2="20.00" y2="150.00" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="30.00" cy="150.00" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-7" d="M 48.11,120.78 Q 30.50,104.13 30.49,81.00 Q 50.53,69.45 73.75,76.37 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="54.74" y1="95.00" x2="37.42" y2="85.00" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="46.08" cy="90.00" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-8" d="M 76.37,73.75 Q 69.45,50.53 81.00,30.49 Q 104.13,30.50 120.78,48.11 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="95.00" y1="54.74" x2="85.00" y2="37.42" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="90.00" cy="46.08" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-9" d="M 124.36,47.15 Q 129.98,23.58 150.00,12.00 Q 170.02,23.58 175.64,47.15 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="150.00" y1="40.00" x2="150.00" y2="20.00" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="150.00" cy="30.00" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-10" d="M 179.22,48.11 Q 195.87,30.50 219.00,30.49 Q 230.55,50.53 223.63,73.75 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="205.00" y1="54.74" x2="215.00" y2="37.42" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="210.00" cy="46.08" r="2" fill="#F3B9A6"/>
+    <path id="mandala-outer-petal-11" d="M 226.25,76.37 Q 249.47,69.45 269.51,81.00 Q 269.50,104.13 251.89,120.78 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <line x1="245.26" y1="95.00" x2="262.58" y2="85.00" stroke="#D98F78" stroke-width="1.2"/>
+    <circle cx="253.92" cy="90.00" r="2" fill="#F3B9A6"/>
+    <circle id="mandala-ring-106" cx="150" cy="150" r="106" fill="#1E2C70" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="251.00" cy="150.00" r="1.8" fill="#D98F78"/>
+    <circle cx="247.56" cy="176.14" r="1.8" fill="#D98F78"/>
+    <circle cx="237.47" cy="200.50" r="1.8" fill="#D98F78"/>
+    <circle cx="221.42" cy="221.42" r="1.8" fill="#D98F78"/>
+    <circle cx="200.50" cy="237.47" r="1.8" fill="#D98F78"/>
+    <circle cx="176.14" cy="247.56" r="1.8" fill="#D98F78"/>
+    <circle cx="150.00" cy="251.00" r="1.8" fill="#D98F78"/>
+    <circle cx="123.86" cy="247.56" r="1.8" fill="#D98F78"/>
+    <circle cx="99.50" cy="237.47" r="1.8" fill="#D98F78"/>
+    <circle cx="78.58" cy="221.42" r="1.8" fill="#D98F78"/>
+    <circle cx="62.53" cy="200.50" r="1.8" fill="#D98F78"/>
+    <circle cx="52.44" cy="176.14" r="1.8" fill="#D98F78"/>
+    <circle cx="49.00" cy="150.00" r="1.8" fill="#D98F78"/>
+    <circle cx="52.44" cy="123.86" r="1.8" fill="#D98F78"/>
+    <circle cx="62.53" cy="99.50" r="1.8" fill="#D98F78"/>
+    <circle cx="78.58" cy="78.58" r="1.8" fill="#D98F78"/>
+    <circle cx="99.50" cy="62.53" r="1.8" fill="#D98F78"/>
+    <circle cx="123.86" cy="52.44" r="1.8" fill="#D98F78"/>
+    <circle cx="150.00" cy="49.00" r="1.8" fill="#D98F78"/>
+    <circle cx="176.14" cy="52.44" r="1.8" fill="#D98F78"/>
+    <circle cx="200.50" cy="62.53" r="1.8" fill="#D98F78"/>
+    <circle cx="221.42" cy="78.58" r="1.8" fill="#D98F78"/>
+    <circle cx="237.47" cy="99.50" r="1.8" fill="#D98F78"/>
+    <circle cx="247.56" cy="123.86" r="1.8" fill="#D98F78"/>
+    <path id="mandala-mid-petal-0" d="M 221.96,152.51 Q 239.12,162.53 242.73,174.85 Q 233.45,183.71 213.57,183.80 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="230.17" cy="171.48" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-1" d="M 211.06,188.15 Q 220.92,205.41 217.88,217.88 Q 205.41,220.92 188.15,211.06 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="208.69" cy="208.69" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-2" d="M 183.80,213.57 Q 183.71,233.45 174.85,242.73 Q 162.53,239.12 152.51,221.96 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="171.48" cy="230.17" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-3" d="M 147.49,221.96 Q 137.47,239.12 125.15,242.73 Q 116.29,233.45 116.20,213.57 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="128.52" cy="230.17" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-4" d="M 111.85,211.06 Q 94.59,220.92 82.12,217.88 Q 79.08,205.41 88.94,188.15 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="91.31" cy="208.69" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-5" d="M 86.43,183.80 Q 66.55,183.71 57.27,174.85 Q 60.88,162.53 78.04,152.51 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="69.83" cy="171.48" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-6" d="M 78.04,147.49 Q 60.88,137.47 57.27,125.15 Q 66.55,116.29 86.43,116.20 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="69.83" cy="128.52" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-7" d="M 88.94,111.85 Q 79.08,94.59 82.12,82.12 Q 94.59,79.08 111.85,88.94 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="91.31" cy="91.31" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-8" d="M 116.20,86.43 Q 116.29,66.55 125.15,57.27 Q 137.47,60.88 147.49,78.04 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="128.52" cy="69.83" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-9" d="M 152.51,78.04 Q 162.53,60.88 174.85,57.27 Q 183.71,66.55 183.80,86.43 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="171.48" cy="69.83" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-10" d="M 188.15,88.94 Q 205.41,79.08 217.88,82.12 Q 220.92,94.59 211.06,111.85 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="208.69" cy="91.31" r="2.5" fill="#C9A24B"/>
+    <path id="mandala-mid-petal-11" d="M 213.57,116.20 Q 233.45,116.29 242.73,125.15 Q 239.12,137.47 221.96,147.49 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="230.17" cy="128.52" r="2.5" fill="#C9A24B"/>
+    <circle id="mandala-ring-72" cx="150" cy="150" r="72" fill="#1E2C70" stroke="#D98F78" stroke-width="1.5"/>
+    <circle id="mandala-ring-64" cx="150" cy="150" r="64" fill="#12308F" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="2,2"/>
+    <line x1="215.00" y1="150.00" x2="221.00" y2="150.00" stroke="#D98F78" stroke-width="1"/>
+    <line x1="214.01" y1="161.29" x2="219.92" y2="162.33" stroke="#D98F78" stroke-width="1"/>
+    <line x1="211.08" y1="172.23" x2="216.72" y2="174.28" stroke="#D98F78" stroke-width="1"/>
+    <line x1="206.29" y1="182.50" x2="211.49" y2="185.50" stroke="#D98F78" stroke-width="1"/>
+    <line x1="199.79" y1="191.78" x2="204.39" y2="195.64" stroke="#D98F78" stroke-width="1"/>
+    <line x1="191.78" y1="199.79" x2="195.64" y2="204.39" stroke="#D98F78" stroke-width="1"/>
+    <line x1="182.50" y1="206.29" x2="185.50" y2="211.49" stroke="#D98F78" stroke-width="1"/>
+    <line x1="172.23" y1="211.08" x2="174.28" y2="216.72" stroke="#D98F78" stroke-width="1"/>
+    <line x1="161.29" y1="214.01" x2="162.33" y2="219.92" stroke="#D98F78" stroke-width="1"/>
+    <line x1="150.00" y1="215.00" x2="150.00" y2="221.00" stroke="#D98F78" stroke-width="1"/>
+    <line x1="138.71" y1="214.01" x2="137.67" y2="219.92" stroke="#D98F78" stroke-width="1"/>
+    <line x1="127.77" y1="211.08" x2="125.72" y2="216.72" stroke="#D98F78" stroke-width="1"/>
+    <line x1="117.50" y1="206.29" x2="114.50" y2="211.49" stroke="#D98F78" stroke-width="1"/>
+    <line x1="108.22" y1="199.79" x2="104.36" y2="204.39" stroke="#D98F78" stroke-width="1"/>
+    <line x1="100.21" y1="191.78" x2="95.61" y2="195.64" stroke="#D98F78" stroke-width="1"/>
+    <line x1="93.71" y1="182.50" x2="88.51" y2="185.50" stroke="#D98F78" stroke-width="1"/>
+    <line x1="88.92" y1="172.23" x2="83.28" y2="174.28" stroke="#D98F78" stroke-width="1"/>
+    <line x1="85.99" y1="161.29" x2="80.08" y2="162.33" stroke="#D98F78" stroke-width="1"/>
+    <line x1="85.00" y1="150.00" x2="79.00" y2="150.00" stroke="#D98F78" stroke-width="1"/>
+    <line x1="85.99" y1="138.71" x2="80.08" y2="137.67" stroke="#D98F78" stroke-width="1"/>
+    <line x1="88.92" y1="127.77" x2="83.28" y2="125.72" stroke="#D98F78" stroke-width="1"/>
+    <line x1="93.71" y1="117.50" x2="88.51" y2="114.50" stroke="#D98F78" stroke-width="1"/>
+    <line x1="100.21" y1="108.22" x2="95.61" y2="104.36" stroke="#D98F78" stroke-width="1"/>
+    <line x1="108.22" y1="100.21" x2="104.36" y2="95.61" stroke="#D98F78" stroke-width="1"/>
+    <line x1="117.50" y1="93.71" x2="114.50" y2="88.51" stroke="#D98F78" stroke-width="1"/>
+    <line x1="127.77" y1="88.92" x2="125.72" y2="83.28" stroke="#D98F78" stroke-width="1"/>
+    <line x1="138.71" y1="85.99" x2="137.67" y2="80.08" stroke="#D98F78" stroke-width="1"/>
+    <line x1="150.00" y1="85.00" x2="150.00" y2="79.00" stroke="#D98F78" stroke-width="1"/>
+    <line x1="161.29" y1="85.99" x2="162.33" y2="80.08" stroke="#D98F78" stroke-width="1"/>
+    <line x1="172.23" y1="88.92" x2="174.28" y2="83.28" stroke="#D98F78" stroke-width="1"/>
+    <line x1="182.50" y1="93.71" x2="185.50" y2="88.51" stroke="#D98F78" stroke-width="1"/>
+    <line x1="191.78" y1="100.21" x2="195.64" y2="95.61" stroke="#D98F78" stroke-width="1"/>
+    <line x1="199.79" y1="108.22" x2="204.39" y2="104.36" stroke="#D98F78" stroke-width="1"/>
+    <line x1="206.29" y1="117.50" x2="211.49" y2="114.50" stroke="#D98F78" stroke-width="1"/>
+    <line x1="211.08" y1="127.77" x2="216.72" y2="125.72" stroke="#D98F78" stroke-width="1"/>
+    <line x1="214.01" y1="138.71" x2="219.92" y2="137.67" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-0" d="M 185.34,143.13 Q 201.74,144.81 208.00,150.00 Q 201.74,155.19 185.34,156.87 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="188.00" y1="150.00" x2="208.00" y2="150.00" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-1" d="M 184.04,161.72 Q 197.40,171.37 200.23,179.00 Q 192.21,180.37 177.17,173.62 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="182.91" y1="169.00" x2="200.23" y2="179.00" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-2" d="M 173.62,177.17 Q 180.37,192.21 179.00,200.23 Q 171.37,197.40 161.72,184.04 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="169.00" y1="182.91" x2="179.00" y2="200.23" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-3" d="M 156.87,185.34 Q 155.19,201.74 150.00,208.00 Q 144.81,201.74 143.13,185.34 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="150.00" y1="188.00" x2="150.00" y2="208.00" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-4" d="M 138.28,184.04 Q 128.63,197.40 121.00,200.23 Q 119.63,192.21 126.38,177.17 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="131.00" y1="182.91" x2="121.00" y2="200.23" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-5" d="M 122.83,173.62 Q 107.79,180.37 99.77,179.00 Q 102.60,171.37 115.96,161.72 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="117.09" y1="169.00" x2="99.77" y2="179.00" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-6" d="M 114.66,156.87 Q 98.26,155.19 92.00,150.00 Q 98.26,144.81 114.66,143.13 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="112.00" y1="150.00" x2="92.00" y2="150.00" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-7" d="M 115.96,138.28 Q 102.60,128.63 99.77,121.00 Q 107.79,119.63 122.83,126.38 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="117.09" y1="131.00" x2="99.77" y2="121.00" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-8" d="M 126.38,122.83 Q 119.63,107.79 121.00,99.77 Q 128.63,102.60 138.28,115.96 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="131.00" y1="117.09" x2="121.00" y2="99.77" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-9" d="M 143.13,114.66 Q 144.81,98.26 150.00,92.00 Q 155.19,98.26 156.87,114.66 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="150.00" y1="112.00" x2="150.00" y2="92.00" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-10" d="M 161.72,115.96 Q 171.37,102.60 179.00,99.77 Q 180.37,107.79 173.62,122.83 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="169.00" y1="117.09" x2="179.00" y2="99.77" stroke="#D98F78" stroke-width="1"/>
+    <path id="mandala-inner-petal-11" d="M 177.17,126.38 Q 192.21,119.63 200.23,121.00 Q 197.40,128.63 184.04,138.28 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4"/>
+    <line x1="182.91" y1="131.00" x2="200.23" y2="121.00" stroke="#D98F78" stroke-width="1"/>
+    <circle id="mandala-core-ring" cx="150" cy="150" r="36" fill="#12308F" stroke="#D98F78" stroke-width="1.5"/>
+    <circle cx="181.00" cy="150.00" r="1.5" fill="#F3B9A6"/>
+    <circle cx="176.85" cy="165.50" r="1.5" fill="#F3B9A6"/>
+    <circle cx="165.50" cy="176.85" r="1.5" fill="#F3B9A6"/>
+    <circle cx="150.00" cy="181.00" r="1.5" fill="#F3B9A6"/>
+    <circle cx="134.50" cy="176.85" r="1.5" fill="#F3B9A6"/>
+    <circle cx="123.15" cy="165.50" r="1.5" fill="#F3B9A6"/>
+    <circle cx="119.00" cy="150.00" r="1.5" fill="#F3B9A6"/>
+    <circle cx="123.15" cy="134.50" r="1.5" fill="#F3B9A6"/>
+    <circle cx="134.50" cy="123.15" r="1.5" fill="#F3B9A6"/>
+    <circle cx="150.00" cy="119.00" r="1.5" fill="#F3B9A6"/>
+    <circle cx="165.50" cy="123.15" r="1.5" fill="#F3B9A6"/>
+    <circle cx="176.85" cy="134.50" r="1.5" fill="#F3B9A6"/>
+    <polygon id="mandala-star" points="174.00,150.00 163.52,153.62 170.78,162.00 159.90,159.90 162.00,170.78 153.62,163.52 150.00,174.00 146.38,163.52 138.00,170.78 140.10,159.90 129.22,162.00 136.48,153.62 126.00,150.00 136.48,146.38 129.22,138.00 140.10,140.10 138.00,129.22 146.38,136.48 150.00,126.00 153.62,136.48 162.00,129.22 159.90,140.10 170.78,138.00 163.52,146.38" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.2"/>
+    <circle id="mandala-bindu-outer" cx="150" cy="150" r="10" fill="#12308F" stroke="#D98F78" stroke-width="1.2"/>
+    <circle id="mandala-bindu-gold" cx="150" cy="150" r="6" fill="#C9A24B"/>
+    <circle id="mandala-bindu-dot" cx="150" cy="150" r="2.5" fill="#FBF6EC"/>
+  </g>
+</svg>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T04 — Scene Art Contact Sheet (B1–B13)</title>
+  <link rel="stylesheet" href="../../src/styles/tokens.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--navy-deep);
+      background-image: url('tile-wave.svg');
+      background-repeat: repeat;
+      color: var(--ivory);
+      font-family: var(--font-text, 'Cormorant Garamond', Georgia, serif);
+      padding: 32px 16px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+      max-width: 640px;
+    }
+    h1 {
+      font-family: var(--font-script, 'Great Vibes', cursive);
+      font-size: 2.8rem;
+      color: var(--copper);
+      font-weight: normal;
+      margin-bottom: 6px;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+    .subtitle {
+      font-family: var(--font-caps, 'Cinzel', serif);
+      font-size: 0.85rem;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .header-divider {
+      width: 240px;
+      height: 24px;
+      margin: 0 auto;
+      display: block;
+    }
+    .console-badge {
+      background: rgba(10, 27, 92, 0.9);
+      border: 1px solid var(--green);
+      border-radius: 6px;
+      padding: 10px 16px;
+      margin-top: 14px;
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: var(--green);
+      display: inline-block;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 1100px;
+    }
+    .card {
+      background: rgba(18, 48, 143, 0.25);
+      border: 1px solid var(--copper);
+      border-radius: 8px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      backdrop-filter: blur(4px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .card-header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px dashed rgba(217, 143, 120, 0.4);
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+    }
+    .card-title {
+      font-family: var(--font-caps, 'Cinzel', serif);
+      font-size: 0.95rem;
+      color: var(--peach);
+      letter-spacing: 0.05em;
+    }
+    .card-meta {
+      font-size: 0.75rem;
+      color: var(--gold-light);
+      font-family: monospace;
+    }
+    .preview-box {
+      width: 100%;
+      min-height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px;
+      background: rgba(10, 27, 92, 0.7);
+      border-radius: 6px;
+      border: 1px solid rgba(52, 69, 155, 0.4);
+      overflow: hidden;
+    }
+    .preview-box img, .preview-box object, .preview-box svg {
+      max-width: 100%;
+      max-height: 240px;
+      object-fit: contain;
+    }
+    .card-desc {
+      margin-top: 12px;
+      font-size: 0.85rem;
+      color: var(--ivory);
+      opacity: 0.85;
+      text-align: center;
+      line-height: 1.4;
+    }
+    .multi-preview {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .door-pair {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+      height: 240px;
+    }
+    .door-pair img {
+      height: 240px;
+      width: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="subtitle">16th Birthday Puja Invitation — Assets QA</div>
+    <h1>Scene Art Contact Sheet (B1–B13)</h1>
+    <img src="divider-lotus.svg" alt="divider" class="header-divider">
+    <div id="qa-console" class="console-badge">Testing required IDs in DOM...</div>
+  </header>
+
+  <main class="grid">
+
+    <!-- B1: door-left.svg & door-right.svg -->
+    <div class="card" style="grid-column: span 1;">
+      <div class="card-header">
+        <span class="card-title">B1 · door-left & door-right</span>
+        <span class="card-meta">195×844 ea (5.6 KB)</span>
+      </div>
+      <div class="preview-box">
+        <div class="door-pair">
+          <img src="door-left.svg" alt="door left">
+          <img src="door-right.svg" alt="door right">
+        </div>
+      </div>
+      <p class="card-desc">Carved jharokha doors with cusped arch jaali, lotus rosettes, brass studs & centered copper seam.</p>
+    </div>
+
+    <!-- B2: bell.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B2 · bell.svg</span>
+        <span class="card-meta">120×260 (2.3 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="bell.svg" height="230" alt="temple bell">
+      </div>
+      <p class="card-desc">Brass temple bell with swingable body (<code>#bell-body</code>), rope & 44px handle.</p>
+    </div>
+
+    <!-- B3: rangoli.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B3 · rangoli.svg</span>
+        <span class="card-meta">300×300 (3.9 KB)</span>
+      </div>
+      <div class="preview-box" id="container-rangoli">
+        <!-- Inlined for DOM query verification -->
+      </div>
+      <p class="card-desc">Continuous stroke-only paths <code>#rangoli-r1</code> through <code>#rangoli-r8</code> (inner→outer, fill:none).</p>
+    </div>
+
+    <!-- B4: palm-leaf.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B4 · palm-leaf.svg</span>
+        <span class="card-meta">340×560 (5.4 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="palm-leaf.svg" height="220" alt="palm leaf">
+      </div>
+      <p class="card-desc">Tall Odia palm-leaf manuscript with copper edge lines, 2 string holes & tied gold cord.</p>
+    </div>
+
+    <!-- B5: stylus.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B5 · stylus.svg</span>
+        <span class="card-meta">24×60 (1.0 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="stylus.svg" height="150" alt="copper stylus">
+      </div>
+      <p class="card-desc">Traditional copper/iron stylus (lohakanthaka) with carved lotus finial & engraving nib.</p>
+    </div>
+
+    <!-- B6: leaf-roll.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B6 · leaf-roll.svg</span>
+        <span class="card-meta">340×24 (1.1 KB)</span>
+      </div>
+      <div class="preview-box" style="flex-direction:column; gap:16px;">
+        <img src="leaf-roll.svg" width="280" alt="leaf roll">
+      </div>
+      <p class="card-desc">3D rolled palm-leaf cylinder strip for scroll reveal animation.</p>
+    </div>
+
+    <!-- B7: vine.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B7 · vine.svg</span>
+        <span class="card-meta">390×700 (9.2 KB)</span>
+      </div>
+      <div class="preview-box" id="container-vine">
+        <!-- Inlined for DOM query verification -->
+      </div>
+      <p class="card-desc">Tree of life: <code>#vine-stem</code>, branches <code>#vine-b1..b3</code>, leaves <code>.vine-leaf</code>, nodes <code>#vine-bloom-gp</code>, <code>#vine-bloom-parents</code>, <code>#vine-bloom-top</code>.</p>
+    </div>
+
+    <!-- B8: path-alpana.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B8 · path-alpana.svg</span>
+        <span class="card-meta">390×640 (2.1 KB)</span>
+      </div>
+      <div class="preview-box" id="container-path">
+        <!-- Inlined for DOM query verification -->
+      </div>
+      <p class="card-desc">Dotted S-curve <code>#route-line</code> with stroke-dasharray (so <code>getPointAtLength</code> works) + alpana markers.</p>
+    </div>
+
+    <!-- B9: house.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B9 · house.svg</span>
+        <span class="card-meta">200×180 (1.9 KB)</span>
+      </div>
+      <div class="preview-box" id="container-house">
+        <!-- Inlined for DOM query verification -->
+      </div>
+      <p class="card-desc">Village house with thatch roof: <code>#house-win1</code>, <code>#house-win2</code>, <code>#house-door</code> (dark navy-mid by default).</p>
+    </div>
+
+    <!-- B10: aarti-lamp.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B10 · aarti-lamp.svg</span>
+        <span class="card-meta">44×44 (1.2 KB)</span>
+      </div>
+      <div class="preview-box">
+        <div class="multi-preview">
+          <img src="aarti-lamp.svg" width="44" height="44" alt="aarti lamp 1x">
+          <img src="aarti-lamp.svg" width="88" height="88" alt="aarti lamp 2x">
+        </div>
+      </div>
+      <p class="card-desc">Aarti thali & lamp icon with warm radial glow aura for the shloka orbit reveal.</p>
+    </div>
+
+    <!-- B11: scratch-foil.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B11 · scratch-foil.svg</span>
+        <span class="card-meta">330×210 (4.0 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="scratch-foil.svg" width="280" alt="scratch foil">
+      </div>
+      <p class="card-desc">Brushed metallic gold foil with tone-on-tone etched mandala pattern (no text).</p>
+    </div>
+
+    <!-- B12: lamp.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B12 · lamp.svg</span>
+        <span class="card-meta">28×28 (1.0 KB)</span>
+      </div>
+      <div class="preview-box">
+        <div class="multi-preview">
+          <img src="lamp.svg" width="28" height="28" alt="lamp 1x">
+          <img src="lamp.svg" width="56" height="56" alt="lamp 2x">
+        </div>
+      </div>
+      <p class="card-desc">Small flame-lamp marker (28px) driven along the path by scroll.</p>
+    </div>
+
+    <!-- B13: placeholder-portrait.svg -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">B13 · placeholder-portrait</span>
+        <span class="card-meta">300×300 (3.1 KB)</span>
+      </div>
+      <div class="preview-box">
+        <img src="../img/placeholder-portrait.svg" width="180" height="180" alt="placeholder portrait">
+      </div>
+      <p class="card-desc">Festive Indian woman profile silhouette with jasmine gajra, maang tikka, jhumka & saree drape.</p>
+    </div>
+
+  </main>
+
+  <footer style="margin-top: 40px; text-align: center;">
+    <img src="divider-diamond.svg" alt="divider" style="width:200px; display:block; margin:0 auto 12px;">
+    <div style="font-family:var(--font-caps, 'Cinzel'); font-size:0.75rem; letter-spacing:0.1em; color:var(--peach);">
+      All Set B scene art conforms strictly to DESIGN-TOKENS.md & REQUIREMENTS.md B1–B13
+    </div>
+  </footer>
+
+  <script>
+    // Fetch and inline SVG files so document.getElementById queries are verified live
+    async function loadAndVerify() {
+      const filesToInline = [
+        { url: 'rangoli.svg', target: 'container-rangoli' },
+        { url: 'vine.svg', target: 'container-vine' },
+        { url: 'path-alpana.svg', target: 'container-path' },
+        { url: 'house.svg', target: 'container-house' }
+      ];
+
+      for (const item of filesToInline) {
+        const resp = await fetch(item.url);
+        const text = await resp.text();
+        document.getElementById(item.target).innerHTML = text;
+      }
+
+      // Verify all required IDs
+      const requiredIds = [
+        "rangoli-r1", "rangoli-r2", "rangoli-r3", "rangoli-r4",
+        "rangoli-r5", "rangoli-r6", "rangoli-r7", "rangoli-r8",
+        "vine-stem", "vine-b1", "vine-b2", "vine-b3",
+        "vine-bloom-gp", "vine-bloom-parents", "vine-bloom-top",
+        "route-line", "house-win1", "house-win2", "house-door"
+      ];
+
+      let allOk = true;
+      for (const id of requiredIds) {
+        const el = document.getElementById(id);
+        if (!el) {
+          console.error("DOM CHECK FAILED: Missing #" + id);
+          allOk = false;
+        } else {
+          console.log("DOM CHECK PASSED: Found #" + id, el.tagName);
+        }
+      }
+
+      const leafCount = document.querySelectorAll('.vine-leaf').length;
+      console.log("DOM CHECK PASSED: .vine-leaf count =", leafCount);
+
+      const badge = document.getElementById('qa-console');
+      if (allOk && leafCount > 0) {
+        badge.textContent = `✓ All ${requiredIds.length} required IDs + ${leafCount} .vine-leaf verified in DOM`;
+        badge.style.color = '#2FA07F';
+      } else {
+        badge.textContent = "✗ Some IDs failed DOM check — see console";
+        badge.style.color = '#D81B72';
+      }
+    }
+    loadAndVerify();
+  </script>
+
+</body>
+</html>

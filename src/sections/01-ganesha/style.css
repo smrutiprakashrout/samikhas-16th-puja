@@ -1,0 +1,65 @@
+/* ===== CHAPTER 1 — Ganesha on sand ===== */
+.ch1{position:relative}
+.ch1 .stage{position:sticky;top:0;overflow:hidden;background:var(--sand)}
+.ch1 .glow{position:absolute;left:50%;top:calc(var(--u)*410px);width:130%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;opacity:0;transition:opacity 2.2s ease .4s;
+  background:radial-gradient(circle,color-mix(in srgb,var(--flood) 95%,transparent) 0,rgba(255,226,166,.6) 24%,color-mix(in srgb,var(--marigold) 22%,transparent) 46%,transparent 66%)}
+.ch1 .entered .glow{opacity:1}
+.rays2{position:absolute;left:50%;top:calc(var(--u)*410px);width:210%;aspect-ratio:1;translate:-50% -50%;opacity:0;transition:opacity 2.4s ease 1s;pointer-events:none;
+  -webkit-mask:radial-gradient(circle,#000 0,transparent 55%);mask:radial-gradient(circle,#000 0,transparent 55%)}
+.entered .rays2{opacity:1}
+.ch1 #motes{opacity:0;transition:opacity 2s ease 1.6s}
+.ch1 .entered #motes{opacity:1}
+.t{position:absolute;left:0;right:0;text-align:center;opacity:0;transform:translateY(14px);transition:opacity 1.2s var(--ease-out),transform 1.4s var(--ease-out)}
+.entered .t{opacity:1;transform:none}
+.kicker{top:calc(var(--u)*104px);color:color-mix(in srgb,var(--ink) 74%,transparent);transition-delay:.5s}
+.odia-t{top:calc(var(--u)*126px);font:600 clamp(21px,calc(var(--u)*24px),26px)/1.5 var(--odia);color:var(--ink);transition-delay:.8s}
+.hg{position:absolute;left:50%;top:calc(var(--u)*210px);width:var(--gw);height:var(--gh);margin-left:calc(var(--gw)/-2);transform-origin:50% 0;z-index:10;will-change:transform}
+.hrise{position:absolute;inset:0;opacity:0;transform:translateY(40px) scale(.97);transition:opacity 1.6s var(--ease-out) 1.1s,transform 1.8s var(--ease-out) 1.1s}
+.entered .hrise{opacity:1;transform:none}
+.hg img{position:absolute;inset:0;width:100%;height:100%;display:block;filter:drop-shadow(0 10px 14px color-mix(in srgb,var(--wood-dk) 18%,transparent))}
+.gshadow{position:absolute;left:8%;right:8%;bottom:-3%;height:7%;border-radius:50%;background:radial-gradient(ellipse,color-mix(in srgb,var(--wood-dk) 34%,transparent),transparent 70%);filter:blur(4px)}
+.halo{position:absolute;left:50%;top:30%;width:158%;translate:-50% -50%;overflow:visible;pointer-events:none;z-index:-1}
+.halo .spin{transform-origin:0 0;animation:spin2 100s linear infinite}
+.halo .r{animation-direction:reverse;animation-duration:70s}
+@keyframes spin2{to{transform:rotate(360deg)}}
+#haloDraw{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2.4s ease 1.2s}
+.entered #haloDraw{stroke-dashoffset:0}
+.halo .spin{opacity:0;transition:opacity 2s ease 1.6s}
+.entered .halo .spin{opacity:1}
+.lotus{position:absolute;left:-10%;width:120%;top:calc(var(--gh)*1.0 - var(--gw)*1.2*.613*.478);overflow:visible;pointer-events:none}
+.lotus.back{z-index:-1}
+.lotus.front{z-index:2}
+.lp{transform:scale(0);transform-origin:0 0;transition:transform 1.4s var(--ease-out);transition-delay:calc(1.5s + var(--d)*8ms)}
+.entered .lp{transform:scale(1)}
+.shloka{position:absolute;left:0;right:0;top:calc(var(--u)*468px);text-align:center;display:grid;gap:calc(var(--u)*6px);z-index:12}
+.shloka p{font:600 clamp(19px,calc(var(--u)*22px),25px)/1.5 var(--odia);color:var(--ink);clip-path:inset(0 100% 0 0);opacity:0}
+.divider{position:absolute;left:50%;top:calc(var(--u)*646px);width:120px;margin-left:-60px;height:8px;display:flex;align-items:center;justify-content:center;z-index:12}
+.divider i{position:absolute;left:0;right:0;top:50%;height:1px;background:var(--wood);transform:scaleX(0)}
+.divider b{width:6px;height:6px;rotate:45deg;background:var(--saffron-deep);transform:scale(0);position:relative;z-index:1;box-shadow:0 0 0 4px var(--sand)}
+.meaning{position:absolute;left:50%;top:calc(var(--u)*668px);width:min(calc(100% - 48px),290px);margin-left:calc(min(calc(100% - 48px),290px)/-2);text-align:center;font:italic 400 19px/1.42 var(--display);color:color-mix(in srgb,var(--ink) 80%,transparent);z-index:12;text-wrap:balance}
+.meaning .w{display:inline-block;opacity:0;transform:translateY(8px)}
+.hint{position:absolute;left:0;right:0;bottom:calc(var(--u)*30px);text-align:center;color:color-mix(in srgb,var(--ink) 70%,transparent);opacity:0;transition:opacity .5s;z-index:12}
+.hint i{display:block;margin:8px auto 0;width:1px;height:26px;background:linear-gradient(var(--wood),transparent)}
+.garl{position:absolute;left:0;top:0;width:100%;height:auto;z-index:20;overflow:visible;pointer-events:none;will-change:transform}
+.garl .drop{transform:translateY(-130%);transition:transform 1.8s var(--ease-out)}
+.entered .garl .drop{transform:none}
+.entered .garl .d2{transition-delay:.15s}
+.entered .garl .d3{transition-delay:.3s}
+.sw1{transform-origin:26px -4px;animation:sw 5.5s ease-in-out infinite}
+.sw2{transform-origin:364px -4px;animation:sw 6.8s ease-in-out infinite reverse}
+.sw0{transform-origin:195px -4px;animation:sw0 7.5s ease-in-out infinite}
+@keyframes sw{0%,100%{rotate:-1.2deg}50%{rotate:1.2deg}}
+@keyframes sw0{0%,100%{rotate:-.35deg}50%{rotate:.35deg}}
+.ch1 .entered .pt{animation-play-state:running}
+
+@media (prefers-reduced-motion:reduce){
+  .ch1 .halo .spin,.ch1 .sw0,.ch1 .sw1,.ch1 .sw2{animation:none!important}
+  .ch1 .lp{transform:scale(1)!important;transition:none!important}
+  .ch1 #haloDraw{stroke-dashoffset:0!important;transition:none!important}
+  .ch1 .reduced .glow,.ch1 .reduced .rays2,.ch1 .reduced .garl .drop,.ch1 .reduced .t,.ch1 .reduced .hrise,.ch1 .reduced .halo .spin{
+    opacity:0;transform:none!important;translate:none!important;transition:opacity .3s ease!important;transition-delay:0s!important
+  }
+  .ch1 .reduced.entered .glow,.ch1 .reduced.entered .rays2,.ch1 .reduced.entered .garl .drop,
+  .ch1 .reduced.entered .t,.ch1 .reduced.entered .hrise,.ch1 .reduced.entered .halo .spin{opacity:1}
+  .ch1 .shloka p,.ch1 .meaning .w,.ch1 .divider i,.ch1 .divider b{transition:none!important}
+}

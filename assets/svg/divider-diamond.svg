@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 12">
+  <g id="divider-diamond-root">
+    <line id="divider-diamond-line-left" x1="12" y1="6" x2="104" y2="6" stroke="#D98F78" stroke-width="1"/>
+    <line id="divider-diamond-line-right" x1="136" y1="6" x2="228" y2="6" stroke="#D98F78" stroke-width="1"/>
+    <circle cx="12" cy="6" r="1.5" fill="#D98F78"/>
+    <circle cx="228" cy="6" r="1.5" fill="#D98F78"/>
+    <circle cx="45" cy="6" r="1.2" fill="#D98F78"/>
+    <circle cx="75" cy="6" r="1.2" fill="#D98F78"/>
+    <circle cx="165" cy="6" r="1.2" fill="#D98F78"/>
+    <circle cx="195" cy="6" r="1.2" fill="#D98F78"/>
+    <polygon id="divider-diamond-side-l" points="110,3.5 112.5,6 110,8.5 107.5,6" fill="#D98F78"/>
+    <polygon id="divider-diamond-side-r" points="130,3.5 132.5,6 130,8.5 127.5,6" fill="#D98F78"/>
+    <circle cx="104" cy="6" r="1.2" fill="#D98F78"/>
+    <circle cx="136" cy="6" r="1.2" fill="#D98F78"/>
+    <polygon id="divider-diamond-main" points="120,1.5 124.5,6 120,10.5 115.5,6" fill="#C9A24B" stroke="#D98F78" stroke-width="1"/>
+    <circle id="divider-diamond-center-dot" cx="120" cy="6" r="1.2" fill="#FBF6EC"/>
+  </g>
+</svg>

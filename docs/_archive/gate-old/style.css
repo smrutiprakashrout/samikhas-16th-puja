@@ -1,0 +1,147 @@
+.gate {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  overflow: hidden;
+  background: var(--navy-deep);
+  color: var(--ivory);
+}
+.gate [hidden] { display: none !important; }
+
+.gate__bg {
+  position: absolute;
+  inset: 0;
+  background: url('/svg/tile-wave.svg') repeat center / 100% auto, var(--navy-deep);
+}
+
+.gate__doors {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  z-index: 1;
+}
+.gate__door {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+.gate__door--left { transform-origin: left center; }
+.gate__door--right { transform-origin: right center; }
+.gate__door img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gate__door--right img { transform: scaleX(-1); }
+
+.gate__sanskrit {
+  position: absolute;
+  z-index: 2;
+  top: calc(env(safe-area-inset-top) + 24px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 48px);
+  margin: 0;
+  font-family: var(--font-deva);
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--peach-light);
+}
+
+.gate__bell {
+  position: absolute;
+  z-index: 3;
+  top: calc(env(safe-area-inset-top) + 88px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 96px;
+  height: 208px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.gate__bell-art {
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 5%;
+  display: block;
+}
+.gate__bell-fallback,
+.gate__bell-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.gate__grab {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 44px;
+  height: 44px;
+}
+
+.gate__diya {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: calc(env(safe-area-inset-bottom) + 96px);
+  transform: translateX(-50%);
+  width: 160px;
+  height: 128px;
+}
+.gate__diya-canvas,
+.gate__diya-inline,
+.gate__diya-inline svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.gate__flame,
+.gate__glow {
+  opacity: 0;
+  transform: scale(0.3);
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+.gate__diya-inline [data-placeholder],
+.gate__diya-inline.gate__ph {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--copper);
+  border-radius: 50%;
+}
+
+.gate__hint {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  bottom: calc(env(safe-area-inset-bottom) + 16px);
+  transform: translateX(-50%);
+  min-width: 260px;
+  min-height: 44px;
+  padding: 12px 20px;
+  border: 0;
+  background: none;
+  color: var(--peach);
+  font-family: var(--font-caps);
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  cursor: pointer;
+  animation: gate-hint-pulse 1.8s var(--ease-calm) infinite alternate;
+}
+@keyframes gate-hint-pulse {
+  from { opacity: 0.45; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gate__hint { animation: none; opacity: 1; }
+}

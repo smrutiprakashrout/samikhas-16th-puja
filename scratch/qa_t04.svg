@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844"><defs><pattern id="qa-wave-pat-b" width="64" height="64" patternUnits="userSpaceOnUse"><g id="tile-wave-root">
+    <rect id="tile-wave-bg" width="64" height="64" fill="#0A1B5C" />
+    <defs>
+      <clipPath id="tile-wave-clip">
+        <rect width="64" height="64" />
+      </clipPath>
+    </defs>
+    <g clip-path="url(#tile-wave-clip)">
+      <circle cx="0" cy="0" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="0" cy="0" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="0" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="0" cy="0" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="0" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="64" cy="0" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="64" cy="0" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="0" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="64" cy="0" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="0" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="0" cy="64" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="0" cy="64" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="64" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="0" cy="64" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="64" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="64" cy="64" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="64" cy="64" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="64" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="64" cy="64" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="64" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="32" cy="32" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="32" cy="32" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="32" cy="32" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="32" cy="32" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="32" cy="32" r="2" fill="#D98F78" opacity="0.6" />
+    </g>
+  </g>
+</pattern><style>
+      .title { font-family: 'Cinzel', serif, sans-serif; font-weight: bold; font-size: 15px; fill: #D98F78; letter-spacing: 2px; text-anchor: middle; }
+      .sub { font-family: 'Cinzel', serif, sans-serif; font-size: 9px; fill: #C9A24B; letter-spacing: 1.5px; text-anchor: middle; }
+      .lbl { font-family: monospace; font-size: 8px; fill: #F3B9A6; text-anchor: middle; }
+      .card-bg { fill: #0d1e63; fill-opacity: 0.85; stroke: #D98F78; stroke-width: 1; rx: 6; }
+    </style><pattern id="door-left-jaali" width="28" height="28" patternUnits="userSpaceOnUse">
+      <polygon points="14,2 18,10 26,14 18,18 14,26 10,18 2,14 10,10" fill="none" stroke="#F0D58A" stroke-width="0.8" />
+      <circle cx="14" cy="14" r="2.5" fill="none" stroke="#F0D58A" stroke-width="0.7" />
+    </pattern>
+  <pattern id="door-right-jaali" width="28" height="28" patternUnits="userSpaceOnUse">
+      <polygon points="14,2 18,10 26,14 18,18 14,26 10,18 2,14 10,10" fill="none" stroke="#F0D58A" stroke-width="0.8" />
+      <circle cx="14" cy="14" r="2.5" fill="none" stroke="#F0D58A" stroke-width="0.7" />
+    </pattern>
+  <linearGradient id="bell-gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9A7425" />
+      <stop offset="35%" stop-color="#F0D58A" />
+      <stop offset="70%" stop-color="#C9A24B" />
+      <stop offset="100%" stop-color="#9A7425" />
+    </linearGradient>
+  <linearGradient id="scratch-foil-gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0D58A" />
+      <stop offset="35%" stop-color="#C9A24B" />
+      <stop offset="70%" stop-color="#9A7425" />
+      <stop offset="100%" stop-color="#C9A24B" />
+    </linearGradient>
+  <linearGradient id="placeholder-portrait-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1B5C" />
+      <stop offset="100%" stop-color="#12308F" />
+    </linearGradient>
+  <linearGradient id="leaf-roll-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D98F78" />
+      <stop offset="25%" stop-color="#F3B9A6" />
+      <stop offset="55%" stop-color="#F8D2C4" />
+      <stop offset="85%" stop-color="#AD5E46" />
+      <stop offset="100%" stop-color="#0A1B5C" />
+    </linearGradient>
+  <radialGradient id="aarti-lamp-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB62E" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#F29A1F" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#F29A1F" stop-opacity="0" />
+    </radialGradient>
+  <radialGradient id="lamp-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB62E" stop-opacity="0.85" />
+      <stop offset="60%" stop-color="#F29A1F" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#F29A1F" stop-opacity="0" />
+    </radialGradient>
+  </defs><rect width="390" height="844" fill="#0A1B5C" /><rect width="390" height="844" fill="url(#qa-wave-pat-b)" opacity="0.6" /><g id="qa-header"><text x="195" y="26" class="sub">SAMIKSHYA’S 16TH BIRTHDAY PUJA</text><text x="195" y="45" class="title">T04 · SCENE ART (B1–B13)</text><g transform="translate(75, 52)"><g id="divider-lotus-root">
+    <line id="divider-lotus-line-left" x1="12" y1="12" x2="105" y2="12" stroke="#D98F78" stroke-width="1" />
+    <line id="divider-lotus-line-right" x1="135" y1="12" x2="228" y2="12" stroke="#D98F78" stroke-width="1" />
+    <circle cx="12" cy="12" r="1.5" fill="#D98F78" />
+    <circle cx="228" cy="12" r="1.5" fill="#D98F78" />
+    <polygon points="35,9.5 37.5,12 35,14.5 32.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <polygon points="70,9.5 72.5,12 70,14.5 67.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <polygon points="170,9.5 172.5,12 170,14.5 167.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <polygon points="205,9.5 207.5,12 205,14.5 202.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <path id="divider-lotus-calyx-left" d="M 120,18 C 114,19 108,18 105,15 C 109,14 116,16 120,18 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" />
+    <path id="divider-lotus-calyx-right" d="M 120,18 C 126,19 132,18 135,15 C 131,14 124,16 120,18 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" />
+    <path id="divider-lotus-petal-l" d="M 120,17 C 114,15 109,10 111,6 C 116,8 118,12 120,17 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="0.9" />
+    <path id="divider-lotus-petal-r" d="M 120,17 C 126,15 131,10 129,6 C 124,8 122,12 120,17 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="0.9" />
+    <path id="divider-lotus-petal-c" d="M 120,17 C 117,12 116,7 120,3 C 124,7 123,12 120,17 Z" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="120" cy="8" r="1" fill="#C9A24B" />
+  </g>
+</g></g><g><rect x="14" y="78" width="175" height="165" class="card-bg" /><text x="101.5" y="92" class="lbl">B1 · door-left &amp; door-right</text><g transform="translate(53, 98) scale(0.16)"><g id="door-left-root">
+    <rect id="door-left-base" width="195" height="844" fill="#0A1B5C" />
+    <rect id="door-left-frame" x="0" y="0" width="192" height="844" fill="none" stroke="#D98F78" stroke-width="3" />
+    <rect id="door-left-inner-keyline" x="8" y="8" width="176" height="828" fill="none" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="3,3" />
+    <rect id="door-left-panel-upper" x="16" y="24" width="155" height="260" rx="4" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <path id="door-left-arch-fill" d="M 26,260 L 26,120 Q 26,70 93.5,40 Q 161,70 161,120 L 161,260 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5" />
+    <path id="door-left-arch-jaali" d="M 26,260 L 26,120 Q 26,70 93.5,40 Q 161,70 161,120 L 161,260 Z" fill="url(#door-left-jaali)" />
+    <path id="door-left-arch-cusps" d="M 28,130 Q 40,105 56,95 Q 76,75 93.5,52 Q 111,75 131,95 Q 147,105 159,130" fill="none" stroke="#D98F78" stroke-width="1.8" />
+    <rect id="door-left-panel-mid" x="16" y="304" width="155" height="226" rx="4" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle id="door-left-medallion-bg" cx="93.5" cy="417" r="54" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5" />
+    <circle id="door-left-medallion-dash" cx="93.5" cy="417" r="48" fill="none" stroke="#D98F78" stroke-width="1" stroke-dasharray="2,2" />
+    <path d="M 93.5,417 Q 128.4,408.1 135.5,417.0 Q 128.4,425.9 93.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 93.5,417 Q 124.5,435.4 123.2,446.7 Q 111.9,448.0 93.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 93.5,417 Q 102.4,451.9 93.5,459.0 Q 84.6,451.9 93.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 93.5,417 Q 75.1,448.0 63.8,446.7 Q 62.5,435.4 93.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 93.5,417 Q 58.6,425.9 51.5,417.0 Q 58.6,408.1 93.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 93.5,417 Q 62.5,398.6 63.8,387.3 Q 75.1,386.0 93.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 93.5,417 Q 84.6,382.1 93.5,375.0 Q 102.4,382.1 93.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 93.5,417 Q 111.9,386.0 123.2,387.3 Q 124.5,398.6 93.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <circle id="door-left-medallion-core" cx="93.5" cy="417" r="12" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+    <circle id="door-left-medallion-dot" cx="93.5" cy="417" r="4" fill="#FBF6EC" />
+    <rect id="door-left-panel-lower" x="16" y="550" width="155" height="270" rx="4" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <rect id="door-left-panel-lower-inner" x="24" y="558" width="139" height="254" fill="#0A1B5C" stroke="#D98F78" stroke-width="1" />
+    <circle cx="40" cy="582" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="39" cy="581" r="2.5" fill="#F0D58A" />
+    <circle cx="93" cy="582" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="92" cy="581" r="2.5" fill="#F0D58A" />
+    <circle cx="146" cy="582" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="145" cy="581" r="2.5" fill="#F0D58A" />
+    <circle cx="40" cy="634" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="39" cy="633" r="2.5" fill="#F0D58A" />
+    <circle cx="93" cy="634" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="92" cy="633" r="2.5" fill="#F0D58A" />
+    <circle cx="146" cy="634" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="145" cy="633" r="2.5" fill="#F0D58A" />
+    <circle cx="40" cy="686" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="39" cy="685" r="2.5" fill="#F0D58A" />
+    <circle cx="93" cy="686" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="92" cy="685" r="2.5" fill="#F0D58A" />
+    <circle cx="146" cy="686" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="145" cy="685" r="2.5" fill="#F0D58A" />
+    <circle cx="40" cy="738" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="39" cy="737" r="2.5" fill="#F0D58A" />
+    <circle cx="93" cy="738" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="92" cy="737" r="2.5" fill="#F0D58A" />
+    <circle cx="146" cy="738" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="145" cy="737" r="2.5" fill="#F0D58A" />
+    <circle cx="40" cy="790" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="39" cy="789" r="2.5" fill="#F0D58A" />
+    <circle cx="93" cy="790" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="92" cy="789" r="2.5" fill="#F0D58A" />
+    <circle cx="146" cy="790" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="145" cy="789" r="2.5" fill="#F0D58A" />
+    <rect id="door-left-seam-bead" x="190" y="0" width="5" height="844" fill="#D98F78" />
+    <circle id="door-left-knocker-plate" cx="185" cy="422" r="14" fill="#C9A24B" stroke="#D98F78" stroke-width="1.5" />
+    <circle id="door-left-knocker-ring" cx="185" cy="432" r="10" fill="none" stroke="#AD5E46" stroke-width="2.5" />
+  </g>
+</g><g transform="translate(84.2, 98) scale(0.16)"><g id="door-right-root">
+    <rect id="door-right-base" width="195" height="844" fill="#0A1B5C" />
+    <rect id="door-right-frame" x="3" y="0" width="192" height="844" fill="none" stroke="#D98F78" stroke-width="3" />
+    <rect id="door-right-inner-keyline" x="11" y="8" width="176" height="828" fill="none" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="3,3" />
+    <rect id="door-right-panel-upper" x="24" y="24" width="155" height="260" rx="4" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <path id="door-right-arch-fill" d="M 34,260 L 34,120 Q 34,70 101.5,40 Q 169,70 169,120 L 169,260 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5" />
+    <path id="door-right-arch-jaali" d="M 34,260 L 34,120 Q 34,70 101.5,40 Q 169,70 169,120 L 169,260 Z" fill="url(#door-right-jaali)" />
+    <path id="door-right-arch-cusps" d="M 36,130 Q 48,105 64,95 Q 84,75 101.5,52 Q 119,75 139,95 Q 155,105 167,130" fill="none" stroke="#D98F78" stroke-width="1.8" />
+    <rect id="door-right-panel-mid" x="24" y="304" width="155" height="226" rx="4" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle id="door-right-medallion-bg" cx="101.5" cy="417" r="54" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5" />
+    <circle id="door-right-medallion-dash" cx="101.5" cy="417" r="48" fill="none" stroke="#D98F78" stroke-width="1" stroke-dasharray="2,2" />
+    <path d="M 101.5,417 Q 136.4,408.1 143.5,417.0 Q 136.4,425.9 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 101.5,417 Q 132.5,435.4 131.2,446.7 Q 119.9,448.0 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 101.5,417 Q 110.4,451.9 101.5,459.0 Q 92.6,451.9 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 101.5,417 Q 83.1,448.0 71.8,446.7 Q 70.5,435.4 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 101.5,417 Q 66.6,425.9 59.5,417.0 Q 66.6,408.1 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 101.5,417 Q 70.5,398.6 71.8,387.3 Q 83.1,386.0 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 101.5,417 Q 92.6,382.1 101.5,375.0 Q 110.4,382.1 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <path d="M 101.5,417 Q 119.9,386.0 131.2,387.3 Q 132.5,398.6 101.5,417 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <circle id="door-right-medallion-core" cx="101.5" cy="417" r="12" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+    <circle id="door-right-medallion-dot" cx="101.5" cy="417" r="4" fill="#FBF6EC" />
+    <rect id="door-right-panel-lower" x="24" y="550" width="155" height="270" rx="4" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <rect id="door-right-panel-lower-inner" x="32" y="558" width="139" height="254" fill="#0A1B5C" stroke="#D98F78" stroke-width="1" />
+    <circle cx="48" cy="582" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="47" cy="581" r="2.5" fill="#F0D58A" />
+    <circle cx="101" cy="582" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="100" cy="581" r="2.5" fill="#F0D58A" />
+    <circle cx="154" cy="582" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="153" cy="581" r="2.5" fill="#F0D58A" />
+    <circle cx="48" cy="634" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="47" cy="633" r="2.5" fill="#F0D58A" />
+    <circle cx="101" cy="634" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="100" cy="633" r="2.5" fill="#F0D58A" />
+    <circle cx="154" cy="634" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="153" cy="633" r="2.5" fill="#F0D58A" />
+    <circle cx="48" cy="686" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="47" cy="685" r="2.5" fill="#F0D58A" />
+    <circle cx="101" cy="686" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="100" cy="685" r="2.5" fill="#F0D58A" />
+    <circle cx="154" cy="686" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="153" cy="685" r="2.5" fill="#F0D58A" />
+    <circle cx="48" cy="738" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="47" cy="737" r="2.5" fill="#F0D58A" />
+    <circle cx="101" cy="738" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="100" cy="737" r="2.5" fill="#F0D58A" />
+    <circle cx="154" cy="738" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="153" cy="737" r="2.5" fill="#F0D58A" />
+    <circle cx="48" cy="790" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="47" cy="789" r="2.5" fill="#F0D58A" />
+    <circle cx="101" cy="790" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="100" cy="789" r="2.5" fill="#F0D58A" />
+    <circle cx="154" cy="790" r="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="153" cy="789" r="2.5" fill="#F0D58A" />
+    <rect id="door-right-seam-bead" x="0" y="0" width="5" height="844" fill="#D98F78" />
+    <circle id="door-right-knocker-plate" cx="10" cy="422" r="14" fill="#C9A24B" stroke="#D98F78" stroke-width="1.5" />
+    <circle id="door-right-knocker-ring" cx="10" cy="432" r="10" fill="none" stroke="#AD5E46" stroke-width="2.5" />
+  </g>
+</g></g><g><rect x="201" y="78" width="175" height="165" class="card-bg" /><text x="288.5" y="92" class="lbl">B2 · bell.svg (120×260)</text><g transform="translate(257, 98) scale(0.52)"><g id="bell-root">
+    <circle id="bell-top-anchor" cx="60" cy="14" r="8" fill="none" stroke="#D98F78" stroke-width="3" />
+    <rect id="bell-beam-hook" x="57" y="0" width="6" height="12" fill="#D98F78" />
+  <g id="bell-body">
+    <path id="bell-crown-loop" d="M 52,24 C 52,14 68,14 68,24 Z" fill="#C9A24B" stroke="#D98F78" stroke-width="1.5" />
+    <rect id="bell-dome-cap" x="48" y="24" width="24" height="6" rx="2" fill="#F0D58A" stroke="#D98F78" stroke-width="1" />
+    <path id="bell-dome" d="M 48,30 C 48,50 30,75 22,98 L 18,108 C 18,112 102,112 102,108 L 98,98 C 90,75 72,50 72,30 Z" fill="url(#bell-gold-grad)" stroke="#D98F78" stroke-width="1.5" stroke-linejoin="round" />
+    <ellipse id="bell-rim-lip" cx="60" cy="108" rx="42" ry="7" fill="#C9A24B" stroke="#D98F78" stroke-width="1.5" />
+    <ellipse id="bell-rim-inner" cx="60" cy="108" rx="36" ry="5" fill="#0A1B5C" opacity="0.75" />
+    <path d="M 36,65 Q 60,72 84,65" fill="none" stroke="#D98F78" stroke-width="1.2" />
+    <path d="M 30,82 Q 60,90 90,82" fill="none" stroke="#D98F78" stroke-width="1.5" />
+    <path d="M 24,96 Q 60,105 96,96" fill="none" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="2,2" />
+    <path id="bell-clapper" d="M 58,105 L 57,124 A 6,6 0 1,0 63,124 L 62,105 Z" fill="#9A7425" stroke="#D98F78" stroke-width="1" />
+  </g>
+    <path id="bell-rope" d="M 60,128 Q 58,165 60,205" stroke="#C9A24B" stroke-width="2.5" stroke-dasharray="4,2" fill="none" />
+  <g id="bell-handle">
+    <rect id="bell-handle-top-ring" x="55" y="205" width="10" height="4" rx="2" fill="#D98F78" />
+    <circle id="bell-handle-jewel" cx="60" cy="214" r="5" fill="#D81B72" stroke="#D98F78" stroke-width="1" />
+    <path id="bell-handle-body" d="M 57,219 L 55,242 C 55,250 65,250 65,242 L 63,219 Z" fill="#C9A24B" stroke="#D98F78" stroke-width="1.5" />
+    <circle id="bell-handle-bottom-ball" cx="60" cy="246" r="6" fill="#F0D58A" stroke="#D98F78" stroke-width="1" />
+  </g>
+  </g>
+</g></g><g><rect x="14" y="250" width="175" height="155" class="card-bg" /><text x="101.5" y="264" class="lbl">B3 · rangoli.svg (r1..r8)</text><g transform="translate(38, 270) scale(0.42)"><g id="rangoli-root" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path id="rangoli-r1" class="r1" d="M 138,150 A 12,12 0 1,0 162,150 A 12,12 0 1,0 138,150 Z" stroke="#FBF6EC" stroke-width="1.8" />
+    <path id="rangoli-r2" class="r2" d="M 162.93,144.64 Q 171.25,144.31 176.00,150.00 Q 171.25,155.69 162.93,155.36 Q 169.05,161.00 168.38,168.38 Q 161.00,169.05 155.36,162.93 Q 155.69,171.25 150.00,176.00 Q 144.31,171.25 144.64,162.93 Q 139.00,169.05 131.62,168.38 Q 130.95,161.00 137.07,155.36 Q 128.75,155.69 124.00,150.00 Q 128.75,144.31 137.07,144.64 Q 130.95,139.00 131.62,131.62 Q 139.00,130.95 144.64,137.07 Q 144.31,128.75 150.00,124.00 Q 155.69,128.75 155.36,137.07 Q 161.00,130.95 168.38,131.62 Q 169.05,139.00 162.93,144.64 Z" stroke="#F3B9A6" stroke-width="1.6" />
+    <path id="rangoli-r3" class="r3" d="M 110,150 A 40,40 0 1,0 190,150 A 40,40 0 1,0 110,150 Z" stroke="#D98F78" stroke-width="1.8" />
+    <path id="rangoli-r4" class="r4" d="M 192.00,150.00 Q 206.02,165.01 186.37,171.00 Q 191.01,191.01 171.00,186.37 Q 165.01,206.02 150.00,192.00 Q 134.99,206.02 129.00,186.37 Q 108.99,191.01 113.63,171.00 Q 93.98,165.01 108.00,150.00 Q 93.98,134.99 113.63,129.00 Q 108.99,108.99 129.00,113.63 Q 134.99,93.98 150.00,108.00 Q 165.01,93.98 171.00,113.63 Q 191.01,108.99 186.37,129.00 Q 206.02,134.99 192.00,150.00 Z" stroke="#F0D58A" stroke-width="1.6" />
+    <path id="rangoli-r5" class="r5" d="M 82,150 A 68,68 0 1,0 218,150 A 68,68 0 1,0 82,150 Z" stroke="#D98F78" stroke-width="2.0" />
+    <path id="rangoli-r6" class="r6" d="M 219.00,150.00 Q 237.12,162.44 244.66,175.36 Q 231.66,182.79 209.76,184.50 Q 219.23,204.33 219.30,219.30 Q 204.33,219.23 184.50,209.76 Q 182.79,231.66 175.36,244.66 Q 162.44,237.12 150.00,219.00 Q 137.56,237.12 124.64,244.66 Q 117.21,231.66 115.50,209.76 Q 95.67,219.23 80.70,219.30 Q 80.77,204.33 90.24,184.50 Q 68.34,182.79 55.34,175.36 Q 62.88,162.44 81.00,150.00 Q 62.88,137.56 55.34,124.64 Q 68.34,117.21 90.24,115.50 Q 80.77,95.67 80.70,80.70 Q 95.67,80.77 115.50,90.24 Q 117.21,68.34 124.64,55.34 Q 137.56,62.88 150.00,81.00 Q 162.44,62.88 175.36,55.34 Q 182.79,68.34 184.50,90.24 Q 204.33,80.77 219.30,80.70 Q 219.23,95.67 209.76,115.50 Q 231.66,117.21 244.66,124.64 Q 237.12,137.56 219.00,150.00 Z" stroke="#FBF6EC" stroke-width="1.8" />
+    <path id="rangoli-r7" class="r7" d="M 42,150 A 108,108 0 1,0 258,150 A 108,108 0 1,0 42,150 Z" stroke="#F3B9A6" stroke-width="2.0" />
+    <path id="rangoli-r8" class="r8" d="M 260.00,150.00 Q 281.83,156.72 288.80,168.27 Q 279.08,177.63 256.25,178.47 Q 275.60,190.61 279.34,203.58 Q 267.53,210.10 245.26,205.00 Q 260.81,221.73 261.07,235.23 Q 247.97,238.47 227.78,227.78 Q 238.47,247.97 235.23,261.07 Q 221.73,260.81 205.00,245.26 Q 210.10,267.53 203.58,279.34 Q 190.61,275.60 178.47,256.25 Q 177.63,279.08 168.27,288.80 Q 156.72,281.83 150.00,260.00 Q 143.28,281.83 131.73,288.80 Q 122.37,279.08 121.53,256.25 Q 109.39,275.60 96.42,279.34 Q 89.90,267.53 95.00,245.26 Q 78.27,260.81 64.77,261.07 Q 61.53,247.97 72.22,227.78 Q 52.03,238.47 38.93,235.23 Q 39.19,221.73 54.74,205.00 Q 32.47,210.10 20.66,203.58 Q 24.40,190.61 43.75,178.47 Q 20.92,177.63 11.20,168.27 Q 18.17,156.72 40.00,150.00 Q 18.17,143.28 11.20,131.73 Q 20.92,122.37 43.75,121.53 Q 24.40,109.39 20.66,96.42 Q 32.47,89.90 54.74,95.00 Q 39.19,78.27 38.93,64.77 Q 52.03,61.53 72.22,72.22 Q 61.53,52.03 64.77,38.93 Q 78.27,39.19 95.00,54.74 Q 89.90,32.47 96.42,20.66 Q 109.39,24.40 121.53,43.75 Q 122.37,20.92 131.73,11.20 Q 143.28,18.17 150.00,40.00 Q 156.72,18.17 168.27,11.20 Q 177.63,20.92 178.47,43.75 Q 190.61,24.40 203.58,20.66 Q 210.10,32.47 205.00,54.74 Q 221.73,39.19 235.23,38.93 Q 238.47,52.03 227.78,72.22 Q 247.97,61.53 261.07,64.77 Q 260.81,78.27 245.26,95.00 Q 267.53,89.90 279.34,96.42 Q 275.60,109.39 256.25,121.53 Q 279.08,122.37 288.80,131.73 Q 281.83,143.28 260.00,150.00 Z" stroke="#D98F78" stroke-width="1.8" />
+  </g>
+</g></g><g><rect x="201" y="250" width="175" height="155" class="card-bg" /><text x="288.5" y="264" class="lbl">B4 · palm-leaf.svg (340×560)</text><g transform="translate(249, 270) scale(0.23)"><g id="palm-leaf-root">
+    <rect id="palm-leaf-body" x="8" y="10" width="324" height="540" rx="8" fill="#F8D2C4" stroke="#D98F78" stroke-width="2" />
+    <rect id="palm-leaf-inner-border" x="18" y="20" width="304" height="520" rx="4" fill="none" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="4,3" />
+    <path d="M 20,45 Q 28,51 20,57 Q 28,63 20,69" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,45 Q 312,51 320,57 Q 312,63 320,69" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,69 Q 28,75 20,81 Q 28,87 20,93" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,69 Q 312,75 320,81 Q 312,87 320,93" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,93 Q 28,99 20,105 Q 28,111 20,117" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,93 Q 312,99 320,105 Q 312,111 320,117" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,117 Q 28,123 20,129 Q 28,135 20,141" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,117 Q 312,123 320,129 Q 312,135 320,141" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,141 Q 28,147 20,153 Q 28,159 20,165" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,141 Q 312,147 320,153 Q 312,159 320,165" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,165 Q 28,171 20,177 Q 28,183 20,189" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,165 Q 312,171 320,177 Q 312,183 320,189" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,189 Q 28,195 20,201 Q 28,207 20,213" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,189 Q 312,195 320,201 Q 312,207 320,213" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,213 Q 28,219 20,225 Q 28,231 20,237" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,213 Q 312,219 320,225 Q 312,231 320,237" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,237 Q 28,243 20,249 Q 28,255 20,261" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,237 Q 312,243 320,249 Q 312,255 320,261" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,261 Q 28,267 20,273 Q 28,279 20,285" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,261 Q 312,267 320,273 Q 312,279 320,285" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,285 Q 28,291 20,297 Q 28,303 20,309" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,285 Q 312,291 320,297 Q 312,303 320,309" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,309 Q 28,315 20,321 Q 28,327 20,333" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,309 Q 312,315 320,321 Q 312,327 320,333" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,333 Q 28,339 20,345 Q 28,351 20,357" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,333 Q 312,339 320,345 Q 312,351 320,357" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,357 Q 28,363 20,369 Q 28,375 20,381" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,357 Q 312,363 320,369 Q 312,375 320,381" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,381 Q 28,387 20,393 Q 28,399 20,405" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,381 Q 312,387 320,393 Q 312,399 320,405" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,405 Q 28,411 20,417 Q 28,423 20,429" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,405 Q 312,411 320,417 Q 312,423 320,429" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,429 Q 28,435 20,441 Q 28,447 20,453" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,429 Q 312,435 320,441 Q 312,447 320,453" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,453 Q 28,459 20,465 Q 28,471 20,477" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,453 Q 312,459 320,465 Q 312,471 320,477" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,477 Q 28,483 20,489 Q 28,495 20,501" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,477 Q 312,483 320,489 Q 312,495 320,501" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 20,501 Q 28,507 20,513 Q 28,519 20,525" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <path d="M 320,501 Q 312,507 320,513 Q 312,519 320,525" fill="none" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="65" cy="36" r="9" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="65" cy="36" r="12" fill="none" stroke="#D98F78" stroke-width="1" stroke-dasharray="2,2" />
+    <circle cx="275" cy="36" r="9" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="275" cy="36" r="12" fill="none" stroke="#D98F78" stroke-width="1" stroke-dasharray="2,2" />
+    <path id="palm-leaf-cord" d="M 65,60 L 65,36 C 65,14 170,16 170,10 C 170,16 275,14 275,36 L 275,60" fill="none" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round" />
+    <circle id="palm-leaf-cord-knot" cx="170" cy="10" r="3.5" fill="#F0D58A" stroke="#D98F78" stroke-width="1" />
+    <path id="palm-leaf-tassel-1" d="M 170,12 Q 165,22 163,28" stroke="#C9A24B" stroke-width="1.5" fill="none" />
+    <path id="palm-leaf-tassel-2" d="M 170,12 Q 175,22 177,28" stroke="#C9A24B" stroke-width="1.5" fill="none" />
+  </g>
+</g></g><g><rect x="14" y="412" width="115" height="185" class="card-bg" /><text x="71.5" y="426" class="lbl">B7 · vine.svg</text><g transform="translate(27, 430) scale(0.23)"><g id="vine-root">
+    <path id="vine-stem" class="stem" d="M 195,690 C 185,640 160,580 175,520 C 190,460 225,400 205,320 C 185,240 180,180 195,120" fill="none" stroke="#2FA07F" stroke-width="3.5" stroke-linecap="round" />
+    <path id="vine-b1" class="b1" d="M 175,530 C 150,540 110,535 90,520 M 175,530 C 195,540 235,535 255,520" fill="none" stroke="#2FA07F" stroke-width="2.5" stroke-linecap="round" />
+    <path id="vine-b2" class="b2" d="M 205,335 C 175,340 130,330 105,315 M 205,335 C 235,340 275,330 295,315" fill="none" stroke="#2FA07F" stroke-width="2.5" stroke-linecap="round" />
+    <path id="vine-b3" class="b3" d="M 193,150 C 170,150 145,135 135,115 M 197,150 C 220,150 245,135 255,115" fill="none" stroke="#2FA07F" stroke-width="2.2" stroke-linecap="round" />
+    <g transform="translate(190,660) rotate(-45) scale(1.1)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(200,630) rotate(40) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(175,595) rotate(-50) scale(1.1)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(185,565) rotate(35) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(120,528) rotate(-80) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(145,538) rotate(-30) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(225,538) rotate(30) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(245,526) rotate(75) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(182,480) rotate(-35) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(198,440) rotate(45) scale(1.1)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(215,400) rotate(50) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(195,365) rotate(-40) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(140,328) rotate(-75) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(165,338) rotate(-25) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(240,338) rotate(25) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(270,325) rotate(80) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(192,280) rotate(-45) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(188,235) rotate(35) scale(1.0)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(186,195) rotate(-30) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(198,165) rotate(40) scale(0.9)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(150,130) rotate(-60) scale(0.8)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+    <g transform="translate(240,130) rotate(60) scale(0.8)"><path class="vine-leaf leaf" d="M 0,0 C -5,-10 0,-20 10,-22 C 10,-12 5,-2 0,0 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" /><line x1="0" y1="0" x2="8" y2="-18" stroke="#0E8C86" stroke-width="0.7" /></g>
+  <g id="bloom-gp">
+  <g id="vine-bloom-gp" class="bloom-gp">
+    <circle cx="175" cy="520" r="14" fill="#C9A24B" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="193.0" cy="520.0" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <circle cx="184.0" cy="535.6" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <circle cx="166.0" cy="535.6" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <circle cx="157.0" cy="520.0" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <circle cx="166.0" cy="504.4" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <circle cx="184.0" cy="504.4" r="5" fill="#F3B9A6" stroke="#D98F78" stroke-width="1" />
+    <circle cx="175" cy="520" r="6" fill="#FBF6EC" />
+  </g>
+  </g>
+  <g id="bloom-parents">
+  <g id="vine-bloom-parents" class="bloom-parents">
+    <circle cx="205" cy="320" r="16" fill="#F3B9A6" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="226.0" cy="320.0" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="219.8" cy="334.8" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="205.0" cy="341.0" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="190.2" cy="334.8" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="184.0" cy="320.0" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="190.2" cy="305.2" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="205.0" cy="299.0" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="219.8" cy="305.2" r="6" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="205" cy="320" r="8" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+    <circle cx="205" cy="320" r="3" fill="#FBF6EC" />
+  </g>
+  </g>
+  <g id="bloom-top">
+  <g id="vine-bloom-top" class="bloom-top">
+    <path d="M 195,125 C 182,125 168,118 156,104 C 166,100 182,106 195,116 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1.2" />
+    <path d="M 195,125 C 208,125 222,118 234,104 C 224,100 208,106 195,116 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1.2" />
+    <path d="M 195,125 C 184,115 174,96 172,78 C 184,82 192,96 195,112 Z" fill="#F8D2C4" stroke="#D98F78" stroke-width="1.2" />
+    <path d="M 195,125 C 206,115 216,96 218,78 C 206,82 198,96 195,112 Z" fill="#F8D2C4" stroke="#D98F78" stroke-width="1.2" />
+    <path d="M 195,125 C 186,108 185,88 195,68 C 205,88 204,108 195,125 Z" fill="#F8D2C4" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="195" cy="76" r="2.5" fill="#C9A24B" />
+  </g>
+  </g>
+  </g>
+</g></g><g><rect x="137" y="412" width="115" height="185" class="card-bg" /><text x="194.5" y="426" class="lbl">B8 · path-alpana</text><g transform="translate(146, 430) scale(0.25)"><g id="path-alpana-root">
+  <g id="route">
+    <path id="route-line" class="route" d="M 195,30 C 330,120 330,240 195,310 C 60,380 60,500 195,580" fill="none" stroke="#D98F78" stroke-width="3" stroke-dasharray="4,8" stroke-linecap="round" />
+  </g>
+    <circle cx="195" cy="30" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="190" cy="30" r="1.2" fill="#F3B9A6" />
+    <circle cx="200" cy="30" r="1.2" fill="#F3B9A6" />
+    <circle cx="250" cy="100" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="245" cy="100" r="1.2" fill="#F3B9A6" />
+    <circle cx="255" cy="100" r="1.2" fill="#F3B9A6" />
+    <circle cx="300" cy="180" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="295" cy="180" r="1.2" fill="#F3B9A6" />
+    <circle cx="305" cy="180" r="1.2" fill="#F3B9A6" />
+    <circle cx="270" cy="260" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="265" cy="260" r="1.2" fill="#F3B9A6" />
+    <circle cx="275" cy="260" r="1.2" fill="#F3B9A6" />
+    <circle cx="195" cy="310" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="190" cy="310" r="1.2" fill="#F3B9A6" />
+    <circle cx="200" cy="310" r="1.2" fill="#F3B9A6" />
+    <circle cx="120" cy="360" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="115" cy="360" r="1.2" fill="#F3B9A6" />
+    <circle cx="125" cy="360" r="1.2" fill="#F3B9A6" />
+    <circle cx="90" cy="440" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="85" cy="440" r="1.2" fill="#F3B9A6" />
+    <circle cx="95" cy="440" r="1.2" fill="#F3B9A6" />
+    <circle cx="130" cy="520" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="125" cy="520" r="1.2" fill="#F3B9A6" />
+    <circle cx="135" cy="520" r="1.2" fill="#F3B9A6" />
+    <circle cx="195" cy="580" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="190" cy="580" r="1.2" fill="#F3B9A6" />
+    <circle cx="200" cy="580" r="1.2" fill="#F3B9A6" />
+  </g>
+</g></g><g><rect x="260" y="412" width="116" height="185" class="card-bg" /><text x="318.0" y="426" class="lbl">B9 · house.svg</text><g transform="translate(270, 450) scale(0.48)"><g id="house-root">
+    <rect id="house-walls" x="22" y="75" width="156" height="100" rx="3" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.8" />
+    <rect id="house-plinth" x="18" y="170" width="164" height="6" fill="#12308F" stroke="#D98F78" stroke-width="1" />
+    <path id="house-roof" d="M 10,75 L 100,16 L 190,75 C 190,75 160,78 100,78 C 40,78 10,75 10,75 Z" fill="#12308F" stroke="#D98F78" stroke-width="2" stroke-linejoin="round" />
+    <line x1="100" y1="16" x2="100" y2="78" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="100" y1="16" x2="55" y2="76" stroke="#D98F78" stroke-width="1.2" />
+    <line x1="100" y1="16" x2="145" y2="76" stroke="#D98F78" stroke-width="1.2" />
+    <circle id="house-roof-finial" cx="100" cy="14" r="3.5" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+  <g id="win1">
+    <rect id="house-win1" class="win1" x="38" y="94" width="28" height="32" rx="3" fill="#12308F" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="52" y1="94" x2="52" y2="126" stroke="#D98F78" stroke-width="1" />
+    <line x1="38" y1="110" x2="66" y2="110" stroke="#D98F78" stroke-width="1" />
+  </g>
+  <g id="win2">
+    <rect id="house-win2" class="win2" x="134" y="94" width="28" height="32" rx="3" fill="#12308F" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="148" y1="94" x2="148" y2="126" stroke="#D98F78" stroke-width="1" />
+    <line x1="134" y1="110" x2="162" y2="110" stroke="#D98F78" stroke-width="1" />
+  </g>
+  <g id="door">
+    <path id="house-door" class="door" d="M 84,170 L 84,106 C 84,94 116,94 116,106 L 116,170 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.6" />
+    <circle id="house-door-knob" cx="110" cy="138" r="2" fill="#C9A24B" />
+  </g>
+    <path d="M 16,77 Q 30,83 45,77 Q 60,83 75,77 Q 90,83 100,77 Q 110,83 125,77 Q 140,83 155,77 Q 170,83 184,77" fill="none" stroke="#D98F78" stroke-width="1" />
+  </g>
+</g></g><g><rect x="14" y="604" width="205" height="120" class="card-bg" /><text x="116.5" y="618" class="lbl">B11 · scratch-foil.svg</text><g transform="translate(29, 624) scale(0.53)"><g id="scratch-foil-root">
+    <rect id="scratch-foil-bg" width="330" height="210" rx="8" fill="url(#scratch-foil-gold-grad)" />
+    <rect id="scratch-foil-border-outer" x="6" y="6" width="318" height="198" rx="6" fill="none" stroke="#D98F78" stroke-width="1.5" />
+    <rect id="scratch-foil-border-inner" x="12" y="12" width="306" height="186" rx="4" fill="none" stroke="#9A7425" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="165" cy="105" r="75" fill="none" stroke="#9A7425" stroke-width="1.2" opacity="0.4" />
+    <circle cx="165" cy="105" r="65" fill="none" stroke="#F0D58A" stroke-width="1" stroke-dasharray="3,2" opacity="0.6" />
+    <path d="M 165,105 Q 218.4,96.9 227.0,105.0 Q 218.4,113.1 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 215.3,124.7 218.7,136.0 Q 207.2,138.7 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 198.7,147.2 196.0,158.7 Q 184.7,155.3 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 173.1,158.4 165.0,167.0 Q 156.9,158.4 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 145.3,155.3 134.0,158.7 Q 131.3,147.2 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 122.8,138.7 111.3,136.0 Q 114.7,124.7 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 111.6,113.1 103.0,105.0 Q 111.6,96.9 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 114.7,85.3 111.3,74.0 Q 122.8,71.3 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 131.3,62.8 134.0,51.3 Q 145.3,54.7 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 156.9,51.6 165.0,43.0 Q 173.1,51.6 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 184.7,54.7 196.0,51.3 Q 198.7,62.8 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <path d="M 165,105 Q 207.2,71.3 218.7,74.0 Q 215.3,85.3 165,105 Z" fill="#F0D58A" fill-opacity="0.2" stroke="#9A7425" stroke-width="0.8" opacity="0.5" />
+    <circle cx="165" cy="105" r="38" fill="none" stroke="#9A7425" stroke-width="1.2" opacity="0.5" />
+    <circle cx="165" cy="105" r="22" fill="none" stroke="#F0D58A" stroke-width="1" opacity="0.6" />
+    <circle cx="165" cy="105" r="8" fill="#9A7425" opacity="0.4" />
+    <circle cx="12" cy="12" r="35" fill="none" stroke="#9A7425" stroke-width="1" opacity="0.35" />
+    <circle cx="12" cy="12" r="20" fill="none" stroke="#F0D58A" stroke-width="0.8" stroke-dasharray="2,2" opacity="0.4" />
+    <circle cx="318" cy="12" r="35" fill="none" stroke="#9A7425" stroke-width="1" opacity="0.35" />
+    <circle cx="318" cy="12" r="20" fill="none" stroke="#F0D58A" stroke-width="0.8" stroke-dasharray="2,2" opacity="0.4" />
+    <circle cx="12" cy="198" r="35" fill="none" stroke="#9A7425" stroke-width="1" opacity="0.35" />
+    <circle cx="12" cy="198" r="20" fill="none" stroke="#F0D58A" stroke-width="0.8" stroke-dasharray="2,2" opacity="0.4" />
+    <circle cx="318" cy="198" r="35" fill="none" stroke="#9A7425" stroke-width="1" opacity="0.35" />
+    <circle cx="318" cy="198" r="20" fill="none" stroke="#F0D58A" stroke-width="0.8" stroke-dasharray="2,2" opacity="0.4" />
+  </g>
+</g></g><g><rect x="227" y="604" width="149" height="120" class="card-bg" /><text x="301.5" y="618" class="lbl">B13 · portrait</text><g transform="translate(255, 624) scale(0.31)"><g id="placeholder-portrait-root">
+    <circle id="placeholder-portrait-bg" cx="150" cy="150" r="146" fill="url(#placeholder-portrait-bg-grad)" stroke="#D98F78" stroke-width="2" />
+    <circle id="placeholder-portrait-dash" cx="150" cy="150" r="140" fill="none" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="4,4" />
+    <circle id="placeholder-portrait-aura" cx="150" cy="130" r="85" fill="#F8D2C4" opacity="0.12" />
+    <path id="placeholder-portrait-hair" d="M 135,70 C 175,60 205,85 205,120 C 205,145 190,165 175,175 C 185,185 200,210 205,245 C 180,248 155,245 140,240 C 135,210 132,185 130,175 Z" fill="#34459B" stroke="#D98F78" stroke-width="1.2" />
+    <circle id="placeholder-portrait-bun" cx="195" cy="120" r="28" fill="#34459B" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="184.4" cy="90.9" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="196.1" cy="89.0" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="207.6" cy="91.7" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="217.3" cy="98.5" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="223.7" cy="108.4" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="226.0" cy="120.0" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="223.7" cy="131.6" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="217.3" cy="141.5" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="207.6" cy="148.3" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="196.1" cy="151.0" r="3.5" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <path id="placeholder-portrait-face" d="M 140,75 C 122,80 114,92 110,105 L 102,122 L 110,126 C 108,132 104,136 108,140 C 106,145 110,148 114,148 C 112,156 120,162 128,162 C 130,178 135,198 140,220 L 168,220 C 160,195 155,175 152,160 C 158,140 156,105 140,75 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="1.2" stroke-linejoin="round" />
+    <line x1="140" y1="75" x2="120" y2="92" stroke="#C9A24B" stroke-width="1.2" />
+    <circle cx="120" cy="92" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="120" cy="92" r="1.2" fill="#D81B72" />
+    <circle cx="152" cy="138" r="2.5" fill="#C9A24B" />
+    <path d="M 148,143 Q 152,141 156,143 L 157,148 L 147,148 Z" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <circle cx="152" cy="151" r="1.5" fill="#F8D2C4" />
+    <path id="placeholder-portrait-drape" d="M 95,260 C 115,225 150,220 205,245 C 215,255 220,270 220,285 L 80,285 C 80,275 88,265 95,260 Z" fill="#D98F78" stroke="#AD5E46" stroke-width="1.5" />
+    <path d="M 95,260 Q 140,235 205,245" fill="none" stroke="#C9A24B" stroke-width="2" />
+    <path d="M 105,272 Q 150,248 215,260" fill="none" stroke="#F8D2C4" stroke-width="1" stroke-dasharray="3,3" />
+  </g>
+</g></g><g><rect x="14" y="730" width="362" height="88" class="card-bg" /><text x="195" y="744" class="lbl">B5 · stylus  |  B6 · leaf-roll  |  B10 · aarti-lamp  |  B12 · lamp</text><g transform="translate(42, 750) scale(0.95)"><g id="stylus-root">
+    <circle id="stylus-knob-top" cx="12" cy="4" r="3" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <path id="stylus-finial" d="M 8,14 C 6,9 18,9 16,14 Z" fill="#D98F78" stroke="#AD5E46" stroke-width="0.8" />
+    <rect id="stylus-shaft" x="9.5" y="14" width="5" height="31" fill="#D98F78" stroke="#AD5E46" stroke-width="0.8" />
+    <line x1="8.5" y1="18" x2="15.5" y2="18" stroke="#C9A24B" stroke-width="1.5" />
+    <line x1="8.5" y1="24" x2="15.5" y2="24" stroke="#C9A24B" stroke-width="1.5" />
+    <line x1="8.5" y1="32" x2="15.5" y2="32" stroke="#C9A24B" stroke-width="1.5" />
+    <line x1="8.5" y1="40" x2="15.5" y2="40" stroke="#C9A24B" stroke-width="1.5" />
+    <path id="stylus-nib" d="M 9.5,45 L 11.5,58 L 12.5,58 L 14.5,45 Z" fill="#9A7425" stroke="#AD5E46" stroke-width="0.8" stroke-linejoin="round" />
+    <line id="stylus-tip-line" x1="12" y1="48" x2="12" y2="58" stroke="#FBF6EC" stroke-width="0.6" />
+  </g>
+</g><g transform="translate(95, 768) scale(0.38)"><g id="leaf-roll-root">
+    <rect id="leaf-roll-cylinder" x="4" y="3" width="332" height="16" rx="4" fill="url(#leaf-roll-grad)" stroke="#D98F78" stroke-width="1.2" />
+    <line id="leaf-roll-shine" x1="12" y1="9" x2="328" y2="9" stroke="#FBF6EC" stroke-width="1" opacity="0.65" />
+    <ellipse id="leaf-roll-cap-l" cx="10" cy="11" rx="5" ry="7" fill="#D98F78" stroke="#AD5E46" stroke-width="1" />
+    <circle id="leaf-roll-core-l" cx="10" cy="11" r="2.5" fill="#0A1B5C" />
+    <ellipse id="leaf-roll-cap-r" cx="330" cy="11" rx="5" ry="7" fill="#D98F78" stroke="#AD5E46" stroke-width="1" />
+    <circle id="leaf-roll-core-r" cx="330" cy="11" r="2.5" fill="#0A1B5C" />
+  </g>
+</g><g transform="translate(250, 754) scale(1.15)"><g id="aarti-lamp-root">
+    <circle id="aarti-lamp-glow-aura" cx="22" cy="18" r="14" fill="url(#aarti-lamp-glow)" />
+    <path id="aarti-lamp-flame-outer" d="M 22,24 C 18,22 15,18 16,13 C 17,9 20,6 22,4 C 24,6 27,9 28,13 C 29,18 26,22 22,24 Z" fill="#FFB62E" />
+    <path id="aarti-lamp-flame-core" d="M 22,23 C 20,21 18,18 19,15 C 20,12 21,9 22,7 C 23,9 24,12 25,15 C 26,18 24,21 22,23 Z" fill="#FBF6EC" />
+    <path id="aarti-lamp-cup" d="M 14,25 C 14,31 30,31 30,25 Z" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+    <ellipse id="aarti-lamp-plate" cx="22" cy="33" rx="16" ry="5" fill="#F0D58A" stroke="#D98F78" stroke-width="1.2" />
+    <ellipse id="aarti-lamp-plate-inner" cx="22" cy="33" rx="12" ry="3.5" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle cx="12" cy="33" r="1.5" fill="#D81B72" />
+    <circle cx="32" cy="33" r="1.5" fill="#D81B72" />
+  </g>
+</g><g transform="translate(325, 760) scale(1.4)"><g id="lamp-root">
+    <circle id="lamp-glow-aura" cx="14" cy="11" r="10" fill="url(#lamp-glow)" />
+    <path id="lamp-flame" d="M 14,17 C 11,15 9,12 10,8.5 C 11,5.5 13,3 14,2 C 15,3 17,5.5 18,8.5 C 19,12 17,15 14,17 Z" fill="#FFB62E" />
+    <path id="lamp-flame-core" d="M 14,16 C 12.5,14 11.5,12 12,9.5 C 12.5,7.5 13.5,5 14,4 C 14.5,5 15.5,7.5 16,9.5 C 16.5,12 15.5,14 14,16 Z" fill="#FBF6EC" />
+    <path id="lamp-base" d="M 6,18 C 6,24 22,24 22,18 Z" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <line id="lamp-pedestal" x1="10" y1="24" x2="18" y2="24" stroke="#D98F78" stroke-width="1.2" />
+  </g>
+</g></g><text x="195" y="832" style="font-family:sans-serif; font-size:7.5px; fill:#C9A24B; letter-spacing:1px; text-anchor:middle;">ALL SET B ASSETS PASS ACCEPTANCE · ≤ 40 KB · PALETTE COMPLIANT</text></svg>

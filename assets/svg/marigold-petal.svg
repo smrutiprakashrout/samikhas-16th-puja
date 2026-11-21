@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g id="marigold-petal-root">
+    <path id="marigold-petal-body" d="M 12,23 C 8,20 3,15 3,10 C 3,6 5,4 7,5 C 8.5,3 11,3 12,4.5 C 13,3 15.5,3 17,5 C 19,4 21,6 21,10 C 21,15 16,20 12,23 Z" fill="#FFB62E" stroke="#F29A1F" stroke-width="0.8" stroke-linejoin="round"/>
+    <path id="marigold-petal-shade" d="M 12,22 C 10.5,18 7,12 8,7 C 9.5,10 11.5,16 12,22 Z" fill="#F29A1F" opacity="0.6"/>
+    <line id="marigold-petal-vein" x1="12" y1="21" x2="12" y2="6" stroke="#D98F78" stroke-width="0.7" stroke-linecap="round"/>
+  </g>
+</svg>

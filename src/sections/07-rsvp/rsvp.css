@@ -1,0 +1,38 @@
+/* ===== CHAPTER 7 — RSVP: light the diya ===== */
+.rsvp{position:relative;z-index:4;min-height:100svh;background:var(--ivory);display:flex;flex-direction:column;align-items:center;text-align:center;overflow:hidden;padding:calc(12svh) var(--gutter) calc(10svh) var(--gutter-r)}
+.rsvp::before{content:"";position:absolute;left:0;right:0;top:0;height:30svh;background:linear-gradient(180deg,var(--sand),var(--ivory));border-radius:0;z-index:2;pointer-events:none}
+.rsvp .glowr{position:absolute;left:50%;top:calc(12svh + 78px);width:150%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;opacity:0;transform:scale(.3);transition:opacity 1.6s ease,transform 2.2s var(--ease-out);background:radial-gradient(circle,rgba(255,226,166,.85) 0,rgba(245,183,78,.35) 24%,rgba(244,228,204,0) 56%);pointer-events:none;z-index:1}
+.rsvp.lit .glowr{opacity:1;transform:scale(1)}
+.rsvp .rl{position:relative;z-index:3;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.rsvp .diya{position:relative;z-index:3;width:156px;height:130px;margin-top:20px;padding:0;background:none;border:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.rsvp .diya svg{width:100%;height:100%;overflow:visible}
+.rsvp .flame{transform-origin:78px 74px;transform:scale(0);transition:transform 1s var(--ease-out)}
+.rsvp.lit .flame{transform:scale(1);animation:s07-flick 1.6s ease-in-out 1s infinite}
+@keyframes s07-flick{0%,100%{transform:scale(1,1) rotate(0)}30%{transform:scale(.96,1.06) rotate(-1.5deg)}60%{transform:scale(1.03,.97) rotate(1.2deg)}}
+.rsvp .dh{position:relative;z-index:3;margin-top:6px;color:color-mix(in srgb,var(--ink) 80%,transparent);transition:opacity .5s}
+.rsvp.lit .dh{opacity:0}
+.rsvp .rows{position:relative;z-index:3;width:100%;max-width:342px;margin-top:26px}
+.rsvp .row{padding:20px 0;border-top:1px solid color-mix(in srgb,var(--ink) 16%,transparent)}
+.rsvp .row:last-child{border-bottom:1px solid color-mix(in srgb,var(--ink) 16%,transparent)}
+.rsvp .nm{color:color-mix(in srgb,var(--ink) 62%,transparent);margin-bottom:8px}
+.rsvp .num{font:500 clamp(31px,9.2vw,37px)/1 var(--display);letter-spacing:.01em;user-select:all;font-variant-numeric:lining-nums}
+.rsvp .acts{display:flex;gap:10px;justify-content:center;margin-top:14px}
+.rsvp .acts>.ven{display:contents}
+.rsvp .acts>.ven::before{content:none}
+.rsvp .acts .btn{flex:1;max-width:150px;opacity:.62;transition:opacity .8s ease .4s}
+.rsvp.lit .acts .btn{opacity:1}
+.rsvp.lit .acts .btn.fill{background:var(--saffron-deep);border-color:var(--saffron-deep)}
+.rsvp .up{margin-top:20px;font:italic 400 19px/1.4 var(--display);position:relative;z-index:3;min-height:28px;color:color-mix(in srgb,var(--ink) 85%,transparent);opacity:0;transition:opacity .8s ease .8s}
+.rsvp.lit .up{opacity:1}
+.rsvp .grain{position:absolute;inset:0;pointer-events:none;background:url("/img/grain.svg");opacity:.06;mix-blend-mode:multiply;z-index:30}
+
+/* TEMP until closing spec */
+.tail{height:60svh;background:var(--sand)}
+
+@media (prefers-reduced-motion:reduce){
+  .rsvp .glowr{transition:none;transform:none}
+  .rsvp.lit .glowr{opacity:1;transform:none}
+  .rsvp .flame{transition:none}
+  .rsvp.lit .flame{animation:none;transform:scale(1)}
+  .rsvp .acts .btn,.rsvp .up,.rsvp .dh{transition:opacity .3s}
+}

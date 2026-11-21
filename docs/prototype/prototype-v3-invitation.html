@@ -1,0 +1,72 @@
+<title>Invitation Reading Light</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500&display=swap">
+<style>
+/* Prototype: invitation chapter — ivory ground slides over the hero; words light up as you scroll. Warm honey palette, single look. */
+:root{--ink:#232B25;--ink-deep:#181E1A;--ivory:#FBF3E4;--sand:#EBCEAE;--sand-lt:#F4E4CC;--sand-dp:#D8B684;--wood:#A8793F;--wood-dk:#6E4C28;--gold:#E0AF70;--saffron:#E48C35;--saffron-deep:#B25D17;
+ --display:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--u:1;color-scheme:light}
+*{box-sizing:border-box;margin:0}html,body{height:100%}
+body{background:var(--ink-deep);color:var(--ink);font-family:var(--sans);overflow:hidden;-webkit-font-smoothing:antialiased}
+.phone{position:relative;width:min(100%,430px);height:100%;margin:0 auto;background:var(--sand);overflow:hidden}
+.scroller{position:absolute;inset:0;overflow-y:auto;overflow-x:hidden;scrollbar-width:none}.scroller::-webkit-scrollbar{display:none}
+.label{font:500 11px/1.4 var(--sans);letter-spacing:.24em;text-transform:uppercase}
+.stage{position:sticky;top:0;overflow:hidden}
+.grain{position:absolute;inset:0;pointer-events:none;background:url("../../assets/img/grain.svg");opacity:.06;mix-blend-mode:multiply;z-index:30}
+/* stub standing in for the hero */
+.pre{position:relative;height:200vh}.pre .stage{background:var(--sand);display:grid;place-items:center}
+.pre p{font:500 52px/1 var(--display);color:rgba(35,43,37,.5)}.pre small{display:block;text-align:center;margin-top:10px;color:rgba(35,43,37,.5)}
+/* invitation */
+.inv{position:relative;z-index:40;margin-top:-50svh;background:var(--ivory);box-shadow:0 -24px 40px -10px rgba(110,76,40,.28)}
+.inv .stage{background:var(--ivory)}
+.vig{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 45%,transparent 60%,rgba(244,228,204,.9) 100%);pointer-events:none;z-index:2}
+.mand{position:absolute;right:calc(var(--u)*-190px);top:calc(var(--u)*250px);width:calc(var(--u)*470px);opacity:.09;pointer-events:none;z-index:1;will-change:transform}
+.col{position:absolute;left:max(24px,env(safe-area-inset-left,0px));right:max(24px,env(safe-area-inset-right,0px));z-index:5}
+.lab{top:calc(var(--u)*196px);color:rgba(35,43,37,.74);opacity:0}
+.big{top:calc(var(--u)*236px);font:500 clamp(31px,9vw,38px)/1.2 var(--display);text-wrap:pretty}
+.big .w,.small .w{opacity:.16;display:inline-block;position:relative}
+.big .k{font-style:italic;color:var(--saffron-deep)}
+.big .k::after{content:"";position:absolute;left:0;right:.25em;bottom:.06em;height:2px;background:var(--wood);transform:scaleX(var(--k,0));transform-origin:0 50%}
+.div{top:calc(var(--u)*572px);width:84px;height:8px;display:flex;align-items:center}
+.div i{position:absolute;left:0;right:0;top:50%;height:1px;background:var(--wood);transform:scaleX(0);transform-origin:0 50%}
+.div b{position:absolute;left:50%;margin-left:-3px;width:6px;height:6px;rotate:45deg;background:var(--saffron-deep);transform:scale(0);box-shadow:0 0 0 4px var(--ivory)}
+.small{top:calc(var(--u)*608px);font:italic 400 20px/1.42 var(--display);color:var(--ink);max-width:27ch}
+.small .w{opacity:.16}
+.next{position:relative;height:60vh;background:var(--ivory)}
+</style>
+<div class="phone"><div class="scroller" id="sc">
+<section class="pre"><div class="stage"><div><p>Samikshya</p><small class="label">hero chapter (stub)</small></div><div class="grain"></div></div></section>
+<section class="inv" id="inv"><div class="stage" id="stage">
+ <div class="vig"></div>
+ <svg class="mand" id="mand" viewBox="-100 -100 200 200" fill="none" stroke="#A8793F" stroke-width=".5" aria-hidden="true"><g class="s"><circle r="96"/><circle r="92" stroke-dasharray="1 3"/><!-- 24 petals --><circle r="76"/></g><circle r="64" stroke-dasharray=".5 2.2"/><!-- 12 dots --></svg>
+ <p class="col label lab" id="lab">With the blessings of the Almighty</p>
+ <p class="col big" id="big">We joyfully invite you to the <span class="k">sixteenth birthday puja</span> of our beloved granddaughter, Samikshya.</p>
+ <div class="col div" id="div"><i></i><b></b></div>
+ <p class="col small" id="small">Your gracious presence will make this occasion even more special.</p>
+ <div class="grain"></div>
+</div></section>
+<div class="next"></div>
+</div></div>
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)};var sc=$('#sc'),inv=$('#inv'),stage=$('#stage');
+function clamp(v,a,b){return Math.min(b,Math.max(a,v))}function seg(p,a,b){var t=clamp((p-a)/(b-a),0,1);return t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2}
+var U=1;function size(){var H=sc.clientHeight;U=H/844;stage.style.height=H+'px';document.querySelectorAll('.pre .stage').forEach(function(s){s.style.height=H+'px'});inv.style.height=Math.round(H*2.6)+'px';stage.style.setProperty('--u',U);inv.style.setProperty('--u',U)}size();addEventListener('resize',function(){size();frame()});
+// split words (keeps the .k span)
+function split(el,cls){var out=[];[].slice.call(el.childNodes).forEach(function(n){var isK=n.nodeType===1&&n.classList.contains('k');var txt=n.textContent;
+  var frag=document.createDocumentFragment();txt.split(/(\s+)/).forEach(function(w){if(!w)return;if(/^\s+$/.test(w)){frag.appendChild(document.createTextNode(w));return}var s=document.createElement('span');s.className='w'+(isK?' k':'');s.textContent=w;frag.appendChild(s);out.push(s)});
+  el.replaceChild(frag,n)});return out}
+var bw=split($('#big')),sw=split($('#small'));
+var lab=$('#lab'),dv=$('#div'),dI=dv.querySelector('i'),dB=dv.querySelector('b'),mand=$('#mand');
+function apply(p){
+ lab.style.opacity=seg(p,.02,.12);
+ var n=bw.length;bw.forEach(function(el,i){var a=.10+i/n*.46,t=seg(p,a,a+.07);el.style.opacity=.16+.84*t;if(el.classList.contains('k'))el.style.setProperty('--k',seg(p,a+.02,a+.1))});
+ dI.style.transform='scaleX('+seg(p,.60,.70)+')';dB.style.transform='scale('+seg(p,.66,.72)+')';
+ var m=sw.length;sw.forEach(function(el,i){var a=.68+i/m*.2,t=seg(p,a,a+.06);el.style.opacity=.16+.84*t});
+ mand.style.transform='translateY('+(-70*U*p)+'px) rotate('+(p*40)+'deg)';
+}
+function frame(){var m=inv.offsetHeight-sc.clientHeight,r=inv.getBoundingClientRect(),s=sc.getBoundingClientRect();var top=inv.offsetTop;
+ // progress of the sticky stage inside .inv
+ var p=clamp((sc.scrollTop-top)/(inv.offsetHeight-sc.clientHeight),0,1);apply(p)}
+var tk=false;sc.addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;frame()})}},{passive:true});frame();
+})();
+</script>

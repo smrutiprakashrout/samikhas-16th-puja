@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+  <g id="tile-jaali-root" fill="none" stroke="#F0D58A" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+    <defs>
+      <clipPath id="tile-jaali-clip">
+        <rect width="56" height="56"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#tile-jaali-clip)">
+      <polygon id="tile-jaali-star-center" points="40.00,28.00 34.47,30.68 36.49,36.49 30.68,34.47 28.00,40.00 25.32,34.47 19.51,36.49 21.53,30.68 16.00,28.00 21.53,25.32 19.51,19.51 25.32,21.53 28.00,16.00 30.68,21.53 36.49,19.51 34.47,25.32"/>
+      <circle cx="28" cy="28" r="3" fill="none"/>
+      <polygon id="tile-jaali-star-corner-0" points="12.00,0.00 6.47,2.68 8.49,8.49 2.68,6.47 0.00,12.00 -2.68,6.47 -8.49,8.49 -6.47,2.68 -12.00,0.00 -6.47,-2.68 -8.49,-8.49 -2.68,-6.47 -0.00,-12.00 2.68,-6.47 8.49,-8.49 6.47,-2.68"/>
+      <circle cx="0" cy="0" r="3" fill="none"/>
+      <polygon id="tile-jaali-star-corner-1" points="68.00,0.00 62.47,2.68 64.49,8.49 58.68,6.47 56.00,12.00 53.32,6.47 47.51,8.49 49.53,2.68 44.00,0.00 49.53,-2.68 47.51,-8.49 53.32,-6.47 56.00,-12.00 58.68,-6.47 64.49,-8.49 62.47,-2.68"/>
+      <circle cx="56" cy="0" r="3" fill="none"/>
+      <polygon id="tile-jaali-star-corner-2" points="12.00,56.00 6.47,58.68 8.49,64.49 2.68,62.47 0.00,68.00 -2.68,62.47 -8.49,64.49 -6.47,58.68 -12.00,56.00 -6.47,53.32 -8.49,47.51 -2.68,49.53 -0.00,44.00 2.68,49.53 8.49,47.51 6.47,53.32"/>
+      <circle cx="0" cy="56" r="3" fill="none"/>
+      <polygon id="tile-jaali-star-corner-3" points="68.00,56.00 62.47,58.68 64.49,64.49 58.68,62.47 56.00,68.00 53.32,62.47 47.51,64.49 49.53,58.68 44.00,56.00 49.53,53.32 47.51,47.51 53.32,49.53 56.00,44.00 58.68,49.53 64.49,47.51 62.47,53.32"/>
+      <circle cx="56" cy="56" r="3" fill="none"/>
+      <circle id="tile-jaali-circle-0" cx="28" cy="0" r="8"/>
+      <circle cx="28" cy="0" r="2" fill="#F0D58A"/>
+      <circle id="tile-jaali-circle-1" cx="28" cy="56" r="8"/>
+      <circle cx="28" cy="56" r="2" fill="#F0D58A"/>
+      <circle id="tile-jaali-circle-2" cx="0" cy="28" r="8"/>
+      <circle cx="0" cy="28" r="2" fill="#F0D58A"/>
+      <circle id="tile-jaali-circle-3" cx="56" cy="28" r="8"/>
+      <circle cx="56" cy="28" r="2" fill="#F0D58A"/>
+    </g>
+  </g>
+</svg>

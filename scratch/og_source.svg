@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630"><defs><linearGradient id="og-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1E2C70" /><stop offset="100%" stop-color="#0A1B5C" /></linearGradient><pattern id="og-wave-pat" width="64" height="64" patternUnits="userSpaceOnUse"><g id="tile-wave-root">
+    <rect id="tile-wave-bg" width="64" height="64" fill="#0A1B5C" />
+    <defs>
+      <clipPath id="tile-wave-clip">
+        <rect width="64" height="64" />
+      </clipPath>
+    </defs>
+    <g clip-path="url(#tile-wave-clip)">
+      <circle cx="0" cy="0" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="0" cy="0" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="0" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="0" cy="0" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="0" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="64" cy="0" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="64" cy="0" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="0" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="64" cy="0" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="0" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="0" cy="64" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="0" cy="64" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="64" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="0" cy="64" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="0" cy="64" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="64" cy="64" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="64" cy="64" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="64" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="64" cy="64" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="64" cy="64" r="2" fill="#D98F78" opacity="0.6" />
+      <circle cx="32" cy="32" r="32" fill="none" stroke="#34459B" stroke-width="1.4" />
+      <circle cx="32" cy="32" r="24" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="32" cy="32" r="16" fill="none" stroke="#12308F" stroke-width="1.0" />
+      <circle cx="32" cy="32" r="8" fill="none" stroke="#1E2C70" stroke-width="1.0" />
+      <circle cx="32" cy="32" r="2" fill="#D98F78" opacity="0.6" />
+    </g>
+  </g>
+</pattern><style>
+      .og-deva { font-family: 'Noto Serif Devanagari', serif; font-size: 22px; fill: #F0D58A; letter-spacing: 4px; text-anchor: middle; }
+      .og-sub { font-family: 'Cinzel', Georgia, serif; font-size: 18px; fill: #C9A24B; letter-spacing: 5px; text-anchor: middle; }
+      .og-title-script { font-family: 'Great Vibes', cursive; font-size: 78px; fill: #F3B9A6; text-anchor: middle; }
+      .og-title-caps { font-family: 'Cinzel', Georgia, serif; font-weight: bold; font-size: 46px; fill: #FBF6EC; letter-spacing: 4px; text-anchor: middle; }
+      .og-date { font-family: 'Cinzel', Georgia, serif; font-size: 22px; fill: #F0D58A; letter-spacing: 3px; text-anchor: middle; }
+    </style><radialGradient id="diya-glow-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB62E" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#F29A1F" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#F29A1F" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="diya-brass-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0D58A" />
+      <stop offset="45%" stop-color="#C9A24B" />
+      <stop offset="100%" stop-color="#9A7425" />
+    </linearGradient>
+    <linearGradient id="diya-rim-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0D58A" />
+      <stop offset="100%" stop-color="#C9A24B" />
+    </linearGradient>
+  </defs><rect width="1200" height="630" fill="url(#og-bg-grad)" /><rect width="1200" height="630" fill="url(#og-wave-pat)" opacity="0.45" /><rect x="24" y="24" width="1152" height="582" rx="8" fill="none" stroke="#D98F78" stroke-width="2" /><rect x="34" y="34" width="1132" height="562" rx="6" fill="none" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="6,4" /><circle cx="34" cy="34" r="18" fill="none" stroke="#D98F78" stroke-width="1.2" /><circle cx="34" cy="34" r="6" fill="#C9A24B" /><circle cx="1166" cy="34" r="18" fill="none" stroke="#D98F78" stroke-width="1.2" /><circle cx="1166" cy="34" r="6" fill="#C9A24B" /><circle cx="34" cy="596" r="18" fill="none" stroke="#D98F78" stroke-width="1.2" /><circle cx="34" cy="596" r="6" fill="#C9A24B" /><circle cx="1166" cy="596" r="18" fill="none" stroke="#D98F78" stroke-width="1.2" /><circle cx="1166" cy="596" r="6" fill="#C9A24B" /><g transform="translate(375, 90) scale(1.5)" opacity="0.22"><g id="mandala-root">
+    <circle id="mandala-bg" cx="150" cy="150" r="146" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.5" stroke-dasharray="3,3" />
+    <circle id="mandala-bg-inner" cx="150" cy="150" r="141" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <path id="mandala-outer-petal-0" d="M 252.85,124.36 Q 276.42,129.98 288.00,150.00 Q 276.42,170.02 252.85,175.64 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="260.00" y1="150.00" x2="280.00" y2="150.00" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="270.00" cy="150.00" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-1" d="M 251.89,179.22 Q 269.50,195.87 269.51,219.00 Q 249.47,230.55 226.25,223.63 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="245.26" y1="205.00" x2="262.58" y2="215.00" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="253.92" cy="210.00" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-2" d="M 223.63,226.25 Q 230.55,249.47 219.00,269.51 Q 195.87,269.50 179.22,251.89 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="205.00" y1="245.26" x2="215.00" y2="262.58" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="210.00" cy="253.92" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-3" d="M 175.64,252.85 Q 170.02,276.42 150.00,288.00 Q 129.98,276.42 124.36,252.85 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="150.00" y1="260.00" x2="150.00" y2="280.00" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="150.00" cy="270.00" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-4" d="M 120.78,251.89 Q 104.13,269.50 81.00,269.51 Q 69.45,249.47 76.37,226.25 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="95.00" y1="245.26" x2="85.00" y2="262.58" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="90.00" cy="253.92" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-5" d="M 73.75,223.63 Q 50.53,230.55 30.49,219.00 Q 30.50,195.87 48.11,179.22 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="54.74" y1="205.00" x2="37.42" y2="215.00" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="46.08" cy="210.00" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-6" d="M 47.15,175.64 Q 23.58,170.02 12.00,150.00 Q 23.58,129.98 47.15,124.36 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="40.00" y1="150.00" x2="20.00" y2="150.00" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="30.00" cy="150.00" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-7" d="M 48.11,120.78 Q 30.50,104.13 30.49,81.00 Q 50.53,69.45 73.75,76.37 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="54.74" y1="95.00" x2="37.42" y2="85.00" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="46.08" cy="90.00" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-8" d="M 76.37,73.75 Q 69.45,50.53 81.00,30.49 Q 104.13,30.50 120.78,48.11 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="95.00" y1="54.74" x2="85.00" y2="37.42" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="90.00" cy="46.08" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-9" d="M 124.36,47.15 Q 129.98,23.58 150.00,12.00 Q 170.02,23.58 175.64,47.15 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="150.00" y1="40.00" x2="150.00" y2="20.00" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="150.00" cy="30.00" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-10" d="M 179.22,48.11 Q 195.87,30.50 219.00,30.49 Q 230.55,50.53 223.63,73.75 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="205.00" y1="54.74" x2="215.00" y2="37.42" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="210.00" cy="46.08" r="2" fill="#F3B9A6" />
+    <path id="mandala-outer-petal-11" d="M 226.25,76.37 Q 249.47,69.45 269.51,81.00 Q 269.50,104.13 251.89,120.78 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <line x1="245.26" y1="95.00" x2="262.58" y2="85.00" stroke="#D98F78" stroke-width="1.2" />
+    <circle cx="253.92" cy="90.00" r="2" fill="#F3B9A6" />
+    <circle id="mandala-ring-106" cx="150" cy="150" r="106" fill="#1E2C70" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="251.00" cy="150.00" r="1.8" fill="#D98F78" />
+    <circle cx="247.56" cy="176.14" r="1.8" fill="#D98F78" />
+    <circle cx="237.47" cy="200.50" r="1.8" fill="#D98F78" />
+    <circle cx="221.42" cy="221.42" r="1.8" fill="#D98F78" />
+    <circle cx="200.50" cy="237.47" r="1.8" fill="#D98F78" />
+    <circle cx="176.14" cy="247.56" r="1.8" fill="#D98F78" />
+    <circle cx="150.00" cy="251.00" r="1.8" fill="#D98F78" />
+    <circle cx="123.86" cy="247.56" r="1.8" fill="#D98F78" />
+    <circle cx="99.50" cy="237.47" r="1.8" fill="#D98F78" />
+    <circle cx="78.58" cy="221.42" r="1.8" fill="#D98F78" />
+    <circle cx="62.53" cy="200.50" r="1.8" fill="#D98F78" />
+    <circle cx="52.44" cy="176.14" r="1.8" fill="#D98F78" />
+    <circle cx="49.00" cy="150.00" r="1.8" fill="#D98F78" />
+    <circle cx="52.44" cy="123.86" r="1.8" fill="#D98F78" />
+    <circle cx="62.53" cy="99.50" r="1.8" fill="#D98F78" />
+    <circle cx="78.58" cy="78.58" r="1.8" fill="#D98F78" />
+    <circle cx="99.50" cy="62.53" r="1.8" fill="#D98F78" />
+    <circle cx="123.86" cy="52.44" r="1.8" fill="#D98F78" />
+    <circle cx="150.00" cy="49.00" r="1.8" fill="#D98F78" />
+    <circle cx="176.14" cy="52.44" r="1.8" fill="#D98F78" />
+    <circle cx="200.50" cy="62.53" r="1.8" fill="#D98F78" />
+    <circle cx="221.42" cy="78.58" r="1.8" fill="#D98F78" />
+    <circle cx="237.47" cy="99.50" r="1.8" fill="#D98F78" />
+    <circle cx="247.56" cy="123.86" r="1.8" fill="#D98F78" />
+    <path id="mandala-mid-petal-0" d="M 221.96,152.51 Q 239.12,162.53 242.73,174.85 Q 233.45,183.71 213.57,183.80 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="230.17" cy="171.48" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-1" d="M 211.06,188.15 Q 220.92,205.41 217.88,217.88 Q 205.41,220.92 188.15,211.06 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="208.69" cy="208.69" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-2" d="M 183.80,213.57 Q 183.71,233.45 174.85,242.73 Q 162.53,239.12 152.51,221.96 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="171.48" cy="230.17" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-3" d="M 147.49,221.96 Q 137.47,239.12 125.15,242.73 Q 116.29,233.45 116.20,213.57 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="128.52" cy="230.17" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-4" d="M 111.85,211.06 Q 94.59,220.92 82.12,217.88 Q 79.08,205.41 88.94,188.15 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="91.31" cy="208.69" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-5" d="M 86.43,183.80 Q 66.55,183.71 57.27,174.85 Q 60.88,162.53 78.04,152.51 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="69.83" cy="171.48" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-6" d="M 78.04,147.49 Q 60.88,137.47 57.27,125.15 Q 66.55,116.29 86.43,116.20 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="69.83" cy="128.52" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-7" d="M 88.94,111.85 Q 79.08,94.59 82.12,82.12 Q 94.59,79.08 111.85,88.94 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="91.31" cy="91.31" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-8" d="M 116.20,86.43 Q 116.29,66.55 125.15,57.27 Q 137.47,60.88 147.49,78.04 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="128.52" cy="69.83" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-9" d="M 152.51,78.04 Q 162.53,60.88 174.85,57.27 Q 183.71,66.55 183.80,86.43 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="171.48" cy="69.83" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-10" d="M 188.15,88.94 Q 205.41,79.08 217.88,82.12 Q 220.92,94.59 211.06,111.85 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="208.69" cy="91.31" r="2.5" fill="#C9A24B" />
+    <path id="mandala-mid-petal-11" d="M 213.57,116.20 Q 233.45,116.29 242.73,125.15 Q 239.12,137.47 221.96,147.49 Z" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="230.17" cy="128.52" r="2.5" fill="#C9A24B" />
+    <circle id="mandala-ring-72" cx="150" cy="150" r="72" fill="#1E2C70" stroke="#D98F78" stroke-width="1.5" />
+    <circle id="mandala-ring-64" cx="150" cy="150" r="64" fill="#12308F" stroke="#D98F78" stroke-width="1.2" stroke-dasharray="2,2" />
+    <line x1="215.00" y1="150.00" x2="221.00" y2="150.00" stroke="#D98F78" stroke-width="1" />
+    <line x1="214.01" y1="161.29" x2="219.92" y2="162.33" stroke="#D98F78" stroke-width="1" />
+    <line x1="211.08" y1="172.23" x2="216.72" y2="174.28" stroke="#D98F78" stroke-width="1" />
+    <line x1="206.29" y1="182.50" x2="211.49" y2="185.50" stroke="#D98F78" stroke-width="1" />
+    <line x1="199.79" y1="191.78" x2="204.39" y2="195.64" stroke="#D98F78" stroke-width="1" />
+    <line x1="191.78" y1="199.79" x2="195.64" y2="204.39" stroke="#D98F78" stroke-width="1" />
+    <line x1="182.50" y1="206.29" x2="185.50" y2="211.49" stroke="#D98F78" stroke-width="1" />
+    <line x1="172.23" y1="211.08" x2="174.28" y2="216.72" stroke="#D98F78" stroke-width="1" />
+    <line x1="161.29" y1="214.01" x2="162.33" y2="219.92" stroke="#D98F78" stroke-width="1" />
+    <line x1="150.00" y1="215.00" x2="150.00" y2="221.00" stroke="#D98F78" stroke-width="1" />
+    <line x1="138.71" y1="214.01" x2="137.67" y2="219.92" stroke="#D98F78" stroke-width="1" />
+    <line x1="127.77" y1="211.08" x2="125.72" y2="216.72" stroke="#D98F78" stroke-width="1" />
+    <line x1="117.50" y1="206.29" x2="114.50" y2="211.49" stroke="#D98F78" stroke-width="1" />
+    <line x1="108.22" y1="199.79" x2="104.36" y2="204.39" stroke="#D98F78" stroke-width="1" />
+    <line x1="100.21" y1="191.78" x2="95.61" y2="195.64" stroke="#D98F78" stroke-width="1" />
+    <line x1="93.71" y1="182.50" x2="88.51" y2="185.50" stroke="#D98F78" stroke-width="1" />
+    <line x1="88.92" y1="172.23" x2="83.28" y2="174.28" stroke="#D98F78" stroke-width="1" />
+    <line x1="85.99" y1="161.29" x2="80.08" y2="162.33" stroke="#D98F78" stroke-width="1" />
+    <line x1="85.00" y1="150.00" x2="79.00" y2="150.00" stroke="#D98F78" stroke-width="1" />
+    <line x1="85.99" y1="138.71" x2="80.08" y2="137.67" stroke="#D98F78" stroke-width="1" />
+    <line x1="88.92" y1="127.77" x2="83.28" y2="125.72" stroke="#D98F78" stroke-width="1" />
+    <line x1="93.71" y1="117.50" x2="88.51" y2="114.50" stroke="#D98F78" stroke-width="1" />
+    <line x1="100.21" y1="108.22" x2="95.61" y2="104.36" stroke="#D98F78" stroke-width="1" />
+    <line x1="108.22" y1="100.21" x2="104.36" y2="95.61" stroke="#D98F78" stroke-width="1" />
+    <line x1="117.50" y1="93.71" x2="114.50" y2="88.51" stroke="#D98F78" stroke-width="1" />
+    <line x1="127.77" y1="88.92" x2="125.72" y2="83.28" stroke="#D98F78" stroke-width="1" />
+    <line x1="138.71" y1="85.99" x2="137.67" y2="80.08" stroke="#D98F78" stroke-width="1" />
+    <line x1="150.00" y1="85.00" x2="150.00" y2="79.00" stroke="#D98F78" stroke-width="1" />
+    <line x1="161.29" y1="85.99" x2="162.33" y2="80.08" stroke="#D98F78" stroke-width="1" />
+    <line x1="172.23" y1="88.92" x2="174.28" y2="83.28" stroke="#D98F78" stroke-width="1" />
+    <line x1="182.50" y1="93.71" x2="185.50" y2="88.51" stroke="#D98F78" stroke-width="1" />
+    <line x1="191.78" y1="100.21" x2="195.64" y2="95.61" stroke="#D98F78" stroke-width="1" />
+    <line x1="199.79" y1="108.22" x2="204.39" y2="104.36" stroke="#D98F78" stroke-width="1" />
+    <line x1="206.29" y1="117.50" x2="211.49" y2="114.50" stroke="#D98F78" stroke-width="1" />
+    <line x1="211.08" y1="127.77" x2="216.72" y2="125.72" stroke="#D98F78" stroke-width="1" />
+    <line x1="214.01" y1="138.71" x2="219.92" y2="137.67" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-0" d="M 185.34,143.13 Q 201.74,144.81 208.00,150.00 Q 201.74,155.19 185.34,156.87 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="188.00" y1="150.00" x2="208.00" y2="150.00" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-1" d="M 184.04,161.72 Q 197.40,171.37 200.23,179.00 Q 192.21,180.37 177.17,173.62 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="182.91" y1="169.00" x2="200.23" y2="179.00" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-2" d="M 173.62,177.17 Q 180.37,192.21 179.00,200.23 Q 171.37,197.40 161.72,184.04 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="169.00" y1="182.91" x2="179.00" y2="200.23" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-3" d="M 156.87,185.34 Q 155.19,201.74 150.00,208.00 Q 144.81,201.74 143.13,185.34 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="150.00" y1="188.00" x2="150.00" y2="208.00" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-4" d="M 138.28,184.04 Q 128.63,197.40 121.00,200.23 Q 119.63,192.21 126.38,177.17 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="131.00" y1="182.91" x2="121.00" y2="200.23" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-5" d="M 122.83,173.62 Q 107.79,180.37 99.77,179.00 Q 102.60,171.37 115.96,161.72 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="117.09" y1="169.00" x2="99.77" y2="179.00" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-6" d="M 114.66,156.87 Q 98.26,155.19 92.00,150.00 Q 98.26,144.81 114.66,143.13 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="112.00" y1="150.00" x2="92.00" y2="150.00" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-7" d="M 115.96,138.28 Q 102.60,128.63 99.77,121.00 Q 107.79,119.63 122.83,126.38 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="117.09" y1="131.00" x2="99.77" y2="121.00" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-8" d="M 126.38,122.83 Q 119.63,107.79 121.00,99.77 Q 128.63,102.60 138.28,115.96 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="131.00" y1="117.09" x2="121.00" y2="99.77" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-9" d="M 143.13,114.66 Q 144.81,98.26 150.00,92.00 Q 155.19,98.26 156.87,114.66 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="150.00" y1="112.00" x2="150.00" y2="92.00" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-10" d="M 161.72,115.96 Q 171.37,102.60 179.00,99.77 Q 180.37,107.79 173.62,122.83 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="169.00" y1="117.09" x2="179.00" y2="99.77" stroke="#D98F78" stroke-width="1" />
+    <path id="mandala-inner-petal-11" d="M 177.17,126.38 Q 192.21,119.63 200.23,121.00 Q 197.40,128.63 184.04,138.28 Z" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.4" />
+    <line x1="182.91" y1="131.00" x2="200.23" y2="121.00" stroke="#D98F78" stroke-width="1" />
+    <circle id="mandala-core-ring" cx="150" cy="150" r="36" fill="#12308F" stroke="#D98F78" stroke-width="1.5" />
+    <circle cx="181.00" cy="150.00" r="1.5" fill="#F3B9A6" />
+    <circle cx="176.85" cy="165.50" r="1.5" fill="#F3B9A6" />
+    <circle cx="165.50" cy="176.85" r="1.5" fill="#F3B9A6" />
+    <circle cx="150.00" cy="181.00" r="1.5" fill="#F3B9A6" />
+    <circle cx="134.50" cy="176.85" r="1.5" fill="#F3B9A6" />
+    <circle cx="123.15" cy="165.50" r="1.5" fill="#F3B9A6" />
+    <circle cx="119.00" cy="150.00" r="1.5" fill="#F3B9A6" />
+    <circle cx="123.15" cy="134.50" r="1.5" fill="#F3B9A6" />
+    <circle cx="134.50" cy="123.15" r="1.5" fill="#F3B9A6" />
+    <circle cx="150.00" cy="119.00" r="1.5" fill="#F3B9A6" />
+    <circle cx="165.50" cy="123.15" r="1.5" fill="#F3B9A6" />
+    <circle cx="176.85" cy="134.50" r="1.5" fill="#F3B9A6" />
+    <polygon id="mandala-star" points="174.00,150.00 163.52,153.62 170.78,162.00 159.90,159.90 162.00,170.78 153.62,163.52 150.00,174.00 146.38,163.52 138.00,170.78 140.10,159.90 129.22,162.00 136.48,153.62 126.00,150.00 136.48,146.38 129.22,138.00 140.10,140.10 138.00,129.22 146.38,136.48 150.00,126.00 153.62,136.48 162.00,129.22 159.90,140.10 170.78,138.00 163.52,146.38" fill="#0A1B5C" stroke="#D98F78" stroke-width="1.2" />
+    <circle id="mandala-bindu-outer" cx="150" cy="150" r="10" fill="#12308F" stroke="#D98F78" stroke-width="1.2" />
+    <circle id="mandala-bindu-gold" cx="150" cy="150" r="6" fill="#C9A24B" />
+    <circle id="mandala-bindu-dot" cx="150" cy="150" r="2.5" fill="#FBF6EC" />
+  </g>
+</g><g transform="translate(60, 240) scale(0.65)" opacity="0.75"><g id="peacock-root">
+    <path id="peacock-train-bg" d="M 125,120 C 100,120 50,140 24,185 C 10,210 20,230 45,232 C 85,235 125,195 138,150 Z" fill="url(#peacock-tail-grad)" stroke="#D98F78" stroke-width="1.5" />
+    <g id="peacock-eye-0" transform="rotate(-20 35 215)">
+      <line x1="35" y1="230" x2="35" y2="200" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="35" cy="215" rx="12" ry="16" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="35" cy="216" rx="8.6" ry="11.5" fill="#0E8C86" />
+      <ellipse cx="35" cy="217" rx="5.4" ry="7.2" fill="#0A1B5C" />
+      <circle cx="33.5" cy="215" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-1" transform="rotate(-10 58 222)">
+      <line x1="58" y1="237" x2="58" y2="207" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="58" cy="222" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="58" cy="223" rx="9.4" ry="12.2" fill="#0E8C86" />
+      <ellipse cx="58" cy="224" rx="5.9" ry="7.7" fill="#0A1B5C" />
+      <circle cx="56.5" cy="222" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-2" transform="rotate(5 85 218)">
+      <line x1="85" y1="233" x2="85" y2="203" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="85" cy="218" rx="14" ry="18" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="85" cy="219" rx="10.1" ry="13.0" fill="#0E8C86" />
+      <ellipse cx="85" cy="220" rx="6.3" ry="8.1" fill="#0A1B5C" />
+      <circle cx="83.5" cy="218" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-3" transform="rotate(-25 46 188)">
+      <line x1="46" y1="203" x2="46" y2="173" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="46" cy="188" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="46" cy="189" rx="9.4" ry="12.2" fill="#0E8C86" />
+      <ellipse cx="46" cy="190" rx="5.9" ry="7.7" fill="#0A1B5C" />
+      <circle cx="44.5" cy="188" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-4" transform="rotate(-15 72 192)">
+      <line x1="72" y1="207" x2="72" y2="177" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="72" cy="192" rx="14" ry="18" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="72" cy="193" rx="10.1" ry="13.0" fill="#0E8C86" />
+      <ellipse cx="72" cy="194" rx="6.3" ry="8.1" fill="#0A1B5C" />
+      <circle cx="70.5" cy="192" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-5" transform="rotate(10 100 186)">
+      <line x1="100" y1="201" x2="100" y2="171" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="100" cy="186" rx="14" ry="18" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="100" cy="187" rx="10.1" ry="13.0" fill="#0E8C86" />
+      <ellipse cx="100" cy="188" rx="6.3" ry="8.1" fill="#0A1B5C" />
+      <circle cx="98.5" cy="186" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-6" transform="rotate(-20 68 160)">
+      <line x1="68" y1="175" x2="68" y2="145" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="68" cy="160" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="68" cy="161" rx="9.4" ry="12.2" fill="#0E8C86" />
+      <ellipse cx="68" cy="162" rx="5.9" ry="7.7" fill="#0A1B5C" />
+      <circle cx="66.5" cy="160" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-7" transform="rotate(0 96 158)">
+      <line x1="96" y1="173" x2="96" y2="143" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="96" cy="158" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="96" cy="159" rx="9.4" ry="12.2" fill="#0E8C86" />
+      <ellipse cx="96" cy="160" rx="5.9" ry="7.7" fill="#0A1B5C" />
+      <circle cx="94.5" cy="158" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-8" transform="rotate(15 120 155)">
+      <line x1="120" y1="170" x2="120" y2="140" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="120" cy="155" rx="12" ry="16" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="120" cy="156" rx="8.6" ry="11.5" fill="#0E8C86" />
+      <ellipse cx="120" cy="157" rx="5.4" ry="7.2" fill="#0A1B5C" />
+      <circle cx="118.5" cy="155" r="1.5" fill="#FBF6EC" />
+    </g>
+    <path id="peacock-perch" d="M 80,188 Q 125,182 170,184" stroke="#D98F78" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <path id="peacock-foot" d="M 124,175 L 122,185 M 128,175 L 129,185 M 134,175 L 137,185" stroke="#AD5E46" stroke-width="1.8" stroke-linecap="round" />
+    <path id="peacock-body" d="M 150,42 C 142,60 134,80 132,105 C 130,130 134,152 145,168 C 158,166 172,150 174,130 C 176,112 172,96 160,80 C 156,66 158,54 154,42 Z" fill="url(#peacock-body-grad)" stroke="#D98F78" stroke-width="1.5" stroke-linejoin="round" />
+    <path id="peacock-wing-base" d="M 134,106 C 145,104 165,110 168,124 C 168,142 152,160 138,166 C 132,150 130,128 134,106 Z" fill="#0E8C86" stroke="#D98F78" stroke-width="1.4" />
+    <path id="peacock-wing-scallop-1" d="M 140,116 Q 150,114 162,120" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-wing-scallop-2" d="M 136,128 Q 148,126 162,132" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-wing-scallop-3" d="M 135,140 Q 146,138 158,144" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-wing-scallop-4" d="M 136,152 Q 144,150 152,155" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-head" d="M 148,46 C 146,38 154,32 162,36 C 168,40 166,48 160,54 C 154,58 149,54 148,46 Z" fill="#1E2C70" stroke="#D98F78" stroke-width="1.3" />
+    <polygon id="peacock-beak" points="163,38 176,43 162,47" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+    <path id="peacock-eye-almond" d="M 153,40 Q 158,36 163,40 Q 158,44 153,40 Z" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle id="peacock-eye-pupil" cx="158" cy="40" r="1.8" fill="#0A1B5C" />
+    <circle id="peacock-eye-glint" cx="157.3" cy="39.3" r="0.6" fill="#FBF6EC" />
+    <path id="peacock-crest-stem-1" d="M 152,34 Q 152,20 156,12" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-crest-stem-2" d="M 154,34 Q 158,20 165,14" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-crest-stem-3" d="M 156,35 Q 164,22 174,18" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <circle id="peacock-crest-plume-1" cx="156" cy="11" r="3.2" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle id="peacock-crest-center-1" cx="156" cy="11" r="1.5" fill="#0E8C86" />
+    <circle id="peacock-crest-plume-2" cx="165" cy="13" r="3.2" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle id="peacock-crest-center-2" cx="165" cy="13" r="1.5" fill="#0E8C86" />
+    <circle id="peacock-crest-plume-3" cx="174" cy="17" r="3.2" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle id="peacock-crest-center-3" cx="174" cy="17" r="1.5" fill="#0E8C86" />
+  </g>
+</g><g transform="translate(1140, 240) scale(-0.65, 0.65)" opacity="0.75"><g id="peacock-root">
+    <path id="peacock-train-bg" d="M 125,120 C 100,120 50,140 24,185 C 10,210 20,230 45,232 C 85,235 125,195 138,150 Z" fill="url(#peacock-tail-grad)" stroke="#D98F78" stroke-width="1.5" />
+    <g id="peacock-eye-0" transform="rotate(-20 35 215)">
+      <line x1="35" y1="230" x2="35" y2="200" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="35" cy="215" rx="12" ry="16" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="35" cy="216" rx="8.6" ry="11.5" fill="#0E8C86" />
+      <ellipse cx="35" cy="217" rx="5.4" ry="7.2" fill="#0A1B5C" />
+      <circle cx="33.5" cy="215" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-1" transform="rotate(-10 58 222)">
+      <line x1="58" y1="237" x2="58" y2="207" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="58" cy="222" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="58" cy="223" rx="9.4" ry="12.2" fill="#0E8C86" />
+      <ellipse cx="58" cy="224" rx="5.9" ry="7.7" fill="#0A1B5C" />
+      <circle cx="56.5" cy="222" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-2" transform="rotate(5 85 218)">
+      <line x1="85" y1="233" x2="85" y2="203" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="85" cy="218" rx="14" ry="18" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="85" cy="219" rx="10.1" ry="13.0" fill="#0E8C86" />
+      <ellipse cx="85" cy="220" rx="6.3" ry="8.1" fill="#0A1B5C" />
+      <circle cx="83.5" cy="218" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-3" transform="rotate(-25 46 188)">
+      <line x1="46" y1="203" x2="46" y2="173" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="46" cy="188" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="46" cy="189" rx="9.4" ry="12.2" fill="#0E8C86" />
+      <ellipse cx="46" cy="190" rx="5.9" ry="7.7" fill="#0A1B5C" />
+      <circle cx="44.5" cy="188" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-4" transform="rotate(-15 72 192)">
+      <line x1="72" y1="207" x2="72" y2="177" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="72" cy="192" rx="14" ry="18" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="72" cy="193" rx="10.1" ry="13.0" fill="#0E8C86" />
+      <ellipse cx="72" cy="194" rx="6.3" ry="8.1" fill="#0A1B5C" />
+      <circle cx="70.5" cy="192" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-5" transform="rotate(10 100 186)">
+      <line x1="100" y1="201" x2="100" y2="171" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="100" cy="186" rx="14" ry="18" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="100" cy="187" rx="10.1" ry="13.0" fill="#0E8C86" />
+      <ellipse cx="100" cy="188" rx="6.3" ry="8.1" fill="#0A1B5C" />
+      <circle cx="98.5" cy="186" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-6" transform="rotate(-20 68 160)">
+      <line x1="68" y1="175" x2="68" y2="145" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="68" cy="160" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="68" cy="161" rx="9.4" ry="12.2" fill="#0E8C86" />
+      <ellipse cx="68" cy="162" rx="5.9" ry="7.7" fill="#0A1B5C" />
+      <circle cx="66.5" cy="160" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-7" transform="rotate(0 96 158)">
+      <line x1="96" y1="173" x2="96" y2="143" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="96" cy="158" rx="13" ry="17" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="96" cy="159" rx="9.4" ry="12.2" fill="#0E8C86" />
+      <ellipse cx="96" cy="160" rx="5.9" ry="7.7" fill="#0A1B5C" />
+      <circle cx="94.5" cy="158" r="1.5" fill="#FBF6EC" />
+    </g>
+    <g id="peacock-eye-8" transform="rotate(15 120 155)">
+      <line x1="120" y1="170" x2="120" y2="140" stroke="#2FA07F" stroke-width="1" />
+      <ellipse cx="120" cy="155" rx="12" ry="16" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+      <ellipse cx="120" cy="156" rx="8.6" ry="11.5" fill="#0E8C86" />
+      <ellipse cx="120" cy="157" rx="5.4" ry="7.2" fill="#0A1B5C" />
+      <circle cx="118.5" cy="155" r="1.5" fill="#FBF6EC" />
+    </g>
+    <path id="peacock-perch" d="M 80,188 Q 125,182 170,184" stroke="#D98F78" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <path id="peacock-foot" d="M 124,175 L 122,185 M 128,175 L 129,185 M 134,175 L 137,185" stroke="#AD5E46" stroke-width="1.8" stroke-linecap="round" />
+    <path id="peacock-body" d="M 150,42 C 142,60 134,80 132,105 C 130,130 134,152 145,168 C 158,166 172,150 174,130 C 176,112 172,96 160,80 C 156,66 158,54 154,42 Z" fill="url(#peacock-body-grad)" stroke="#D98F78" stroke-width="1.5" stroke-linejoin="round" />
+    <path id="peacock-wing-base" d="M 134,106 C 145,104 165,110 168,124 C 168,142 152,160 138,166 C 132,150 130,128 134,106 Z" fill="#0E8C86" stroke="#D98F78" stroke-width="1.4" />
+    <path id="peacock-wing-scallop-1" d="M 140,116 Q 150,114 162,120" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-wing-scallop-2" d="M 136,128 Q 148,126 162,132" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-wing-scallop-3" d="M 135,140 Q 146,138 158,144" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-wing-scallop-4" d="M 136,152 Q 144,150 152,155" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-head" d="M 148,46 C 146,38 154,32 162,36 C 168,40 166,48 160,54 C 154,58 149,54 148,46 Z" fill="#1E2C70" stroke="#D98F78" stroke-width="1.3" />
+    <polygon id="peacock-beak" points="163,38 176,43 162,47" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+    <path id="peacock-eye-almond" d="M 153,40 Q 158,36 163,40 Q 158,44 153,40 Z" fill="#FBF6EC" stroke="#D98F78" stroke-width="0.8" />
+    <circle id="peacock-eye-pupil" cx="158" cy="40" r="1.8" fill="#0A1B5C" />
+    <circle id="peacock-eye-glint" cx="157.3" cy="39.3" r="0.6" fill="#FBF6EC" />
+    <path id="peacock-crest-stem-1" d="M 152,34 Q 152,20 156,12" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-crest-stem-2" d="M 154,34 Q 158,20 165,14" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="peacock-crest-stem-3" d="M 156,35 Q 164,22 174,18" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <circle id="peacock-crest-plume-1" cx="156" cy="11" r="3.2" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle id="peacock-crest-center-1" cx="156" cy="11" r="1.5" fill="#0E8C86" />
+    <circle id="peacock-crest-plume-2" cx="165" cy="13" r="3.2" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle id="peacock-crest-center-2" cx="165" cy="13" r="1.5" fill="#0E8C86" />
+    <circle id="peacock-crest-plume-3" cx="174" cy="17" r="3.2" fill="#C9A24B" stroke="#D98F78" stroke-width="0.8" />
+    <circle id="peacock-crest-center-3" cx="174" cy="17" r="1.5" fill="#0E8C86" />
+  </g>
+</g><text x="600" y="115" class="og-deva">॥ श्री गणेशाय नमः ॥</text><g transform="translate(480, 128)"><g id="divider-lotus-root">
+    <line id="divider-lotus-line-left" x1="12" y1="12" x2="105" y2="12" stroke="#D98F78" stroke-width="1" />
+    <line id="divider-lotus-line-right" x1="135" y1="12" x2="228" y2="12" stroke="#D98F78" stroke-width="1" />
+    <circle cx="12" cy="12" r="1.5" fill="#D98F78" />
+    <circle cx="228" cy="12" r="1.5" fill="#D98F78" />
+    <polygon points="35,9.5 37.5,12 35,14.5 32.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <polygon points="70,9.5 72.5,12 70,14.5 67.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <polygon points="170,9.5 172.5,12 170,14.5 167.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <polygon points="205,9.5 207.5,12 205,14.5 202.5,12" fill="#C9A24B" stroke="#D98F78" stroke-width="0.6" />
+    <path id="divider-lotus-calyx-left" d="M 120,18 C 114,19 108,18 105,15 C 109,14 116,16 120,18 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" />
+    <path id="divider-lotus-calyx-right" d="M 120,18 C 126,19 132,18 135,15 C 131,14 124,16 120,18 Z" fill="#2FA07F" stroke="#D98F78" stroke-width="0.8" />
+    <path id="divider-lotus-petal-l" d="M 120,17 C 114,15 109,10 111,6 C 116,8 118,12 120,17 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="0.9" />
+    <path id="divider-lotus-petal-r" d="M 120,17 C 126,15 131,10 129,6 C 124,8 122,12 120,17 Z" fill="#F3B9A6" stroke="#D98F78" stroke-width="0.9" />
+    <path id="divider-lotus-petal-c" d="M 120,17 C 117,12 116,7 120,3 C 124,7 123,12 120,17 Z" fill="#F8D2C4" stroke="#D98F78" stroke-width="1" />
+    <circle cx="120" cy="8" r="1" fill="#C9A24B" />
+  </g>
+</g><text x="600" y="225" class="og-title-script">Samikshya’s</text><text x="600" y="295" class="og-title-caps">16TH BIRTHDAY PUJA</text><g transform="translate(480, 330)"><g id="divider-diamond-root">
+    <line id="divider-diamond-line-left" x1="12" y1="6" x2="104" y2="6" stroke="#D98F78" stroke-width="1" />
+    <line id="divider-diamond-line-right" x1="136" y1="6" x2="228" y2="6" stroke="#D98F78" stroke-width="1" />
+    <circle cx="12" cy="6" r="1.5" fill="#D98F78" />
+    <circle cx="228" cy="6" r="1.5" fill="#D98F78" />
+    <circle cx="45" cy="6" r="1.2" fill="#D98F78" />
+    <circle cx="75" cy="6" r="1.2" fill="#D98F78" />
+    <circle cx="165" cy="6" r="1.2" fill="#D98F78" />
+    <circle cx="195" cy="6" r="1.2" fill="#D98F78" />
+    <polygon id="divider-diamond-side-l" points="110,3.5 112.5,6 110,8.5 107.5,6" fill="#D98F78" />
+    <polygon id="divider-diamond-side-r" points="130,3.5 132.5,6 130,8.5 127.5,6" fill="#D98F78" />
+    <circle cx="104" cy="6" r="1.2" fill="#D98F78" />
+    <circle cx="136" cy="6" r="1.2" fill="#D98F78" />
+    <polygon id="divider-diamond-main" points="120,1.5 124.5,6 120,10.5 115.5,6" fill="#C9A24B" stroke="#D98F78" stroke-width="1" />
+    <circle id="divider-diamond-center-dot" cx="120" cy="6" r="1.2" fill="#FBF6EC" />
+  </g>
+</g><text x="600" y="405" class="og-date">Sunday, 29 November 2026</text><text x="600" y="445" class="og-sub">7:00 PM ONWARDS · SALEPUR, CUTTACK</text><g transform="translate(555, 485) scale(0.9)"><g id="diya-glow" class="glow">
+    <circle cx="50" cy="24" r="22" fill="url(#diya-glow-grad)" />
+  </g>
+  <g id="diya-flame" class="flame">
+    <path id="diya-flame-outer" d="M 50,42 C 41,39 36,30 38,22 C 40,14 47,8 50,4 C 53,8 60,14 62,22 C 64,30 59,39 50,42 Z" fill="#FFB62E" />
+    <path id="diya-flame-inner" d="M 50,41 C 45,38 42,32 43,25 C 44,19 48,14 50,10 C 52,14 56,19 57,25 C 58,32 55,38 50,41 Z" fill="#FBF6EC" />
+  </g>
+  <g id="diya-bowl" class="bowl">
+    <path id="diya-wick" d="M 50,44 Q 50,39 51,37" stroke="#AD5E46" stroke-width="2.2" stroke-linecap="round" fill="none" />
+    <path id="diya-bowl-body" d="M 14,46 C 14,60 36,65 44,65 L 42,72 L 32,74 L 32,77 L 68,77 L 68,74 L 58,72 L 56,65 C 64,65 86,60 86,46 Z" fill="url(#diya-brass-grad)" stroke="#D98F78" stroke-width="1.5" stroke-linejoin="round" />
+    <ellipse id="diya-bowl-rim" cx="50" cy="46" rx="36" ry="6" fill="url(#diya-rim-grad)" stroke="#D98F78" stroke-width="1.5" />
+    <ellipse id="diya-bowl-inner-pool" cx="50" cy="46" rx="30" ry="4" fill="#9A7425" opacity="0.6" />
+    <path id="diya-engraving-mid" d="M 50,49 Q 50,60 50,63" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="diya-engraving-left" d="M 34,49 Q 38,58 44,63" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <path id="diya-engraving-right" d="M 66,49 Q 62,58 56,63" stroke="#D98F78" stroke-width="1.2" fill="none" />
+    <line id="diya-base-line" x1="33" y1="74" x2="67" y2="74" stroke="#D98F78" stroke-width="1.2" />
+    <circle id="diya-jewel-1" cx="44" cy="75.5" r="1" fill="#D81B72" />
+    <circle id="diya-jewel-2" cx="50" cy="75.5" r="1" fill="#D81B72" />
+    <circle id="diya-jewel-3" cx="56" cy="75.5" r="1" fill="#D81B72" />
+  </g>
+</g></svg>

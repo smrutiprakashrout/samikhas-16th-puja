@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 24">
+  <defs>
+    <linearGradient id="leaf-roll-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D98F78"/>
+      <stop offset="25%" stop-color="#F3B9A6"/>
+      <stop offset="55%" stop-color="#F8D2C4"/>
+      <stop offset="85%" stop-color="#AD5E46"/>
+      <stop offset="100%" stop-color="#0A1B5C"/>
+    </linearGradient>
+  </defs>
+  <g id="leaf-roll-root">
+    <rect id="leaf-roll-cylinder" x="4" y="3" width="332" height="16" rx="4" fill="url(#leaf-roll-grad)" stroke="#D98F78" stroke-width="1.2"/>
+    <line id="leaf-roll-shine" x1="12" y1="9" x2="328" y2="9" stroke="#FBF6EC" stroke-width="1" opacity="0.65"/>
+    <ellipse id="leaf-roll-cap-l" cx="10" cy="11" rx="5" ry="7" fill="#D98F78" stroke="#AD5E46" stroke-width="1"/>
+    <circle id="leaf-roll-core-l" cx="10" cy="11" r="2.5" fill="#0A1B5C"/>
+    <ellipse id="leaf-roll-cap-r" cx="330" cy="11" rx="5" ry="7" fill="#D98F78" stroke="#AD5E46" stroke-width="1"/>
+    <circle id="leaf-roll-core-r" cx="330" cy="11" r="2.5" fill="#0A1B5C"/>
+  </g>
+</svg>

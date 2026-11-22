@@ -16,7 +16,7 @@ Follow the spec literally (sizes, positions, text, timings). Save stills to vide
 - [x] **V05 · OC · Invitation sentence** → `docs/specs/V05-invitation.md` — ivory scene, mandala, slow Words, key underline, divider/closing; 5 stills + compare saved.
 - [x] **V06 · OC · NEW: Satyanarayan Puja (kalash, 6:00 PM, arrive before 5:30 PM)** → `docs/specs/V06-satyanarayan.md` — kalash/clock components, glow, all beats; 6 stills + full compare, positions tuned to reference (RMSE .083), owner to eyeball."
 - [x] **V07 · OC · Family** → `docs/specs/V07-family.md` — centred thread/nodes/names/blossom, watermark, Dust; 4 stills + compare saved, all names on one line, owner to eyeball."
-- [ ] **V08 · OC · Date and time (scratch ticket)** → `docs/specs/V08-date.md`
+- [x] **V08 · OC · Date and time (scratch ticket)** → `docs/specs/V08-date.md` — ticket, SVG scratch mask/stylus, reveal beats + shine; 6 required stills + f1285 clean final and compares (f1300 is in V09 overlap), owner to eyeball."
 - [ ] **V09 · OC · Venue (drawn map)** → `docs/specs/V09-venue.md`
 - [ ] **V10 · OC · RSVP diya + Closing** → `docs/specs/V10-rsvp-closing.md`
 - [ ] **V11 · OC · Assemble, audio, final renders** → `docs/specs/V11-final.md`

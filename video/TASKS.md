@@ -10,7 +10,7 @@ Follow the spec literally (sizes, positions, text, timings). Save stills to vide
 ## Tasks (in order, each needs the one before)
 - [x] **V00 · OC · Set up this computer and prove the pipeline** → `docs/specs/V00-setup.md` — Node 26.13.0, Remotion 4.0.545, h264/1080×1920/30fps/AAC verified; fonts still saved, owner to view.
 - [x] **V01 · OC · Core kit (theme, helpers, shared components, empty scene slots)** → `docs/specs/V01-core.md` — totalFrames 1735; theme/helpers/10 components/9 placeholder scenes/Invite/compare.mjs; 11 stills + safe-zone still verified.
-- [ ] **V02 · OC · Gate (doors, light flood)** → `docs/specs/V02-gate.md`
+- [x] **V02 · OC · Gate (doors, light flood)** → `docs/specs/V02-gate.md` — 3D doors/latch/bloom/flood frame-driven; 6 stills + 2 compare pairs saved; pixel checks pass, owner to eyeball compares.
 - [ ] **V03 · OC · Ganesha + shloka** → `docs/specs/V03-ganesha.md`
 - [ ] **V04 · OC · Hero (arch, photo, 16th)** → `docs/specs/V04-hero.md`
 - [ ] **V05 · OC · Invitation sentence** → `docs/specs/V05-invitation.md`

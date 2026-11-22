@@ -8,10 +8,11 @@ import { SafeZones } from './SafeZones';
 type SceneProps = {
   id: string;
   background: string;
+  pushTo?: number;
   children?: React.ReactNode;
 };
 
-export const Scene: React.FC<SceneProps> = ({ id, background, children }) => {
+export const Scene: React.FC<SceneProps> = ({ id, background, pushTo = 1.03, children }) => {
   const frame = useCurrentFrame();
   const entry = SCENES.find((s) => s.id === id) ?? SCENES[0];
   const p = seg(frame, 0, OVERLAP, entry.in === 'fade' ? E.out : E.light);
@@ -21,7 +22,7 @@ export const Scene: React.FC<SceneProps> = ({ id, background, children }) => {
   else if (entry.in === 'rise') transition = { clipPath: `inset(${(1 - p) * 100}% 0 0 0)` };
   else if (entry.in === 'circle') transition = { clipPath: `circle(${p * 1500}px at 50% 55%)` };
 
-  const push = 1 + 0.03 * clamp(frame / entry.length, 0, 1);
+  const push = 1 + (pushTo - 1) * clamp(frame / entry.length, 0, 1);
 
   return (
     <AbsoluteFill style={{ ...cssVars, background }}>

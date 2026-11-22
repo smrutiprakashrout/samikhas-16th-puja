@@ -18,7 +18,7 @@ Follow the spec literally (sizes, positions, text, timings). Save stills to vide
 - [x] **V07 · OC · Family** → `docs/specs/V07-family.md` — centred thread/nodes/names/blossom, watermark, Dust; 4 stills + compare saved, all names on one line, owner to eyeball.
 - [x] **V08 · OC · Date and time (scratch ticket)** → `docs/specs/V08-date.md` — ticket, SVG scratch mask/stylus, reveal beats + shine; 6 required stills + f1285 clean final and compares (f1300 is in V09 overlap), owner to eyeball.
 - [x] **V09 · OC · Venue (drawn map)** → `docs/specs/V09-venue.md` — drawn SVG map, iris, roads/route/pin/ripple, address; 5 stills + compare saved, owner to eyeball; f1440 is in V10 overlap.
-- [ ] **V10 · OC · RSVP diya + Closing** → `docs/specs/V10-rsvp-closing.md`
+- [x] **V10 · OC · RSVP diya + Closing** → `docs/specs/V10-rsvp-closing.md` — inline diya+flame/glow, two numbers, hold, garland/closing lines, final fade; 9 stills + 2 compares, plain-sand last frame verified, owner to eyeball.
 - [ ] **V11 · OC · Assemble, audio, final renders** → `docs/specs/V11-final.md`
 - [ ] **YOU · Watch the full video, list changes by scene and timestamp, bring them back to Claude.**
 

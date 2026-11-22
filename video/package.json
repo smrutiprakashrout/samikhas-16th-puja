@@ -1,0 +1,27 @@
+{
+  "name": "invite-video",
+  "private": true,
+  "scripts": {
+    "sync": "node scripts/sync-assets.mjs",
+    "studio": "npm run sync && remotion studio src/index.ts",
+    "still": "npm run sync && remotion still src/index.ts",
+    "render": "npm run sync && remotion render src/index.ts Invite out/samikshya-16th-puja-9x16.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac",
+    "render:share": "npm run sync && remotion render src/index.ts Invite out/samikshya-16th-puja-9x16-share.mp4 --codec=h264 --crf=24 --pixel-format=yuv420p --audio-codec=aac",
+    "compare": "node scripts/compare.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.545",
+    "@remotion/google-fonts": "4.0.545",
+    "@remotion/media-utils": "4.0.545",
+    "@remotion/transitions": "4.0.545",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.545"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}

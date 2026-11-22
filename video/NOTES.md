@@ -1,0 +1,1 @@
+V00: host is Arch/Omarchy (not Debian/Ubuntu); all required Chrome libs were already present via ldconfig, so no sudo install was needed. Agent cannot view images; owner must open video/qa/V00-fonts.png to confirm Odia conjuncts.

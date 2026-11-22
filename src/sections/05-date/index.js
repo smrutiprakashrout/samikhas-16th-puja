@@ -1,3 +1,5 @@
+import { clamp, seg } from '../../core/util.js';
+import { scrub } from '../../core/scroll.js';
 import './style.css';
 
 const TAU = Math.PI * 2;
@@ -13,41 +15,54 @@ export default {
       ? `<a class="btn" id="btn" href="${d.calendarUrl}" target="_blank" rel="noopener">${d.calendarLabel}</a>`
       : '';
     return `
-<div class="shade" aria-hidden="true"></div>
-<div class="burst" id="burst" aria-hidden="true"></div>
-<div class="wrap" id="wrap">
-  <div class="tkw"><div class="ticket" id="tk">
-    <p class="tt label">${d.label}<i></i></p>
-    <div class="panel" id="panel">
-      <div class="rev" aria-live="polite">
-        <div class="n">${d.day}</div>
-        <div class="m">${d.month}</div>
-        <div class="d">${d.weekday}</div>
-        <div class="r"></div>
-        <div class="t">${d.time}<small>${d.timeNote}</small></div>
+<div class="stage" id="ds">
+  <div class="shade" aria-hidden="true"></div>
+  <div class="burst" id="burst" aria-hidden="true"></div>
+  <div class="wrap" id="wrap">
+    <div class="tkw" id="tkw"><div class="ticket" id="tk">
+      <svg class="bd" id="bd" aria-hidden="true"><rect id="bdr" pathLength="1" fill="none" stroke="rgba(168,121,63,.55)" stroke-width="1"/></svg>
+      <p class="tt label" id="tt">${d.label}<i></i></p>
+      <div class="panel" id="panel">
+        <div class="rev" aria-live="polite">
+          <div class="n">${d.day}</div>
+          <div class="m">${d.month}</div>
+          <div class="d">${d.weekday}</div>
+          <div class="r"></div>
+          <div class="t">${d.time}<small>${d.timeNote}</small></div>
+        </div>
+        <canvas class="fc" id="fc" aria-hidden="true"></canvas>
+        <div class="shim" aria-hidden="true"></div>
       </div>
-      <canvas class="fc" id="fc" aria-hidden="true"></canvas>
-      <div class="shim" aria-hidden="true"></div>
-    </div>
-    <div class="perf" aria-hidden="true"></div>
-    <div class="stubz">${calendar}</div>
-  </div></div>
-  <p class="hint label" id="hint"><span class="dot" aria-hidden="true"></span>${d.scratchHint}</p>
-  <button class="rv" id="rv" type="button">${d.revealButton}</button>
-</div>
-<div class="grain" aria-hidden="true"></div>`;
+      <div class="perf" id="perf" aria-hidden="true"></div>
+      <div class="stubz">${calendar}</div>
+    </div></div>
+    <p class="hint label" id="hint"><span class="dot" aria-hidden="true"></span>${d.scratchHint}</p>
+    <button class="rv" id="rv" type="button" disabled>${d.revealButton}</button>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+</div>`;
   },
 
   mount({ root, content, reduced }) {
     const band = root;
+    band.classList.remove('band');
+    band.classList.add('date');
+    band.id = 'date';
     const c = content?.content ?? content;
     const d = c.date;
+    const stage = band.querySelector('#ds');
     const panel = band.querySelector('#panel');
     const fc = band.querySelector('#fc');
     const burst = band.querySelector('#burst');
     const hint = band.querySelector('#hint');
     const rv = band.querySelector('#rv');
-    if (!panel || !fc) return null;
+    const tkw = band.querySelector('#tkw');
+    const tk = band.querySelector('#tk');
+    const bd = band.querySelector('#bd');
+    const bdr = band.querySelector('#bdr');
+    const tt = band.querySelector('#tt');
+    const perf = band.querySelector('#perf');
+    if (!stage || !panel || !fc) return null;
 
     const ctx = fc.getContext('2d');
     const tmp = document.createElement('canvas');
@@ -57,6 +72,12 @@ export default {
 
     let W = 0;
     let H = 0;
+    let sw = 0;
+    let sh = 0;
+    let ox = 24.5;
+    let oy = 626;
+    let currentQ = 0;
+    let alive = true;
     let done = false;
     let touched = false;
     let down = false;
@@ -154,6 +175,69 @@ export default {
     }
     burst.style.background = `conic-gradient(from 0deg,${rays.replace(/,$/, '')})`;
 
+    function apply(q) {
+      currentQ = q;
+      const radius = Math.hypot(sw, sh) * 1.05;
+      if (reduced) {
+        stage.style.clipPath = `circle(${radius.toFixed(2)}px at ${ox.toFixed(2)}px ${oy.toFixed(2)}px)`;
+        burst.style.opacity = '.5';
+        tkw.style.opacity = '1';
+        tkw.style.transform = 'none';
+        tk.style.clipPath = 'inset(0 0 0 0)';
+        bdr.style.strokeDashoffset = '0';
+        tt.style.opacity = '1';
+        tt.style.transform = 'none';
+        panel.style.opacity = '1';
+        panel.style.transform = 'none';
+        perf.style.clipPath = 'inset(0 0 0 0)';
+        hint.style.opacity = '1';
+        rv.style.opacity = '1';
+        stage.classList.add('on');
+        rv.disabled = false;
+        return;
+      }
+      stage.style.clipPath = `circle(${(seg(q, 0, .269) * radius).toFixed(2)}px at ${ox.toFixed(2)}px ${oy.toFixed(2)}px)`;
+      burst.style.opacity = String(.5 * seg(q, .20, .34));
+      const u = seg(q, .20, .40);
+      tkw.style.opacity = String(clamp(u * 4, 0, 1));
+      tkw.style.transform = `translateY(${((1 - u) * 40).toFixed(2)}px) rotate(${(-3 * (1 - u)).toFixed(2)}deg)`;
+      tk.style.clipPath = `inset(${((1 - u) * 50).toFixed(2)}% 0 ${((1 - u) * 50).toFixed(2)}% 0)`;
+      bdr.style.strokeDashoffset = String(1 - seg(q, .36, .50));
+      const l = seg(q, .46, .54);
+      tt.style.opacity = String(l);
+      tt.style.transform = `translateY(${((1 - l) * 8).toFixed(2)}px)`;
+      const pn = seg(q, .50, .60);
+      panel.style.opacity = String(pn);
+      panel.style.transform = `scale(${(.94 + .06 * pn).toFixed(4)})`;
+      perf.style.clipPath = `inset(0 ${((1 - seg(q, .56, .64)) * 100).toFixed(2)}% 0 0)`;
+      const h = seg(q, .62, .70);
+      hint.style.opacity = String(h);
+      rv.style.opacity = String(h);
+      stage.classList.toggle('on', q > .62);
+      rv.disabled = q <= .62;
+    }
+
+    function layout() {
+      const h = Math.max(1, stage.clientHeight || stage.getBoundingClientRect().height);
+      sw = stage.clientWidth || band.clientWidth;
+      sh = h;
+      stage.style.setProperty('--u', String(h / 844));
+      band.style.height = `${h * 2.3}px`;
+      band.style.marginTop = `${(-1.35 * h).toFixed(2)}px`;
+      ox = (parseFloat(getComputedStyle(stage).paddingLeft) || 24) + .5;
+      oy = 626 * (h / 844) + 15.5;
+      const bw = Math.max(0, tk.clientWidth - 16);
+      const bh = Math.max(0, tk.clientHeight - 16);
+      bd.setAttribute('width', String(bw));
+      bd.setAttribute('height', String(bh));
+      bd.setAttribute('viewBox', `0 0 ${bw} ${bh}`);
+      bdr.setAttribute('x', '.5');
+      bdr.setAttribute('y', '.5');
+      bdr.setAttribute('width', String(Math.max(0, bw - 1)));
+      bdr.setAttribute('height', String(Math.max(0, bh - 1)));
+      apply(currentQ);
+    }
+
     function pos(e) {
       const r = fc.getBoundingClientRect();
       return [(e.clientX - r.left) * (W / r.width), (e.clientY - r.top) * (H / r.height)];
@@ -248,6 +332,8 @@ export default {
     }
 
     function onResize() {
+      if (!alive) return;
+      layout();
       if (!done) foil();
     }
 
@@ -257,30 +343,26 @@ export default {
     fc.addEventListener('pointercancel', () => { down = false; });
     rv.addEventListener('click', reveal);
     window.addEventListener('resize', onResize);
-    if (document.fonts?.ready) document.fonts.ready.then(() => { if (!done && !touched) foil(); });
+    if (document.fonts?.ready) document.fonts.ready.then(() => {
+      if (!alive) return;
+      layout();
+      if (!done && !touched) foil();
+    });
 
-    const observer = new IntersectionObserver(entries => {
-      for (const entry of entries) {
-        if (entry.isIntersecting) {
-          band.classList.add('in');
-          observer.disconnect();
-          if (reduced) reveal();
-          break;
-        }
-      }
-    }, { threshold: .35 });
-    observer.observe(band);
-
+    layout();
+    const unsubscribe = scrub(band, apply);
     foil();
+    if (reduced) reveal();
 
     return {
       destroy() {
+        alive = false;
+        unsubscribe();
         fc.removeEventListener('pointerdown', onDown);
         fc.removeEventListener('pointermove', onMove);
         fc.removeEventListener('pointerup', onUp);
         rv.removeEventListener('click', reveal);
         window.removeEventListener('resize', onResize);
-        observer.disconnect();
       },
     };
   },

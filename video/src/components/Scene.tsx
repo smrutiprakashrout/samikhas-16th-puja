@@ -27,7 +27,9 @@ export const Scene: React.FC<SceneProps> = ({ id, background, pushTo = 1.03, chi
   return (
     <AbsoluteFill style={cssVars}>
       <AbsoluteFill style={{ background, ...transition }}>
-        <AbsoluteFill style={{ transform: `scale(${push})`, transformOrigin: 'center center' }}>
+        <AbsoluteFill
+          style={{ transform: `scale(${push})`, transformOrigin: 'center center' }}
+        >
           {children}
         </AbsoluteFill>
       </AbsoluteFill>

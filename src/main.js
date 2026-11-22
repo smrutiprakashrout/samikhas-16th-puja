@@ -6,6 +6,7 @@ import gate from './sections/00-gate/index.js';
 import ganesha from './sections/01-ganesha/index.js';
 import hero from './sections/02-hero/index.js';
 import invitation from './sections/03-invitation/index.js';
+import puja from './sections/03b-puja/index.js';
 import family from './sections/04-family/index.js';
 import date from './sections/05-date/index.js';
 import venue from './sections/06-venue/index.js';
@@ -18,7 +19,7 @@ const dev = params.get('dev') === '1';
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // Contract: { id, height, html(content), mount(ctx) } — see ARCHITECTURE.md.
-const sections = [gate, ganesha, hero, invitation, family, date, venue, rsvp, closing];
+const sections = [gate, ganesha, hero, invitation, puja, family, date, venue, rsvp, closing];
 let activeGate;
 let activeChapter;
 

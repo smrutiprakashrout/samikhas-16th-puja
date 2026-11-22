@@ -1,0 +1,57 @@
+/* ===== CHAPTER 3b — Satyanarayan Puja: the kalash and the hour ===== */
+.puja{position:relative;z-index:41;background:var(--ivory)}
+.puja .stage{position:sticky;top:0;height:100svh;overflow:hidden;background:linear-gradient(180deg,var(--ivory) 0,#F4E4CC 55%,var(--ivory) 100%)}
+
+.puja .disc{position:absolute;left:50%;top:calc(var(--u)*229px);width:116%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;
+  background:radial-gradient(closest-side,rgba(245,183,78,.38) 0,rgba(245,183,78,.24) 68%,rgba(245,183,78,.13) 96%,rgba(245,183,78,0) 100%);
+  clip-path:circle(0% at 50% 50%);z-index:1;pointer-events:none}
+.puja.in .disc{animation:s03b-breathe 6s ease-in-out infinite}
+@keyframes s03b-breathe{0%,100%{opacity:.9}50%{opacity:1}}
+
+.puja #motes{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none}
+.puja #motes i{position:absolute;left:var(--x);top:var(--y);width:var(--s);height:var(--s);border-radius:50%;background:rgba(168,121,63,.5);
+  animation:s03b-drift var(--t) ease-in-out var(--dl) infinite alternate;animation-play-state:paused}
+@keyframes s03b-drift{from{transform:translateY(0)}to{transform:translateY(calc(var(--dy)*-1))}}
+.puja .petals{position:absolute;inset:0;z-index:3;pointer-events:none}
+.puja .pp{position:absolute;top:0;left:var(--x);width:var(--s);height:calc(var(--s)*1.25);border-radius:80% 0 80% 0;background:var(--c);opacity:.9;z-index:var(--z);
+  animation:fall var(--t) linear var(--dl) infinite;animation-play-state:paused;will-change:transform}
+.puja.in .pp,.puja.in #motes i{animation-play-state:running}
+
+.puja .pd{position:absolute;left:var(--gutter);right:var(--gutter-r);top:calc(var(--u)*102px);text-align:center;color:rgba(35,43,37,.85);opacity:0;z-index:5}
+.puja .kal{position:absolute;left:50%;top:calc(var(--u)*143px);width:calc(var(--u)*128px);aspect-ratio:270/416;opacity:0;z-index:6;pointer-events:none}
+.puja .kal svg{display:block;width:100%;height:auto;overflow:visible}
+.puja #coconut{transform-box:view-box;transform-origin:135px 125px}
+
+.puja .pt{position:absolute;left:var(--gutter);right:var(--gutter-r);top:calc(var(--u)*374px);text-align:center;white-space:nowrap;
+  font:500 clamp(28px,8vw,33px)/1.15 var(--display);color:var(--ink);z-index:7}
+.puja .pt span{display:inline-block;overflow:hidden;vertical-align:top}
+.puja .pt b{display:block;transform:translateY(110%)}
+.puja .pt .l2 em{font-style:italic;color:var(--saffron-deep)}
+
+.puja .dv{position:absolute;left:50%;top:calc(var(--u)*436px);transform:translateX(-50%);display:flex;align-items:center;gap:9px;z-index:7}
+.puja .dv i{display:block;width:60px;height:1px;background:var(--wood);transform:scaleX(0)}
+.puja .dv .a{transform-origin:100% 50%}
+.puja .dv .b{transform-origin:0 50%}
+.puja .dv s{display:block;width:9px;height:9px;background:var(--saffron-deep);rotate:45deg;transform:scale(0);text-decoration:none}
+
+.puja .tm{position:absolute;left:50%;top:calc(var(--u)*452px);transform:translateX(-50%);display:inline-flex;align-items:flex-start;gap:6px;z-index:7}
+.puja .tm .n{font:500 clamp(68px,20.5vw,84px)/.82 var(--display);letter-spacing:-.02em;color:var(--saffron-deep);opacity:0}
+.puja .tm .m{font:italic 500 clamp(19px,5.6vw,23px)/1 var(--display);color:var(--saffron-deep);margin-top:.22em;opacity:0}
+.puja .tn{position:absolute;left:var(--gutter);right:var(--gutter-r);top:calc(var(--u)*535px);text-align:center;color:rgba(35,43,37,.8);opacity:0;z-index:7}
+.puja .rl{position:absolute;left:13%;right:13%;top:calc(var(--u)*573px);height:1px;background:rgba(168,121,63,.45);transform:scaleX(0);transform-origin:50% 50%;z-index:7}
+
+.puja .ar{position:absolute;left:50%;top:calc(var(--u)*596px);transform:translateX(-50%);display:flex;align-items:center;gap:22px;z-index:7}
+.puja .ck{width:38px;height:38px;flex:none;opacity:0;transform:scale(.8);transform-origin:50% 50%}
+.puja .ck .hand{transform-origin:19px 19px;transform-box:view-box}
+.puja .at{display:block;text-align:left}
+.puja .at span{display:block;font:italic 400 clamp(16px,4.6vw,18px)/1.2 var(--display);color:rgba(35,43,37,.85);opacity:0}
+.puja .at strong{display:block;font:500 clamp(23px,6.6vw,26px)/1.1 var(--display);color:var(--ink);margin-top:2px;opacity:0}
+
+.puja .grain{position:absolute;inset:0;pointer-events:none;background:url("/img/grain.svg");opacity:.06;mix-blend-mode:multiply;z-index:30}
+
+@media (prefers-reduced-motion:reduce){
+  .puja .disc,.puja .pp,.puja #motes i{animation:none!important}
+  .puja .pp,.puja #motes i{display:none!important}
+  .puja .pt b,.puja .dv i,.puja .dv s,.puja .rl,.puja .ck{transition:transform .3s ease!important}
+  .puja .pd,.puja .tm .n,.puja .tm .m,.puja .tn,.puja .at span,.puja .at strong,.puja .kal{transition:opacity .3s ease!important}
+}

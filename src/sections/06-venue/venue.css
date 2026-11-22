@@ -1,5 +1,5 @@
 /* ===== CHAPTER 6 — Venue: the iris map ===== */
-.ven{position:relative;height:220svh;background:var(--sand)}
+.ven{position:relative;height:220svh;background:var(--sand);z-index:61}
 .ven::before{content:"";position:absolute;left:-14%;right:-14%;top:-80px;height:160px;background:var(--sand);border-radius:50% 50% 0 0;z-index:2}
 .ven .stage{position:sticky;top:0;height:100svh;overflow:hidden;background:var(--sand);z-index:3}
 .ven .vig{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 45%,transparent 58%,color-mix(in srgb,var(--sand-dp) 55%,transparent) 100%);pointer-events:none;z-index:2}

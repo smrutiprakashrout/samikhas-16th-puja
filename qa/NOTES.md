@@ -15,3 +15,8 @@ S05: Calendar link path verified with a temporary dummy URL (button rendered, hr
 S06: Real iframe uses `ll=` with no Google marker; screenshot scan found 0 Google-red pixels in the map area, so the saffron pin is the only marker. S05 temp tail removed; ivory 60svh tail marked "TEMP until RSVP spec" follows S06.
 S07: spec's `::before` at top:-30svh was fully clipped by the required section `overflow:hidden`, so the fade now uses the same `::before` at top:0 with sand→ivory to give a seamless join; S06 ivory tail overridden with sand tail until closing spec.
 S08: Garland generator extracted to `src/core/garland.js` with a per-instance seed 7; S01 top/left/right garlands and petal markup are byte-for-byte identical to the pre-refactor capture. Share tested with clipboard, forced-rejection fallback and simulated native sheet; RSVP→closing join sampled at ivory with max adjacent delta 2/765.
+L45: S04 kept unchanged except 240svh; disc origin uses the blossom's real centre (gutter+.5, 626u+15.5) so it grows from the visible flower, not the 626u CSS top anchor.
+L45: §3 starts the ticket at q=.20 while §8 labels q=.27 "flat saffron"; kept §3 timings, so L45-q27.png has the first thin ticket strip over an otherwise saffron screen.
+L45: Added only the allowed `.ven { z-index:61 }`; the stage class/id swap from main.js's `.band` shell is done inside S05 mount without touching core/main.
+S03b: approved visual reference docs/prototype/reference-puja.jpg is not present in the repo; layout was implemented from the spec's converted u values only.
+S03b: spec asset path assets/img/kalash.svg is absent; the existing assets/svg/kalash.svg was inlined unchanged via ?raw from its actual path.

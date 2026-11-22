@@ -38,7 +38,9 @@ export const SceneGanesha: React.FC = () => {
   return (
     <Scene id="ganesha" background={colors.sand}>
       <AbsoluteFill>
-        <AbsoluteFill style={{ background: colors.flood, opacity: floodOut, zIndex: 1 }} />
+        <AbsoluteFill
+          style={{ background: colors.flood, opacity: floodOut, zIndex: 1 }}
+        />
 
         {/* glow behind Ganesha */}
         <div
@@ -132,6 +134,8 @@ export const SceneGanesha: React.FC = () => {
               width: '100%',
               height: '100%',
               filter: 'drop-shadow(0 10px 14px rgba(110,76,40,.18))',
+              scale: 1.13,
+              transformOrigin: '94.33% 193.76%'
             }}
           />
           <div

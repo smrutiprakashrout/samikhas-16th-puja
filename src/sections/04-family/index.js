@@ -21,7 +21,7 @@ function block(label, names, top, id) {
 
 export default {
   id: '04-family',
-  height: '220vh',
+  height: '240vh',
 
   html(content) {
     const c = content?.content ?? content;
@@ -80,7 +80,7 @@ export default {
       const h = Math.max(1, stage.getBoundingClientRect().height);
       u = h / 844;
       stage.style.setProperty('--u', String(u));
-      root.style.height = `${h * 2.2}px`;
+      root.style.height = `${h * 2.4}px`;
       path.setAttribute('d', `M24.5 ${n(231 * u)}V${n(626 * u)}`);
       apply(currentP);
     }

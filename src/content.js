@@ -23,6 +23,15 @@ export const content = {
     closing: 'Your gracious presence will make this occasion even more special.',
   },
 
+  puja: {
+    dateLine: 'Sunday, 29 November 2026',
+    title: { pre: 'Satyanarayan', accent: 'Puja' },
+    time: '6:00',
+    meridiem: 'PM',
+    timeNote: 'onwards',
+    arrive: { label: 'Kindly arrive before', time: '5:30 PM', hour: 5, minute: 30 },
+  },
+
   honoree: {
     lead: 'Of our beloved granddaughter',
     first: 'Samikshya',

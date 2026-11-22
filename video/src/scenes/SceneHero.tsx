@@ -201,6 +201,8 @@ export const SceneHero: React.FC = () => {
               objectPosition: 'center top',
               transform: `scale(${photoScale})`,
               filter: 'drop-shadow(0 0 1px rgba(255,249,236,.95)) drop-shadow(0 0 6px rgba(255,249,236,.35))',
+              scale: 0.94,
+              translate: '51.8px 0px'
             }}
           />
         </div>

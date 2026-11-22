@@ -13,7 +13,7 @@ Follow the spec literally (sizes, positions, text, timings). Save stills to vide
 - [x] **V02 · OC · Gate (doors, light flood)** → `docs/specs/V02-gate.md` — 3D doors/latch/bloom/flood frame-driven; 6 stills + 2 compare pairs saved; pixel checks pass, owner to eyeball compares.
 - [x] **V03 · OC · Ganesha + shloka** → `docs/specs/V03-ganesha.md` — flood dissolve, garland/halo/lotus/shloka/meaning frame-driven; 6 stills + compare saved, owner to eyeball.
 - [x] **V04 · OC · Hero (arch, photo, 16th)** → `docs/specs/V04-hero.md` — arch draw, photo reveal, digits/name beats; 6 stills + compare saved; composition raised u(56) for safe zone.
-- [ ] **V05 · OC · Invitation sentence** → `docs/specs/V05-invitation.md`
+- [x] **V05 · OC · Invitation sentence** → `docs/specs/V05-invitation.md` — ivory scene, mandala, slow Words, key underline, divider/closing; 5 stills + compare saved."
 - [ ] **V06 · OC · NEW: Satyanarayan Puja (kalash, 6:00 PM, arrive before 5:30 PM)** → `docs/specs/V06-satyanarayan.md`
 - [ ] **V07 · OC · Family** → `docs/specs/V07-family.md`
 - [ ] **V08 · OC · Date and time (scratch ticket)** → `docs/specs/V08-date.md`

@@ -20,11 +20,12 @@ fs.mkdirSync('qa', { recursive: true });
 
 const a = path.join('qa', `.cmp-a-${name}.png`);
 const b = path.join('qa', `.cmp-b-${name}.png`);
+const size = full ? '540x960!' : '390x844!';
 const stillArgs = full
-  ? [still, '-resize', '390x844!', a]
-  : [still, '-crop', '887x1920+96+0', '+repage', '-resize', '390x844!', a];
+  ? [still, '-resize', size, a]
+  : [still, '-crop', '887x1920+96+0', '+repage', '-resize', size, a];
 execFileSync('magick', stillArgs, { stdio: 'ignore' });
-execFileSync('magick', [reference, '-resize', '390x844!', b], { stdio: 'ignore' });
+execFileSync('magick', [reference, '-resize', size, b], { stdio: 'ignore' });
 execFileSync('magick', [a, b, '+append', out], { stdio: 'ignore' });
 fs.unlinkSync(a);
 fs.unlinkSync(b);

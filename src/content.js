@@ -29,7 +29,7 @@ export const content = {
     time: '6:00',
     meridiem: 'PM',
     timeNote: 'onwards',
-    arrive: { label: 'Kindly arrive before', time: '6:00 PM', hour: 6, minute: 00 },
+    arrive: { label: 'Kindly arrive before', time: '6:00 PM', hour: 6, minute: 0 },
   },
 
   honoree: {

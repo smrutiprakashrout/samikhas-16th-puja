@@ -29,7 +29,7 @@ export const content = {
     time: '6:00',
     meridiem: 'PM',
     timeNote: 'onwards',
-    arrive: { label: 'Kindly arrive before', time: '5:30 PM', hour: 5, minute: 30 },
+    arrive: { label: 'Kindly arrive before', time: '6:00 PM', hour: 6, minute: 00 },
   },
 
   honoree: {
@@ -84,7 +84,7 @@ export const content = {
 
   venue: {
     label: 'Venue',
-    lines: ['Sapnpur, Sisua,', 'Salepur, Cuttack'],
+    lines: ['Sapanpur, Sisua,', 'Salepur, Cuttack'],
     copyText: 'Sapnpur, Sisua, Salepur, Cuttack',   // OWNER may append the PIN code later
     lat: 20.488226, lng: 86.086465,
     embedUrl: 'https://www.google.com/maps?ll=20.488226,86.086465&z=16&t=m&output=embed',
